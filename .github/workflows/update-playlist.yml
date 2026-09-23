@@ -2,7 +2,7 @@ name: Update IPTV Playlist
 
 on:
   schedule:
-    - cron: '0 */23 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
   push:
     paths:
@@ -38,7 +38,7 @@ jobs:
           OUTPUT_PLAYLIST: playlist.m3u
           MAX_WORKERS:     '50'
           TIMEOUT_HTTP:    '6'
-          TIMEOUT_MANIFEST:'8'
+          TIMEOUT_MANIFEST: '8'
           TIMEOUT_SEGMENT: '8'
           MIN_SEGMENT_BYTES: '2048'
           REPLACE_DEAD:    'true'
