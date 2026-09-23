@@ -1,14 +1,12 @@
-تقرير تحديث: 2026-09-23T10:20:33.862504+00:00
-المدخلات: 516 | المحفوظة: 275 | المستبدلة: 60 | من cache: 43
-محذوفة (تكرار اسم): 1 | (تكرار رابط): 8 | (بلا رابط): 137
+تقرير تحديث: 2026-09-23T11:34:15.792065+00:00
+المدخلات: 3727 | المحفوظة: 501 | المستبدلة: 190 | من cache: 145
+محذوفة (تكرار اسم): 0 | (تكرار رابط): 140 | (بلا رابط): 2891
 ============================================================
-[REPLACED] Пятый канал Int.
-[DUP-URL] Рен ТВ HD
 [REPLACED] RTVi
 [DROP] Время  (لا يوجد رابط شغّال)
 [REPLACED] ОНТ
+[REPLACED] Пятый канал Int.
 [DROP] Ратник  (لا يوجد رابط شغّال)
-[REPLACED] Соловьев.Live HD
 [REPLACED] Eurosport 1
 [REPLACED] Eurosport 2
 [REPLACED] Extreme Sports
@@ -28,6 +26,7 @@
 [DROP] Мособр TV  (لا يوجد رابط شغّال)
 [DROP] Психология  (لا يوجد رابط شغّال)
 [DROP] Родной канал  (لا يوجد رابط شغّال)
+[REPLACED] Смотрим 100% Классика
 [REPLACED] Ani
 [REPLACED] Cartoon Classics
 [DROP] Cartoonito  (لا يوجد رابط شغّال)
@@ -46,44 +45,36 @@
 [DROP] Мультимания  (لا يوجد رابط شغّال)
 [DROP] Пингвин  (لا يوجد رابط شغّال)
 [REPLACED] Рыжий
-[DUP-URL] СТС Kids HD
-[REPLACED] Смайл ТВ HD
 [REPLACED] Смотрим 100% Детское
-[REPLACED] Смотрим 100% Классика
-[DROP] Театр  (لا يوجد رابط شغّال)
+[DUP-URL] СТС Kids HD
 [DROP] Gags Network  (لا يوجد رابط شغّال)
 [DROP] TLC  (لا يوجد رابط شغّال)
 [DUP-URL] Домашний HD
 [DROP] Зал суда  (لا يوجد رابط شغّال)
 [DROP] Ключ  (لا يوجد رابط شغّال)
 [DROP] Пятница! Int.  (لا يوجد رابط شغّال)
-[DUP-URL] СТС HD
-[REPLACED] СТС Int.
 [DROP] Сарафан  (لا يوجد رابط شغّال)
 [REPLACED] Смотрим 100% Праздник
+[REPLACED] СТС Int.
 [DROP] Телекафе  (لا يوجد رابط شغّال)
 [DROP] ТНТ4 Int.  (لا يوجد رابط شغّال)
 [DROP] Центральное ТВ  (لا يوجد رابط شغّال)
 [REPLACED] TV1 KG HD (Кыргызстан)
 [DROP] Вестник Надыма  (لا يوجد رابط شغّال)
 [REPLACED] СТРК HD
-[REPLACED] Среда
 [REPLACED] Точка ТВ
 [DROP] 1HD Music  (لا يوجد رابط شغّال)
 [REPLACED] Bridge Deluxe
-[DUP-URL] Bridge Rock
 [DROP] Bridge Русский хит  (لا يوجد رابط شغّال)
 [REPLACED] Bridge Шлягер
 [DROP] Clubbing  (لا يوجد رابط شغّال)
 [REPLACED] MTV Live HD
 [DROP] Muzzone  (لا يوجد رابط شغّال)
 [DUP-URL] RU TV HD
-[REPLACED] Trace Urban HD
 [DROP] Муз ТВ  (لا يوجد رابط شغّال)
 [DROP] Музыка 1 International [не 24/7]  (لا يوجد رابط شغّال)
 [DROP] Музыка Первого  (لا يوجد رابط شغّال)
 [REPLACED] О!2
-[REPLACED] Первый музыкальный HD
 [DROP] 312 Кино  (لا يوجد رابط شغّال)
 [REPLACED] Amedia 1
 [REPLACED] Amedia 2
@@ -94,9 +85,7 @@
 [REPLACED] Comedy Central
 [DROP] DetectiveJam  (لا يوجد رابط شغّال)
 [DROP] FAN  (لا يوجد رابط شغّال)
-[DROP] FAN HD  (لا يوجد رابط شغّال)
 [DROP] FlixSnip  (لا يوجد رابط شغّال)
-[DROP] Fx  (لا يوجد رابط شغّال)
 [DROP] Fx Life  (لا يوجد رابط شغّال)
 [DROP] HollywooD  (لا يوجد رابط شغّال)
 [DROP] HollywooD HD  (لا يوجد رابط شغّال)
@@ -104,13 +93,12 @@
 [DROP] Novella TV HD  (لا يوجد رابط شغّال)
 [DROP] Plan B  (لا يوجد رابط شغّال)
 [DROP] Plan B HD  (لا يوجد رابط شغّال)
+[DROP] Romance  (لا يوجد رابط شغّال)
+[DROP] Scream  (لا يوجد رابط شغّال)
 [REPLACED] Start World
 [DROP] Suspense  (لا يوجد رابط شغّال)
 [DROP] Timeless Dizi Channel HD  (لا يوجد رابط شغّال)
-[DROP] Trash HD  (لا يوجد رابط شغّال)
 [DROP] TV XXI  (لا يوجد رابط شغّال)
-[DROP] Romance  (لا يوجد رابط شغّال)
-[DROP] Scream  (لا يوجد رابط شغّال)
 [REPLACED] Viju TV1000 romantica
 [REPLACED] Viju+ comedy
 [REPLACED] Viju+ megahit
@@ -120,21 +108,17 @@
 [DROP] Камеди  (لا يوجد رابط شغّال)
 [DROP] Кинеко  (لا يوجد رابط شغّال)
 [DROP] Кино без границ  (لا يوجد رابط شغّال)
-[REPLACED] Киноман
 [DROP] Комедийное HD  (لا يوجد رابط شغّال)
 [DROP] Криминальное HD  (لا يوجد رابط شغّال)
 [DROP] Лавстори HD  (لا يوجد رابط شغّال)
 [DROP] Любимое Кино  (لا يوجد رابط شغّال)
-[REPLACED] НСТ
 [REPLACED] Остросюжетное
-[REPLACED] Премиальное HD
 [DROP] Про Любовь HD  (لا يوجد رابط شغّال)
 [DROP] Романтичное HD  (لا يوجد رابط شغّال)
 [DROP] Сапфир  (لا يوجد رابط شغّال)
 [DROP] Хит HD  (لا يوجد رابط شغّال)
 [DROP] Kinojam 1  (لا يوجد رابط شغّال)
 [DROP] Kinojam 2  (لا يوجد رابط شغّال)
-[REPLACED] Star Cinema
 [REPLACED] Viju TV1000 русское
 [DROP] День Победы  (لا يوجد رابط شغّال)
 [REPLACED] Дом Кино
@@ -143,9 +127,7 @@
 [DROP] Кино 1 Int.  (لا يوجد رابط شغّال)
 [REPLACED] Мир Сериала
 [DROP] Мосфильм. Золотая коллекция  (لا يوجد رابط شغّال)
-[REPLACED] Наш кинопоказ HD
 [DROP] Наше крутое HD  (لا يوجد رابط شغّال)
-[REPLACED] Наше Мужское HD
 [DROP] Патриот  (لا يوجد رابط شغّال)
 [DROP] Победа  (لا يوجد رابط شغّال)
 [REPLACED] Русская комедия
@@ -164,8 +146,6 @@
 [REPLACED] Сити Эдем - КиноМистика
 [REPLACED] Сити Эдем - КиноЭкшен
 [REPLACED] Смотрим (Кино и сериалы)
-[REPLACED] Animal Planet HD
-[REPLACED] Da Vinci
 [REPLACED] Galaxy
 [DROP] HGTV HD  (لا يوجد رابط شغّال)
 [DROP] History  (لا يوجد رابط شغّال)
@@ -174,18 +154,16 @@
 [DROP] Insight TV HD  (لا يوجد رابط شغّال)
 [REPLACED] Luxury HD
 [DROP] Nat Geo Wild  (لا يوجد رابط شغّال)
-[DUP-URL] National Geographic
 [DROP] Ocean TV  (لا يوجد رابط شغّال)
-[REPLACED] TERRA
-[REPLACED] RTG TV
 [REPLACED] RTG HD
+[REPLACED] RTG TV
+[REPLACED] TERRA
 [REPLACED] Travel XP
 [DROP] Travel+Adventure  (لا يوجد رابط شغّال)
 [REPLACED] Viju+ planet
 [DROP] ZOOПАРК  (لا يوجد رابط شغّال)
 [DROP] В мире животных  (لا يوجد رابط شغّال)
 [REPLACED] Глазами туриста HD
-[REPLACED] Здоровое ТВ
 [DROP] Зоо ТВ  (لا يوجد رابط شغّال)
 [DROP] История  (لا يوجد رابط شغّال)
 [DROP] КтоКуда  (لا يوجد رابط شغّال)
@@ -197,16 +175,16 @@
 [REPLACED] Приключения HD
 [DROP] РЖД HD  (لا يوجد رابط شغّال)
 [DROP] Светлое ТВ  (لا يوجد رابط شغّال)
-[DROP] Телепутешествия  (لا يوجد رابط شغّال)
 [REPLACED] Смотрим 100% Факты
 [DROP] Совершенно Секретно  (لا يوجد رابط شغّال)
+[DROP] Телепутешествия  (لا يوجد رابط شغّال)
 [REPLACED] Техно 24
 [REPLACED] АВТО 24
 [DROP] Аппетитный  (لا يوجد رابط شغّال)
 [DROP] Бобёр  (لا يوجد رابط شغّال)
+[DROP] Диалоги о рыбалке  (لا يوجد رابط شغّال)
 [REPLACED] Дикая охота HD
 [REPLACED] Дикая рыбалка HD
-[DROP] Диалоги о рыбалке  (لا يوجد رابط شغّال)
 [DROP] ДИКИЙ охота и рыбалка  (لا يوجد رابط شغّال)
 [DROP] Домашние Животные  (لا يوجد رابط شغّال)
 [REPLACED] Еда
@@ -214,33 +192,313 @@
 [DROP] Кулинар ТВ  (لا يوجد رابط شغّال)
 [REPLACED] Мужской
 [DROP] Охота и рыбалка  (لا يوجد رابط شغّال)
-[REPLACED] Охотник и рыболов
 [DUP-URL] Охотник и рыболов HD
 [REPLACED] Первый вегетарианский
 [DROP] Точка Отрыва  (لا يوجد رابط شغّال)
 [DROP] Усадьба  (لا يوجد رابط شغّال)
 [DROP] 86 Сургут  (لا يوجد رابط شغّال)
-[REPLACED] Абакан 24
 [REPLACED] Арис 24 (Башкортостан)
 [REPLACED] Арктика 24 (Архангельск)
 [REPLACED] Башкортостан 24
 [DROP] Беларусь 4 Гомель  (لا يوجد رابط شغّال)
 [REPLACED] Вектор 24 HD
-[REPLACED] Городской Телеканал-Ярославль
-[REPLACED] Губерния 33
 [REPLACED] Евпатория 24
 [DROP] Запад 24 (Калининград)  (لا يوجد رابط شغّال)
 [DROP] Импульс Севера  (لا يوجد رابط شغّال)
 [DROP] Кавказ 24  (لا يوجد رابط شغّال)
 [REPLACED] МТВ HD (Волгоград)
 [DROP] Нижний Новгород 24 HD  (لا يوجد رابط شغّال)
-[REPLACED] НТС (Севастополь)
-[DROP] Первый Псковский  (لا يوجد رابط شغّال)
+[REPLACED] Первый Псковский
 [REPLACED] Прим 24
 [DROP] Самара 24  (لا يوجد رابط شغّال)
 [DROP] Сибирь 24  (لا يوجد رابط شغّال)
 [REPLACED] СТВ 24
-[REPLACED] Тивиком
-[DUP-NAME] Тюменское Время
 [DROP] Урал 24  (لا يوجد رابط شغّال)
 [DROP] Наша Сибирь  (لا يوجد رابط شغّال)
+[DROP] #dabeiTV HD DE  (لا يوجد رابط شغّال)
+[DUP-URL] .black HD
+[DROP] .black orig  (لا يوجد رابط شغّال)
+[DROP] .red HD orig  (لا يوجد رابط شغّال)
+[DROP] .red orig  (لا يوجد رابط شغّال)
+[DUP-URL] .sci-fi HD
+[DROP] .sci-fi orig  (لا يوجد رابط شغّال)
+[DROP] 1 Lurer HD AM  (لا يوجد رابط شغّال)
+[DROP] 1+2 EE  (لا يوجد رابط شغّال)
+[DROP] 1-2-3.tv HD DE  (لا يوجد رابط شغّال)
+[DROP] 13th Street HD DE  (لا يوجد رابط شغّال)
+[REPLACED] 1HD Music Television HD
+[DROP] 1HD Music Television HD orig  (لا يوجد رابط شغّال)
+[DROP] 1TV GE  (لا يوجد رابط شغّال)
+[DROP] 1TV HD GE  (لا يوجد رابط شغّال)
+[DROP] 21TV AM  (لا يوجد رابط شغّال)
+[DROP] 21TV HD AM  (لا يوجد رابط شغّال)
+[DROP] 24 Horas ES  (لا يوجد رابط شغّال)
+[DROP] 24 Kitchen HD TR  (لا يوجد رابط شغّال)
+[DROP] 24 KZ  (لا يوجد رابط شغّال)
+[DROP] 24 TV HD TR  (لا يوجد رابط شغّال)
+[DROP] 25 Регион (Приморье)  (لا يوجد رابط شغّال)
+[DROP] 2TV LT  (لا يوجد رابط شغّال)
+[DUP-URL] 2x2 HD
+[DROP] 2x2 orig  (لا يوجد رابط شغّال)
+[DROP] 31 канал KZ  (لا يوجد رابط شغّال)
+[DROP] 360 (Иркутск)  (لا يوجد رابط شغّال)
+[DUP-URL] 360 HD
+[DROP] 360 HD orig  (لا يوجد رابط شغّال)
+[DROP] 360 orig  (لا يوجد رابط شغّال)
+[DROP] 360 TV HD TR  (لا يوجد رابط شغّال)
+[DROP] 360TV HD LV  (لا يوجد رابط شغّال)
+[DROP] 3sat HD DE  (لا يوجد رابط شغّال)
+[DUP-URL] 450 (Самара)
+[DROP] 4Fun TV PL  (لا يوجد رابط شغّال)
+[DROP] 5 канал KZ  (لا يوجد رابط شغّال)
+[DROP] 5Sport 4K IL  (لا يوجد رابط شغّال)
+[DROP] 5Sport FHD IL  (لا يوجد رابط شغّال)
+[DROP] 5Sport Gold HD IL  (لا يوجد رابط شغّال)
+[DROP] 5Sport HD IL  (لا يوجد رابط شغّال)
+[DROP] 5Sport Live FHD IL  (لا يوجد رابط شغّال)
+[DROP] 5Sport Live HD IL  (لا يوجد رابط شغّال)
+[DROP] 5Sport Stars FHD IL  (لا يوجد رابط شغّال)
+[DROP] 5Sport Stars HD IL  (لا يوجد رابط شغّال)
+[DROP] 5TV AM  (لا يوجد رابط شغّال)
+[DROP] 5TV Plus HD AM  (لا يوجد رابط شغّال)
+[DROP] 7TV MD  (لا يوجد رابط شغّال)
+[DROP] 8 Канал HD BY  (لا يوجد رابط شغّال)
+[DROP] 8 канал orig  (لا يوجد رابط شغّال)
+[DROP] 8TV HD LV  (لا يوجد رابط شغّال)
+[DROP] 9X Tashan IN  (لا يوجد رابط شغّال)
+[DROP] A Bola TV HD PT  (لا يوجد رابط شغّال)
+[DROP] A Haber FHD TR  (لا يوجد رابط شغّال)
+[DROP] A Haber HD TR  (لا يوجد رابط شغّال)
+[DROP] A Haber TR  (لا يوجد رابط شغّال)
+[DROP] A News HD TR  (لا يوجد رابط شغّال)
+[DROP] A Para HD TR  (لا يوجد رابط شغّال)
+[DROP] A Spor HD TR  (لا يوجد رابط شغّال)
+[DROP] A Spor TR  (لا يوجد رابط شغّال)
+[DROP] A&E CA  (لا يوجد رابط شغّال)
+[DROP] A&E HD US  (لا يوجد رابط شغّال)
+[DROP] A&E US  (لا يوجد رابط شغّال)
+[DROP] A2 TV HD TR  (لا يوجد رابط شغّال)
+[DROP] A2 TV TR  (لا يوجد رابط شغّال)
+[DROP] Aaj Tak IN  (لا يوجد رابط شغّال)
+[DROP] Aastha TV IN  (لا يوجد رابط شغّال)
+[DROP] ABC HD US  (لا يوجد رابط شغّال)
+[DROP] Acasă Gold RO  (لا يوجد رابط شغّال)
+[DROP] Acasă TV HD RO  (لا يوجد رابط شغّال)
+[DROP] Adjara TV GE  (لا يوجد رابط شغّال)
+[DROP] Agro TV GE  (لا يوجد رابط شغّال)
+[DROP] Agro TV HD MD  (لا يوجد رابط شغّال)
+[DROP] Agro TV MD  (لا يوجد رابط شغّال)
+[DROP] Agro TV RO  (لا يوجد رابط شغّال)
+[DROP] Agrogaremo TV HD GE  (لا يوجد رابط شغّال)
+[REPLACED] AIVA TV HD
+[DROP] AIVA TV HD orig  (لا يوجد رابط شغّال)
+[DROP] Akit TV TR  (لا يوجد رابط شغّال)
+[DROP] AL EMARAT TV AE  (لا يوجد رابط شغّال)
+[DROP] Al Hadath AE  (لا يوجد رابط شغّال)
+[DROP] Al Jazeera English HD DE  (لا يوجد رابط شغّال)
+[REPLACED] Al Jazeera QA
+[DROP] Alatau TV KZ  (لا يوجد رابط شغّال)
+[DROP] Alfa Omega TV RO  (لا يوجد رابط شغّال)
+[DROP] Altitude Sports HD US  (لا يوجد رابط شغّال)
+[DROP] AMC CA  (لا يوجد رابط شغّال)
+[DROP] AMC CZ  (لا يوجد رابط شغّال)
+[DROP] AMC HD US  (لا يوجد رابط شغّال)
+[DROP] AMC RO  (لا يوجد رابط شغّال)
+[DROP] Amedia 1 HD orig  (لا يوجد رابط شغّال)
+[DROP] Amedia 1 orig  (لا يوجد رابط شغّال)
+[DUP-URL] Amedia 2 HD
+[DROP] Amedia 2 orig  (لا يوجد رابط شغّال)
+[DUP-URL] Amedia Hit HD
+[DROP] Amedia Hit HD orig  (لا يوجد رابط شغّال)
+[DROP] Amedia Hit orig  (لا يوجد رابط شغّال)
+[DUP-URL] Amedia Premium
+[DROP] Amedia Premium FHD orig  (لا يوجد رابط شغّال)
+[DROP] Amedia Premium HD orig  (لا يوجد رابط شغّال)
+[DROP] American Heroes Channel HD US  (لا يوجد رابط شغّال)
+[DROP] Anadolu Dernek TR  (لا يوجد رابط شغّال)
+[DROP] Ani orig  (لا يوجد رابط شغّال)
+[DROP] Animal Planet FHD DE  (لا يوجد رابط شغّال)
+[DUP-URL] Animal Planet HD
+[DROP] Animal Planet HD DE  (لا يوجد رابط شغّال)
+[DROP] Animal Planet HD RO  (لا يوجد رابط شغّال)
+[DROP] Animal Planet HD TR  (لا يوجد رابط شغّال)
+[DUP-URL] Animal Planet TR
+[DROP] Anixe HD Serie DE  (لا يوجد رابط شغّال)
+[DROP] Anixe+ HD DE  (لا يوجد رابط شغّال)
+[DROP] Antena 1 HD RO  (لا يوجد رابط شغّال)
+[DROP] Antena 3 CNN HD RO  (لا يوجد رابط شغّال)
+[DROP] Antena 3 HD ES  (لا يوجد رابط شغّال)
+[DROP] Antena Stars HD RO  (لا يوجد رابط شغّال)
+[DROP] Aqlvoy TV UZ  (لا يوجد رابط شغّال)
+[DROP] Aqsham TV KZ  (لا يوجد رابط شغّال)
+[DROP] ARB 24 HD AZ  (لا يوجد رابط شغّال)
+[DROP] ARB Gunes HD AZ  (لا يوجد رابط شغّال)
+[DROP] ARB TV HD AZ  (لا يوجد رابط شغّال)
+[DROP] ARD Alpha HD DE  (لا يوجد رابط شغّال)
+[DROP] Arena Esport HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Fight HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Premium 1 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Premium 2 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Premium 3 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 1 FHD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 1 FHD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 1 HD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 1 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 1x2 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 2 FHD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 2 HD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 3 FHD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 3 HD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 3 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 4 FHD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 4 HD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 4 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 5 FHD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 5 HD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 5 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 6 FHD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 6 HD HR  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 6 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 7 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 8 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arena Sport 9 HD RS  (لا يوجد رابط شغّال)
+[DROP] Arirang KR  (لا يوجد رابط شغّال)
+[DROP] Arma TV AM  (لا يوجد رابط شغّال)
+[DROP] Armenia Premium HD AM  (لا يوجد رابط شغّال)
+[DROP] Armenia TV HD AM  (لا يوجد رابط شغّال)
+[DROP] Armenian Business News HD AM  (لا يوجد رابط شغّال)
+[DROP] Armount TV HD AM  (لا يوجد رابط شغّال)
+[DROP] ArmToon HD AM  (لا يوجد رابط شغّال)
+[DROP] Artarea GE  (لا يوجد رابط شغّال)
+[DROP] Arte DE  (لا يوجد رابط شغّال)
+[DROP] Arte HD DE  (لا يوجد رابط شغّال)
+[DROP] ARY News IN  (لا يوجد رابط شغّال)
+[DROP] AS TV Bursa TR  (لا يوجد رابط شغّال)
+[DROP] Asharq News HD DE  (لا يوجد رابط شغّال)
+[DROP] Astana TV KZ  (لا يوجد رابط شغّال)
+[DROP] ATG Live SE  (لا يوجد رابط شغّال)
+[DROP] ATV Avrupa TR  (لا يوجد رابط شغّال)
+[DROP] ATV AZ  (لا يوجد رابط شغّال)
+[DROP] ATV Bazmoc TV HD AM  (لا يوجد رابط شغّال)
+[DROP] ATV Cinema AZ  (لا يوجد رابط شغّال)
+[DROP] ATV DE  (لا يوجد رابط شغّال)
+[DROP] ATV FHD AM  (لا يوجد رابط شغّال)
+[DROP] ATV Fitness HD AM  (لا يوجد رابط شغّال)
+[DROP] ATV Hay TV HD AM  (لا يوجد رابط شغّال)
+[DROP] ATV HD AM  (لا يوجد رابط شغّال)
+[DROP] ATV HD AZ  (لا يوجد رابط شغّال)
+[DROP] ATV HD TR  (لا يوجد رابط شغّال)
+[DROP] ATV Kinoman HD AM  (لا يوجد رابط شغّال)
+[DROP] ATV LifeHack HD AM  (لا يوجد رابط شغّال)
+[DROP] ATV Muzzone HD AM  (لا يوجد رابط شغّال)
+[DROP] ATV Tava HD AM  (لا يوجد رابط شغّال)
+[DROP] ATV TR  (لا يوجد رابط شغّال)
+[DROP] ATV Vivace AZ  (لا يوجد رابط شغّال)
+[DROP] ATV Xaxaliq HD AM  (لا يوجد رابط شغّال)
+[DROP] AXN Black RO  (لا يوجد رابط شغّال)
+[DROP] AXN HD ES  (لا يوجد رابط شغّال)
+[DROP] AXN HD RO  (لا يوجد رابط شغّال)
+[DROP] AXN RO  (لا يوجد رابط شغّال)
+[DROP] AXN Spin RO  (لا يوجد رابط شغّال)
+[DROP] AXN White RO  (لا يوجد رابط شغّال)
+[DROP] AXS TV HD US  (لا يوجد رابط شغّال)
+[DROP] Azatutyun TV HD AM  (لا يوجد رابط شغّال)
+[DROP] AzTV AZ  (لا يوجد رابط شغّال)
+[DROP] B4U Movies IN  (لا يوجد رابط شغّال)
+[DROP] Baby Time  (لا يوجد رابط شغّال)
+[DROP] Baby TV  (لا يوجد رابط شغّال)
+[DROP] Baby TV ES  (لا يوجد رابط شغّال)
+[DROP] Baby TV HD TR  (لا يوجد رابط شغّال)
+[DROP] Baby TV IL  (لا يوجد رابط شغّال)
+[DROP] BabyFirst TV HD US  (لا يوجد رابط شغّال)
+[DROP] Baku TV AZ  (لا يوجد رابط شغّال)
+[DROP] Ballermann TV HD DE  (لا يوجد رابط شغّال)
+[DROP] Balticum Auksinis LT  (لا يوجد رابط شغّال)
+[DROP] Balticum LT  (لا يوجد رابط شغّال)
+[DROP] Balticum Platinum HD LT  (لا يوجد رابط شغّال)
+[DROP] Band News BR  (لا يوجد رابط شغّال)
+[DROP] Band Sports BR  (لا يوجد رابط شغّال)
+[DROP] Band Sports HD BR  (لا يوجد رابط شغّال)
+[DROP] Baraza Music HD GR  (لا يوجد رابط شغّال)
+[DROP] BBC Alba UK  (لا يوجد رابط شغّال)
+[DROP] BBC America HD US  (لا يوجد رابط شغّال)
+[DROP] BBC Earth HD PL  (لا يوجد رابط شغّال)
+[DROP] BBC Earth HD RO  (لا يوجد رابط شغّال)
+[DROP] BBC Earth HD TR  (لا يوجد رابط شغّال)
+[DROP] BBC Earth RO  (لا يوجد رابط شغّال)
+[DROP] BBC First HD UK  (لا يوجد رابط شغّال)
+[DROP] BBC One HD UK  (لا يوجد رابط شغّال)
+[DROP] BBC Scotland HD UK  (لا يوجد رابط شغّال)
+[DROP] BBC Two HD UK  (لا يوجد رابط شغّال)
+[REPLACED] BBC World News UK
+[DROP] BCU Action HD  (لا يوجد رابط شغّال)
+[DROP] BCU Catastrophe HD  (لا يوجد رابط شغّال)
+[DROP] BCU Cinema HDR  (لا يوجد رابط شغّال)
+[DROP] BCU Cinema+ HD  (لا يوجد رابط شغّال)
+[DROP] BCU Comedy HD  (لا يوجد رابط شغّال)
+[DROP] BCU Comedy HDR  (لا يوجد رابط شغّال)
+[DROP] BCU Cosmo HD  (لا يوجد رابط شغّال)
+[DROP] BCU Criminal HD  (لا يوجد رابط شغّال)
+[DROP] BCU Fantastic HD  (لا يوجد رابط شغّال)
+[DROP] BCU FilMystic HD  (لا يوجد رابط شغّال)
+[DROP] BCU History HD  (لا يوجد رابط شغّال)
+[REPLACED] BCU Kids 4K
+[DUP-URL] BCU Kids HD
+[DROP] BCU Kids+ HD  (لا يوجد رابط شغّال)
+[DROP] BCU Kinorating HD  (لا يوجد رابط شغّال)
+[DROP] BCU Little HD  (لا يوجد رابط شغّال)
+[DROP] BCU Marvel HD  (لا يوجد رابط شغّال)
+[DROP] BCU Marvel HDR  (لا يوجد رابط شغّال)
+[DROP] BCU Media HD  (لا يوجد رابط شغّال)
+[DROP] BCU Media HD OLD  (لا يوجد رابط شغّال)
+[DROP] BCU Multserial HD  (لا يوجد رابط شغّال)
+[DROP] BCU Premiere 1 HD  (لا يوجد رابط شغّال)
+[DROP] BCU Premiere 2 HD  (لا يوجد رابط شغّال)
+[DROP] BCU Premiere 3 HD  (لا يوجد رابط شغّال)
+[DROP] BCU Premiere HD  (لا يوجد رابط شغّال)
+[DROP] BCU Premiere Ultra 4K  (لا يوجد رابط شغّال)
+[DROP] BCU Premium Kinozakaz+ 4K HDR  (لا يوجد رابط شغّال)
+[DROP] BCU Premium Premiere+ 4K HDR  (لا يوجد رابط شغّال)
+[DROP] BCU Reality HD  (لا يوجد رابط شغّال)
+[DROP] BCU Reality OLD  (لا يوجد رابط شغّال)
+[DROP] BCU Romantic HD  (لا يوجد رابط شغّال)
+[DROP] BCU Romantic OLD  (لا يوجد رابط شغّال)
+[DROP] BCU RuSerial HD  (لا يوجد رابط شغّال)
+[DROP] BCU Russia 90s HD  (لا يوجد رابط شغّال)
+[DROP] BCU Russian HD  (لا يوجد رابط شغّال)
+[DROP] BCU Stars HD  (لا يوجد رابط شغّال)
+[DROP] BCU Survival HD  (لا يوجد رابط شغّال)
+[DROP] BCU Survival OLD  (لا يوجد رابط شغّال)
+[DROP] BCU TruMotion HD  (لا يوجد رابط شغّال)
+[DROP] BCU Ultra 4K  (لا يوجد رابط شغّال)
+[DROP] BCU VHS HD  (لا يوجد رابط شغّال)
+[DROP] BCU Сваты HD  (لا يوجد رابط شغّال)
+[DROP] BCU СССР HD  (لا يوجد رابط شغّال)
+[DROP] Be Mad HD ES  (لا يوجد رابط شغّال)
+[DROP] beIN Box Office 1 HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Box Office 2 HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Box Office 3 HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN IZ HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Movies Premiere 2 HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Movies Premiere HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Series 2 HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Series Drama HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 1 HD FR  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 1 HD QA  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 1 HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 2 HD FR  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 2 HD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 3 FHD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 3 HD FR  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 3 HD QA  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 4 FHD TR  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 4 HD QA  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 4 US  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 5 HD QA  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 5 US  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 6 HD QA  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 6 US  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 7 HD QA  (لا يوجد رابط شغّال)
+[DROP] beIN Sports 7 US  (لا يوجد رابط شغّال)
+[DROP] beIN Sports En Español HD US  (لا يوجد رابط شغّال)
+[DROP] beIN Sports Haber HD TR  (لا يوجد رابط شغّال)
