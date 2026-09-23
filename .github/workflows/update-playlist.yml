@@ -2,18 +2,11 @@ name: Update IPTV Playlist
 
 on:
   schedule:
-    # كل 6 ساعات
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
-    inputs:
-      max_channels:
-        description: 'Max channels to check'
-        required: false
-        default: '4000'
-      keep_duplicates:
-        description: 'Keep duplicate channel names'
-        required: false
-        default: 'true'
+    - cron: '0 */23 * * *'        # كل 6 ساعات
+  workflow_dispatch:              # تشغيل يدوي
+  push:
+    paths:
+      - 'source_playlist.m3u'     # عند رفع قائمة جديدة
 
 permissions:
   contents: write
@@ -25,7 +18,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
 
     steps:
       - name: Checkout
@@ -44,24 +37,32 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run generator
+      - name: Run updater
         env:
-          MAX_WORKERS: '60'
-          CHECK_TIMEOUT: '5'
-          MAX_CHANNELS: ${{ github.event.inputs.max_channels || '4000' }}
-          KEEP_DUPLICATES: ${{ github.event.inputs.keep_duplicates || 'true' }}
-          ADD_ALL_RUSSIAN: 'true'
+          INPUT_PLAYLIST:  source_playlist.m3u
+          OUTPUT_PLAYLIST: playlist.m3u
+          CACHE_FILE:      working_links.json
+          MAX_WORKERS:     '60'
+          CHECK_TIMEOUT:   '6'
         run: python iptv_generator.py
+
+      - name: Show summary
+        run: |
+          echo "=== playlist.m3u ==="
+          grep -c '^#EXTINF' playlist.m3u || true
+          echo ""
+          echo "=== Report ==="
+          head -50 update_report.txt || true
 
       - name: Commit & push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playlist.m3u working_links.json
+          git add playlist.m3u working_links.json update_report.txt
           if git diff --staged --quiet; then
-            echo "No changes to commit."
+            echo "لا تغييرات."
           else
             CNT=$(grep -c '^#EXTINF' playlist.m3u || echo 0)
-            git commit -m "🤖 Update playlist ($CNT channels) — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "🤖 تحديث القائمة ($CNT قناة) — $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
