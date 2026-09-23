@@ -1,0 +1,67 @@
+name: Update IPTV Playlist
+
+on:
+  schedule:
+    # كل 6 ساعات
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      max_channels:
+        description: 'Max channels to check'
+        required: false
+        default: '4000'
+      keep_duplicates:
+        description: 'Keep duplicate channel names'
+        required: false
+        default: 'true'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run generator
+        env:
+          MAX_WORKERS: '60'
+          CHECK_TIMEOUT: '5'
+          MAX_CHANNELS: ${{ github.event.inputs.max_channels || '4000' }}
+          KEEP_DUPLICATES: ${{ github.event.inputs.keep_duplicates || 'true' }}
+          ADD_ALL_RUSSIAN: 'true'
+        run: python iptv_generator.py
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u working_links.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            CNT=$(grep -c '^#EXTINF' playlist.m3u || echo 0)
+            git commit -m "🤖 Update playlist ($CNT channels) — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
