@@ -1,0 +1,246 @@
+تقرير تحديث: 2026-09-23T10:20:33.862504+00:00
+المدخلات: 516 | المحفوظة: 275 | المستبدلة: 60 | من cache: 43
+محذوفة (تكرار اسم): 1 | (تكرار رابط): 8 | (بلا رابط): 137
+============================================================
+[REPLACED] Пятый канал Int.
+[DUP-URL] Рен ТВ HD
+[REPLACED] RTVi
+[DROP] Время  (لا يوجد رابط شغّال)
+[REPLACED] ОНТ
+[DROP] Ратник  (لا يوجد رابط شغّال)
+[REPLACED] Соловьев.Live HD
+[REPLACED] Eurosport 1
+[REPLACED] Eurosport 2
+[REPLACED] Extreme Sports
+[DROP] Конный Мир  (لا يوجد رابط شغّال)
+[DROP] Мир баскетбола  (لا يوجد رابط شغّال)
+[DROP] Мяч  (لا يوجد رابط شغّال)
+[DROP] Окко.Спорт 2  (لا يوجد رابط شغّال)
+[DROP] Старт  (لا يوجد رابط شغّال)
+[DROP] Старт Баскет  (لا يوجد رابط شغّال)
+[DROP] Старт Триумф  (لا يوجد رابط شغّال)
+[DROP] Танцуй!  (لا يوجد رابط شغّال)
+[DROP] Удар  (لا يوجد رابط شغّال)
+[REPLACED] Футбол HD
+[DROP] Хоккей ТВ  (لا يوجد رابط شغّال)
+[DROP] ЕГЭ ТВ  (لا يوجد رابط شغّال)
+[DROP] Живая Планета  (لا يوجد رابط شغّال)
+[DROP] Мособр TV  (لا يوجد رابط شغّال)
+[DROP] Психология  (لا يوجد رابط شغّال)
+[DROP] Родной канал  (لا يوجد رابط شغّال)
+[REPLACED] Ani
+[REPLACED] Cartoon Classics
+[DROP] Cartoonito  (لا يوجد رابط شغّال)
+[REPLACED] Duck TV
+[REPLACED] JimJam
+[REPLACED] Nick Jr
+[DROP] RADIOKIDS.FM  (لا يوجد رابط شغّال)
+[DROP] Детский мир  (لا يوجد رابط شغّال)
+[DROP] Детское кино Int  (لا يوجد رابط شغّال)
+[DROP] Карусель Int.  (لا يوجد رابط شغّال)
+[DROP] Киномульт  (لا يوجد رابط شغّال)
+[DROP] Лёва HD  (لا يوجد رابط شغّال)
+[DROP] Мама  (لا يوجد رابط شغّال)
+[DROP] Мульт  (لا يوجد رابط شغّال)
+[DROP] Мульт и Музыка  (لا يوجد رابط شغّال)
+[DROP] Мультимания  (لا يوجد رابط شغّال)
+[DROP] Пингвин  (لا يوجد رابط شغّال)
+[REPLACED] Рыжий
+[DUP-URL] СТС Kids HD
+[REPLACED] Смайл ТВ HD
+[REPLACED] Смотрим 100% Детское
+[REPLACED] Смотрим 100% Классика
+[DROP] Театр  (لا يوجد رابط شغّال)
+[DROP] Gags Network  (لا يوجد رابط شغّال)
+[DROP] TLC  (لا يوجد رابط شغّال)
+[DUP-URL] Домашний HD
+[DROP] Зал суда  (لا يوجد رابط شغّال)
+[DROP] Ключ  (لا يوجد رابط شغّال)
+[DROP] Пятница! Int.  (لا يوجد رابط شغّال)
+[DUP-URL] СТС HD
+[REPLACED] СТС Int.
+[DROP] Сарафан  (لا يوجد رابط شغّال)
+[REPLACED] Смотрим 100% Праздник
+[DROP] Телекафе  (لا يوجد رابط شغّال)
+[DROP] ТНТ4 Int.  (لا يوجد رابط شغّال)
+[DROP] Центральное ТВ  (لا يوجد رابط شغّال)
+[REPLACED] TV1 KG HD (Кыргызстан)
+[DROP] Вестник Надыма  (لا يوجد رابط شغّال)
+[REPLACED] СТРК HD
+[REPLACED] Среда
+[REPLACED] Точка ТВ
+[DROP] 1HD Music  (لا يوجد رابط شغّال)
+[REPLACED] Bridge Deluxe
+[DUP-URL] Bridge Rock
+[DROP] Bridge Русский хит  (لا يوجد رابط شغّال)
+[REPLACED] Bridge Шлягер
+[DROP] Clubbing  (لا يوجد رابط شغّال)
+[REPLACED] MTV Live HD
+[DROP] Muzzone  (لا يوجد رابط شغّال)
+[DUP-URL] RU TV HD
+[REPLACED] Trace Urban HD
+[DROP] Муз ТВ  (لا يوجد رابط شغّال)
+[DROP] Музыка 1 International [не 24/7]  (لا يوجد رابط شغّال)
+[DROP] Музыка Первого  (لا يوجد رابط شغّال)
+[REPLACED] О!2
+[REPLACED] Первый музыкальный HD
+[DROP] 312 Кино  (لا يوجد رابط شغّال)
+[REPLACED] Amedia 1
+[REPLACED] Amedia 2
+[REPLACED] Amedia Premium HD
+[REPLACED] Bollywood HD
+[REPLACED] Cinema
+[DROP] Cinema Космос ТВ  (لا يوجد رابط شغّال)
+[REPLACED] Comedy Central
+[DROP] DetectiveJam  (لا يوجد رابط شغّال)
+[DROP] FAN  (لا يوجد رابط شغّال)
+[DROP] FAN HD  (لا يوجد رابط شغّال)
+[DROP] FlixSnip  (لا يوجد رابط شغّال)
+[DROP] Fx  (لا يوجد رابط شغّال)
+[DROP] Fx Life  (لا يوجد رابط شغّال)
+[DROP] HollywooD  (لا يوجد رابط شغّال)
+[DROP] HollywooD HD  (لا يوجد رابط شغّال)
+[DROP] KION Хит  (لا يوجد رابط شغّال)
+[DROP] Novella TV HD  (لا يوجد رابط شغّال)
+[DROP] Plan B  (لا يوجد رابط شغّال)
+[DROP] Plan B HD  (لا يوجد رابط شغّال)
+[REPLACED] Start World
+[DROP] Suspense  (لا يوجد رابط شغّال)
+[DROP] Timeless Dizi Channel HD  (لا يوجد رابط شغّال)
+[DROP] Trash HD  (لا يوجد رابط شغّال)
+[DROP] TV XXI  (لا يوجد رابط شغّال)
+[DROP] Romance  (لا يوجد رابط شغّال)
+[DROP] Scream  (لا يوجد رابط شغّال)
+[REPLACED] Viju TV1000 romantica
+[REPLACED] Viju+ comedy
+[REPLACED] Viju+ megahit
+[REPLACED] Viju+ premiere
+[REPLACED] Viju+ serial
+[DROP] Иллюзион+  (لا يوجد رابط شغّال)
+[DROP] Камеди  (لا يوجد رابط شغّال)
+[DROP] Кинеко  (لا يوجد رابط شغّال)
+[DROP] Кино без границ  (لا يوجد رابط شغّال)
+[REPLACED] Киноман
+[DROP] Комедийное HD  (لا يوجد رابط شغّال)
+[DROP] Криминальное HD  (لا يوجد رابط شغّال)
+[DROP] Лавстори HD  (لا يوجد رابط شغّال)
+[DROP] Любимое Кино  (لا يوجد رابط شغّال)
+[REPLACED] НСТ
+[REPLACED] Остросюжетное
+[REPLACED] Премиальное HD
+[DROP] Про Любовь HD  (لا يوجد رابط شغّال)
+[DROP] Романтичное HD  (لا يوجد رابط شغّال)
+[DROP] Сапфир  (لا يوجد رابط شغّال)
+[DROP] Хит HD  (لا يوجد رابط شغّال)
+[DROP] Kinojam 1  (لا يوجد رابط شغّال)
+[DROP] Kinojam 2  (لا يوجد رابط شغّال)
+[REPLACED] Star Cinema
+[REPLACED] Viju TV1000 русское
+[DROP] День Победы  (لا يوجد رابط شغّال)
+[REPLACED] Дом Кино
+[DROP] Дом Кино Премиум HD  (لا يوجد رابط شغّال)
+[REPLACED] Душевное
+[DROP] Кино 1 Int.  (لا يوجد رابط شغّال)
+[REPLACED] Мир Сериала
+[DROP] Мосфильм. Золотая коллекция  (لا يوجد رابط شغّال)
+[REPLACED] Наш кинопоказ HD
+[DROP] Наше крутое HD  (لا يوجد رابط شغّال)
+[REPLACED] Наше Мужское HD
+[DROP] Патриот  (لا يوجد رابط شغّال)
+[DROP] Победа  (لا يوجد رابط شغّال)
+[REPLACED] Русская комедия
+[REPLACED] Смотрим 100% Любовь
+[REPLACED] Смотрим 100% Мужское
+[DROP] Советская киноклассика  (لا يوجد رابط شغّال)
+[DROP] Феникс плюс кино  (لا يوجد رابط شغّال)
+[DROP] Alpha Cinema  (لا يوجد رابط شغّال)
+[DROP] Alpha Moretime  (لا يوجد رابط شغّال)
+[DROP] LAV-KINO  (لا يوجد رابط شغّال)
+[DROP] Star Media  (لا يوجد رابط شغّال)
+[DROP] VHS-ка  (لا يوجد رابط شغّال)
+[REPLACED] Видеокассета HD
+[REPLACED] Сити Эдем - КиноАзия
+[REPLACED] Сити Эдем - КиноКлассика
+[REPLACED] Сити Эдем - КиноМистика
+[REPLACED] Сити Эдем - КиноЭкшен
+[REPLACED] Смотрим (Кино и сериалы)
+[REPLACED] Animal Planet HD
+[REPLACED] Da Vinci
+[REPLACED] Galaxy
+[DROP] HGTV HD  (لا يوجد رابط شغّال)
+[DROP] History  (لا يوجد رابط شغّال)
+[REPLACED] History2
+[DROP] ID Xtra Европа  (لا يوجد رابط شغّال)
+[DROP] Insight TV HD  (لا يوجد رابط شغّال)
+[REPLACED] Luxury HD
+[DROP] Nat Geo Wild  (لا يوجد رابط شغّال)
+[DUP-URL] National Geographic
+[DROP] Ocean TV  (لا يوجد رابط شغّال)
+[REPLACED] TERRA
+[REPLACED] RTG TV
+[REPLACED] RTG HD
+[REPLACED] Travel XP
+[DROP] Travel+Adventure  (لا يوجد رابط شغّال)
+[REPLACED] Viju+ planet
+[DROP] ZOOПАРК  (لا يوجد رابط شغّال)
+[DROP] В мире животных  (لا يوجد رابط شغّال)
+[REPLACED] Глазами туриста HD
+[REPLACED] Здоровое ТВ
+[DROP] Зоо ТВ  (لا يوجد رابط شغّال)
+[DROP] История  (لا يوجد رابط شغّال)
+[DROP] КтоКуда  (لا يوجد رابط شغّال)
+[DROP] Лапки Live  (لا يوجد رابط شغّال)
+[DROP] Моя Планета  (لا يوجد رابط شغّال)
+[DROP] Моя стихия  (لا يوجد رابط شغّال)
+[DROP] Наука  (لا يوجد رابط شغّال)
+[DROP] Поехали!  (لا يوجد رابط شغّال)
+[REPLACED] Приключения HD
+[DROP] РЖД HD  (لا يوجد رابط شغّال)
+[DROP] Светлое ТВ  (لا يوجد رابط شغّال)
+[DROP] Телепутешествия  (لا يوجد رابط شغّال)
+[REPLACED] Смотрим 100% Факты
+[DROP] Совершенно Секретно  (لا يوجد رابط شغّال)
+[REPLACED] Техно 24
+[REPLACED] АВТО 24
+[DROP] Аппетитный  (لا يوجد رابط شغّال)
+[DROP] Бобёр  (لا يوجد رابط شغّال)
+[REPLACED] Дикая охота HD
+[REPLACED] Дикая рыбалка HD
+[DROP] Диалоги о рыбалке  (لا يوجد رابط شغّال)
+[DROP] ДИКИЙ охота и рыбалка  (لا يوجد رابط شغّال)
+[DROP] Домашние Животные  (لا يوجد رابط شغّال)
+[REPLACED] Еда
+[DROP] Загородный Int.  (لا يوجد رابط شغّال)
+[DROP] Кулинар ТВ  (لا يوجد رابط شغّال)
+[REPLACED] Мужской
+[DROP] Охота и рыбалка  (لا يوجد رابط شغّال)
+[REPLACED] Охотник и рыболов
+[DUP-URL] Охотник и рыболов HD
+[REPLACED] Первый вегетарианский
+[DROP] Точка Отрыва  (لا يوجد رابط شغّال)
+[DROP] Усадьба  (لا يوجد رابط شغّال)
+[DROP] 86 Сургут  (لا يوجد رابط شغّال)
+[REPLACED] Абакан 24
+[REPLACED] Арис 24 (Башкортостан)
+[REPLACED] Арктика 24 (Архангельск)
+[REPLACED] Башкортостан 24
+[DROP] Беларусь 4 Гомель  (لا يوجد رابط شغّال)
+[REPLACED] Вектор 24 HD
+[REPLACED] Городской Телеканал-Ярославль
+[REPLACED] Губерния 33
+[REPLACED] Евпатория 24
+[DROP] Запад 24 (Калининград)  (لا يوجد رابط شغّال)
+[DROP] Импульс Севера  (لا يوجد رابط شغّال)
+[DROP] Кавказ 24  (لا يوجد رابط شغّال)
+[REPLACED] МТВ HD (Волгоград)
+[DROP] Нижний Новгород 24 HD  (لا يوجد رابط شغّال)
+[REPLACED] НТС (Севастополь)
+[DROP] Первый Псковский  (لا يوجد رابط شغّال)
+[REPLACED] Прим 24
+[DROP] Самара 24  (لا يوجد رابط شغّال)
+[DROP] Сибирь 24  (لا يوجد رابط شغّال)
+[REPLACED] СТВ 24
+[REPLACED] Тивиком
+[DUP-NAME] Тюменское Время
+[DROP] Урал 24  (لا يوجد رابط شغّال)
+[DROP] Наша Сибирь  (لا يوجد رابط شغّال)
