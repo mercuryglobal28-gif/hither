@@ -2803,7 +2803,7 @@
   "спас (челябинск)": "https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_SPAS_RTRS/variant.m3u8",
   "среда": "https://bl.rutube.ru/livestream/5fa486bf465c8735fff9f41b372610cc/index.m3u8?s=-O-Abonlwf-bYzT5hrypYg&e=2070623505&scheme=https",
   "ств": "https://zabava-htlive.cdn.ngenix.net/hls/CH_STVHD/variant.m3u8",
-  "ств 24": "https://zabava-htlive.cdn.ngenix.net/hls/CH_STV24HD/variant.m3u8",
+  "ств 24": "http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8",
   "ств 24 (северодвинск)": "https://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R01_STV24/variant.m3u8",
   "ств24": "https://zabava-htlive.cdn.ngenix.net/hls/CH_STV24HD/variant.m3u8",
   "страна fm": "http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8",
