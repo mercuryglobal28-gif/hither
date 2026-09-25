@@ -2238,7 +2238,7 @@
   "пятый канал +4": "https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8",
   "пятый канал +7": "https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8",
   "пятый канал hd": "http://94.250.255.172/ptv/vitrina/ch.php?id=aHR0cHM6Ly9tZWRpYS5tZWRpYXZpdHJpbmEucnUvYmFsYW5jZXIvdjEvdHY1LzV0di9zdHJlYW1zLmpzb24=",
-  "пятый канал int.": "http://178.134.1.158:8081/5channel/index.m3u8",
+  "пятый канал int.": "https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8",
   "пёс и ко": "http://188.113.190.15/55/tracks-v1a1/index.m3u8",
   "радио шансон": "http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8",
   "радость моя": "http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8",
