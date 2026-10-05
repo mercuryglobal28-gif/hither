@@ -1302,7 +1302,7 @@
   "красная линия": "http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8",
   "краснодар (краснодар)": "https://rt-sth-mayk-htlive.cdn.ngenix.net/hls/CH_R01_KRASNODAR/variant.m3u8",
   "крик тв": "http://cdn-01.bonus-tv.ru/kriktv_edge/index.m3u8",
-  "крым 24": "https://cdn.1tvcrimea.ru/24tvcrimea.m3u8",
+  "крым 24": "http://80.245.112.27:8787/",
   "крым 24 hd": "https://zabava-htlive.cdn.ngenix.net/hls/CH_KRYM24HD/variant.m3u8",
   "ктв-луч (сызрань)": "http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_KTVLUCH/variant.m3u8",
   "ктк hd": "http://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/chunklist.m3u8",
