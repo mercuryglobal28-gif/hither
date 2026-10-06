@@ -394,7 +394,7 @@
   "myzen tv": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8",
   "mədəniyyət tv": "https://str.yodacdn.net/medeniyyettele/index.m3u8",
   "n sports": "https://cdn4.skygo.mn/live/disk1/ONTV/HLSv3-FTA/ONTV.m3u8",
-  "nano": "http://s1.tv-nano.com/Nano_rec/index.m3u8",
+  "nano": "http://s1.tv-nano.com/Nano_rec/video.m3u8",
   "nano hd": "http://185.23.80.23:8080/NANO_HD/index.m3u8",
   "nashe hd": "http://str2.iptvhd.ru:8080/Nashe_HD/index.m3u8",
   "nat geo": "http://46.32.176.50/nationalgeographic/index.m3u8",
