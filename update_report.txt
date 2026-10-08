@@ -1,21 +1,23 @@
-Report: 2026-10-08T13:16:40.790438+00:00
-Total: 3727 | Final: 621
-Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dropped': 3003, 'from_donor': 5}
+Report: 2026-10-08T23:16:43.736214+00:00
+Total: 3727 | Final: 630
+Stats: {'kept': 466, 'from_cache': 264, 'dup_url': 104, 'donor_failed': 166, 'dropped': 2993, 'from_donor': 4}
 ============================================================
 [CACHE] RTVi
 [DUP-URL] TV BRICS
-[DONOR-DEAD] Время <- IPTVstable (http_timeout)
+[DONOR-DEAD] Время <- IPTVxxx (http_403)
 [DROP] Время (conn_error)
 [CACHE] ОНТ
-[DONOR-DEAD] Первый канал HD <- IPTVstable (http_timeout)
+[DONOR-DEAD] Первый канал HD <- IPTVxxx (http_timeout)
 [DROP] Первый канал HD (http_timeout)
 [CACHE] Пятый канал Int.
 [DONOR-DEAD] Ратник <- IPTVxxx (segment_invalid)
 [NO-URL] Ратник
-[CACHE] Союзный
+[DONOR-DEAD] Союзный <- IPTVxxx (segment_invalid)
+[DROP] Союзный (segment_invalid)
 [DUP-URL] ТВ Центр
 [DONOR-DEAD] Euronews <- IPTVru (segment_invalid)
 [DROP] Euronews (segment_invalid)
+[CACHE] Крик ТВ
 [DONOR-DEAD] Eurosport 1 <- IPTVxxx (http_timeout)
 [NO-URL] Eurosport 1
 [DONOR-DEAD] Eurosport 2 <- LoganetX (http_403)
@@ -27,14 +29,13 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [NO-URL] Мир баскетбола
 [NO-URL] Мяч
 [NO-URL] Окко.Спорт 2
-[DONOR-DEAD] Старт <- IPTVstable (http_403)
+[DONOR-DEAD] Старт <- IPTVru (http_403)
 [DROP] Старт (http_403)
-[DONOR-DEAD] Старт Баскет <- IPTVstable (http_403)
+[DONOR-DEAD] Старт Баскет <- IPTVxxx (http_403)
 [DROP] Старт Баскет (http_403)
-[DONOR-DEAD] Старт Триумф <- IPTVstable (http_403)
+[DONOR-DEAD] Старт Триумф <- IPTVxxx (http_403)
 [DROP] Старт Триумф (http_403)
 [CACHE] Танцуй!
-[DONOR:IPTVXXX] ТВ Спорт
 [NO-URL] Удар
 [NO-URL] Футбол HD
 [NO-URL] Хоккей ТВ
@@ -44,13 +45,12 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [DROP] Живая Планета (http_timeout)
 [NO-URL] Мособр TV
 [DUP-URL] Просвещение
-[DONOR-DEAD] Психология <- IPTVstable (http_timeout)
+[DONOR-DEAD] Психология <- IPTVxxx (http_timeout)
 [DROP] Психология (http_timeout)
 [DONOR-DEAD] Родной канал <- LoganetX (http_502)
 [NO-URL] Родной канал
 [CACHE] Смотрим 100% Классика
-[DONOR-DEAD] Ani <- IPTVstable (http_timeout)
-[DROP] Ani (http_timeout)
+[CACHE] Ani
 [CACHE] Cartoon Classics
 [DUP-URL] Cartoon Network
 [CACHE] Cartoonito
@@ -69,13 +69,12 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [NO-URL] Карусель Int.
 [NO-URL] Киномульт
 [NO-URL] Лёва HD
-[DONOR-DEAD] Мама <- IPTVstable (http_timeout)
+[DONOR-DEAD] Мама <- IPTVru (http_timeout)
 [DROP] Мама (http_timeout)
 [DONOR-DEAD] Мульт <- IPTVxxx (http_timeout)
 [DROP] Мульт (http_timeout)
-[DONOR-DEAD] Мульт и Музыка <- IPTVstable (http_timeout)
+[DONOR-DEAD] Мульт и Музыка <- IPTVxxx (http_timeout)
 [DROP] Мульт и Музыка (http_timeout)
-[CACHE] Мультиландия
 [CACHE] Мультимания
 [DUP-URL] О!
 [CACHE] Пингвин
@@ -90,19 +89,18 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [DUP-URL] Беларусь 2 HD
 [DONOR-DEAD] Домашний HD <- IPTVxxx (http_timeout)
 [DROP] Домашний HD (http_timeout)
-[CACHE] Домашний Int.
 [CACHE] Зал суда
 [DUP-URL] Калейдоскоп ТВ
 [CACHE] Ключ
 [DUP-URL] НТВ Право
 [CACHE] Пятница! Int.
-[DONOR-DEAD] Сарафан <- IPTVstable (http_timeout)
+[DONOR-DEAD] Сарафан <- IPTVxxx (http_timeout)
 [DROP] Сарафан (http_timeout)
 [CACHE] Смотрим 100% Праздник
 [DUP-URL] СТС
 [CACHE] СТС Int.
 [DUP-URL] Суббота
-[DONOR-DEAD] Телекафе <- IPTVstable (http_timeout)
+[DONOR-DEAD] Телекафе <- IPTVxxx (http_timeout)
 [DROP] Телекафе (http_timeout)
 [DUP-URL] ТНТ4 Int.
 [CACHE] Центральное ТВ
@@ -112,8 +110,10 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [DONOR-DEAD] Вестник Надыма <- IPTVxxx (expired_or_error_page)
 [NO-URL] Вестник Надыма
 [CACHE] Девятка
-[DONOR-DEAD] Среда <- IPTVstable (no_segments)
-[DROP] Среда (no_segments)
+[DONOR-DEAD] Пинск ТВ <- IPTVxxx (http_timeout)
+[DROP] Пинск ТВ (http_timeout)
+[DONOR-DEAD] Среда <- IPTVstable (http_404)
+[DROP] Среда (http_404)
 [CACHE] СТРК HD
 [CACHE] Точка ТВ
 [DUP-URL] ТРК Юганск
@@ -123,34 +123,33 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [CACHE] Bridge Deluxe
 [DONOR-DEAD] Bridge Русский хит <- LoganetX (http_timeout)
 [NO-URL] Bridge Русский хит
-[CACHE] Bridge Шлягер
+[DONOR:SPIRT007] Bridge Шлягер
 [NO-URL] Clubbing
 [CACHE] MTV Live HD
 [DONOR-DEAD] Muzzone <- IPTVstable (http_timeout)
 [DROP] Muzzone (http_timeout)
 [DUP-URL] Retro Music
-[DONOR-DEAD] RU TV <- IPTVstable (http_timeout)
-[DROP] RU TV (http_timeout)
+[DONOR-DEAD] RU TV <- IPTVxxx (http_404)
+[DROP] RU TV (http_404)
 [DONOR-DEAD] RU TV HD <- IPTVxxx (segment_invalid)
 [NO-URL] RU TV HD
-[DONOR-DEAD] Восток ТВ <- IPTVstable (segment_invalid)
+[DONOR-DEAD] Восток ТВ <- IPTVru (segment_invalid)
 [DROP] Восток ТВ (segment_invalid)
-[DONOR-DEAD] Жар Птица <- IPTVstable (http_404)
+[DONOR-DEAD] Жар Птица <- IPTVxxx (http_404)
 [DROP] Жар Птица (http_404)
-[DONOR-DEAD] Муз ТВ <- IPTVstable (http_timeout)
+[DONOR-DEAD] Муз ТВ <- IPTVxxx (http_timeout)
 [DROP] Муз ТВ (http_timeout)
 [DONOR-DEAD] Музыка 1 International [не 24/7] <- IPTVxxx (http_timeout)
 [NO-URL] Музыка 1 International [не 24/7]
 [CACHE] Музыка Первого
 [CACHE] О!2
 [DUP-URL] Радио Шансон
-[DONOR-DEAD] Шансон ТВ <- IPTVstable (variant_http_403)
+[DONOR-DEAD] Шансон ТВ <- IPTVxxx (http_403)
 [DROP] Шансон ТВ (http_403)
 [DONOR-DEAD] 312 Кино <- IPTVxxx (http_timeout)
 [NO-URL] 312 Кино
 [CACHE] Amedia 1
-[DONOR-DEAD] Amedia 2 <- IPTVxxx (http_timeout)
-[DROP] Amedia 2 (http_timeout)
+[CACHE] Amedia 2
 [CACHE] Amedia Premium HD
 [CACHE] Bollywood HD
 [CACHE] Cinema
@@ -167,7 +166,6 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [DONOR-DEAD] HollywooD <- IPTVru (http_timeout)
 [DROP] HollywooD (http_timeout)
 [CACHE] HollywooD HD
-[DONOR:IPTVXXX] Kino 24
 [DONOR-DEAD] KION Хит <- IPTVxxx (http_timeout)
 [NO-URL] KION Хит
 [NO-URL] Novella TV HD
@@ -211,8 +209,7 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [NO-URL] Kinojam 1
 [NO-URL] Kinojam 2
 [DUP-URL] Star Family
-[DONOR-DEAD] Viju TV1000 русское <- IPTVxxx (http_timeout)
-[DROP] Viju TV1000 русское (http_timeout)
+[CACHE] Viju TV1000 русское
 [DONOR-DEAD] День Победы <- IPTVxxx (http_timeout)
 [DROP] День Победы (http_timeout)
 [CACHE] Дом Кино
@@ -229,22 +226,21 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [DONOR-DEAD] Победа <- IPTVxxx (http_timeout)
 [DROP] Победа (http_timeout)
 [CACHE] Русская комедия
-[CACHE] Русский бестселлер
 [CACHE] Смотрим 100% Любовь
 [NO-URL] Смотрим 100% Мужское
 [NO-URL] Советская киноклассика
 [DUP-URL] Советское кино
-[DONOR-DEAD] Феникс плюс кино <- IPTVxxx (no_segments)
-[NO-URL] Феникс плюс кино
+[CACHE] Феникс плюс кино
 [NO-URL] Alpha Cinema
 [NO-URL] Alpha Moretime
 [NO-URL] LAV-KINO
+[DUP-URL] Pro100
 [NO-URL] Star Media
 [NO-URL] VHS-ка
 [CACHE] Видеокассета HD
-[NO-URL] Сити Эдем - КиноАзия
+[CACHE] Сити Эдем - КиноАзия
 [CACHE] Сити Эдем - КиноКлассика
-[NO-URL] Сити Эдем - КиноМистика
+[CACHE] Сити Эдем - КиноМистика
 [CACHE] Сити Эдем - КиноЭкшен
 [CACHE] Смотрим (Кино и сериалы)
 [CACHE] Galaxy
@@ -290,7 +286,7 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [DONOR-DEAD] Поехали! <- IPTVxxx (http_timeout)
 [DROP] Поехали! (http_timeout)
 [CACHE] Приключения HD
-[DONOR-DEAD] РЖД HD <- IPTVstable (http_403)
+[DONOR-DEAD] РЖД HD <- IPTVru (http_403)
 [DROP] РЖД HD (http_403)
 [DONOR-DEAD] Светлое ТВ <- IPTVxxx (http_timeout)
 [NO-URL] Светлое ТВ
@@ -317,7 +313,8 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [DONOR-DEAD] Загородный Int. <- IPTVxxx (http_timeout)
 [NO-URL] Загородный Int.
 [NO-URL] Кулинар ТВ
-[CACHE] Мужской
+[DONOR-DEAD] Мужской <- IPTVru (http_timeout)
+[DROP] Мужской (http_timeout)
 [DONOR-DEAD] Охота и рыбалка <- IPTVxxx (http_timeout)
 [DROP] Охота и рыбалка (http_timeout)
 [DONOR-DEAD] Охотник и рыболов HD <- LoganetX (http_timeout)
@@ -333,11 +330,12 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [CACHE] Арис 24 (Башкортостан)
 [CACHE] Арктика 24 (Архангельск)
 [CACHE] Башкортостан 24
-[DONOR-DEAD] Беларусь 4 Гомель <- IPTVstable (http_timeout)
+[DONOR-DEAD] Беларусь 4 Гомель <- IPTVru (http_timeout)
 [DROP] Беларусь 4 Гомель (http_timeout)
 [CACHE] Вектор 24 HD
 [CACHE] Городской Телеканал-Ярославль
 [DUP-URL] Грозный
+[CACHE] Губерния (Самара)
 [CACHE] Евпатория 24
 [CACHE] Запад 24 (Калининград)
 [DUP-URL] Ивановское общественное телевидение
@@ -348,19 +346,21 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [CACHE] МТВ HD (Волгоград)
 [CACHE] Нижний Новгород 24 HD
 [DUP-URL] Новгородское Областное телевидение
-[DONOR-DEAD] Первый Псковский <- IPTVxxx (segment_invalid)
-[NO-URL] Первый Псковский
-[DONOR-DEAD] Первый Ростовский <- IPTVstable (segment_invalid)
+[CACHE] Первый Псковский
+[DONOR-DEAD] Первый Ростовский <- IPTVru (segment_invalid)
 [DROP] Первый Ростовский (segment_invalid)
-[DONOR-DEAD] Первый Ярославский <- IPTVstable (segment_invalid)
+[DONOR-DEAD] Первый Ярославский <- IPTVxxx (segment_invalid)
 [DROP] Первый Ярославский (segment_invalid)
 [CACHE] Прим 24
+[CACHE] РГВК Дагестан
 [CACHE] Самара 24
 [DUP-URL] Самотлор (Нижневартовск)
 [CACHE] Сибирь 24
 [DUP-URL] Симферополь 24
 [CACHE] СТВ 24
 [DUP-URL] ТВ-21+
+[DONOR-DEAD] ТДК 42 <- IPTVxxx (variant_http_503)
+[DROP] ТДК 42 (variant_http_503)
 [CACHE] Урал 24
 [DUP-URL] Учалы ТВ
 [NO-URL] Наша Сибирь
@@ -741,7 +741,6 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [NO-URL] Bridge Classic orig
 [DUP-URL] Bridge Deluxe HD
 [NO-URL] Bridge Deluxe HD orig
-[DROP] Bridge Hits HD (http_timeout)
 [DUP-URL] Bridge Rock
 [DROP] Bridge Rock HD (http_timeout)
 [NO-URL] Bridge TV orig
@@ -820,7 +819,7 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [NO-URL] CineMan Cartoons Short
 [NO-URL] Cineman HD AM
 [NO-URL] CineMan MiniSeries
-[NO-URL] CineMan Premium
+[CACHE] CineMan Premium
 [NO-URL] CineMan Thriller
 [NO-URL] CineMan Top
 [NO-URL] CineMan Катастрофы
@@ -1730,6 +1729,7 @@ Stats: {'kept': 466, 'from_cache': 253, 'dup_url': 103, 'donor_failed': 173, 'dr
 [NO-URL] Nick Jr. SE
 [NO-URL] Nick/Comedy Central+1 DE
 [CACHE] Nickelodeon CA
+[CACHE] Nickelodeon HD
 [NO-URL] Nickelodeon HD ES
 [NO-URL] Nickelodeon HD orig
 [NO-URL] Nickelodeon HD TR
