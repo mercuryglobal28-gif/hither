@@ -1,7 +1,7 @@
 #EXTM3U
-# Updated: 2026-10-16 16:32:32 UTC
-# Channels: 603
-# Kept: 452 | Cache: 248 | Donor: 6 | Dropped: 3021
+# Updated: 2026-10-16 20:54:44 UTC
+# Channels: 606
+# Kept: 457 | Cache: 250 | Donor: 3 | Dropped: 3017
 
 #EXTINF:-1 tvg-id="cctv-ru" tvg-logo="https://iptvx.one/picons/cctv-ru.png" group-title="Общественные" ,CGTN Русский
 https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
@@ -208,8 +208,6 @@ http://live-3.otcnet.ru/Mezzo/index.m3u8
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 tvg-id="viva-rus" tvg-logo="https://iptvx.one/picons/viva-rus.png" group-title="Музыкальные" ,VIVA Russia
 https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
-#EXTINF:-1 tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="Музыкальные" ,Жара
-http://fs.uplink.kz/zhara/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="maydan" tvg-logo="https://iptvx.one/picons/maydan.png" group-title="Музыкальные" ,Майдан
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R05_OTT_VLG_KZN_MAIDAN/variant.m3u8?version2
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" group-title="Музыкальные" ,Музыка Первого
@@ -218,6 +216,8 @@ http://rr2.73mtv.org/~109e1a3c05fcad5b22d13b9453dc0db5122/81/hls/pl.m3u8
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 tvg-id="radio-strana-fm-tv" tvg-logo="https://iptvx.one/picons/radio-strana-fm-tv.png" group-title="Музыкальные" ,Страна FM
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="shanson-tv" tvg-logo="https://iptvx.one/picons/shanson-tv.png" group-title="Музыкальные",Шансон ТВ
+http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="Кино и сериалы",.black
 http://stream.mcquack.net/263/index.m3u8
 #EXTINF:-1 tvg-id="sony-scifi" tvg-logo="https://iptvx.one/picons/sony-scifi.png" group-title="Кино и сериалы" ,.sci-fi
@@ -232,6 +232,8 @@ http://stream.mcquack.net/162/index.m3u8
 http://176.118.197.101/Bollywood_HD/index.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" tvg-logo="https://iptvx.one/picons/cinema-ru.png" group-title="Кино и сериалы" ,Cinema
 http://mfe01.cliptv.az/dash/Cinema_SDjhjhjh56.ism/playlist.mpd
+#EXTINF:-1 tvg-id="cinema" tvg-logo="https://iptvx.one/picons/cinema.png" group-title="Кино и сериалы" ,Cinema Космос ТВ
+http://46.149.191.219:9100/play/a015
 #EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://iptvx.one/picons/hollywood-hd.png" group-title="Кино и сериалы" ,HollywooD HD
 https://stream8.cinerama.uz/1443/index.m3u8
 #EXTINF:-1 tvg-id="horrortv" tvg-logo="https://iptvx.one/picons/hustler-tv.png" group-title="Кино и сериалы" ,Horror TV
@@ -474,7 +476,7 @@ http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KASKAD/variant.m3u8
 #EXTINF:-1 tvg-id="katun-24" tvg-logo="https://iptvx.one/picons/katun-24.png" group-title="Местные" ,Катунь 24
 http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_KATUN24/variant.m3u8
 #EXTINF:-1 tvg-id="krym24" tvg-logo="https://iptvx.one/picons/krym24.png" group-title="Местные" ,Крым 24
-http://80.245.112.27:8787/
+https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 #EXTINF:-1 tvg-id="ktv-luch" tvg-logo="https://iptvx.one/picons/ktv-luch.png" group-title="Местные" ,КТВ-Луч (Сызрань)
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_KTVLUCH/variant.m3u8
 #EXTINF:-1 tvg-id="kuban-24" tvg-logo="https://iptvx.one/picons/kuban-24.png" group-title="Местные" ,Кубань 24 (Краснодар)
@@ -543,6 +545,8 @@ https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u
 https://live1.1tvcrimea.ru/1tvcrimea.m3u8
 #EXTINF:-1 tvg-id="pervy-oblastnoy-orel" tvg-logo="https://iptvx.one/picons/pervy-oblastnoy-orel.png" group-title="Местные" ,Первый областной (Орел)
 http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
+#EXTINF:-1 tvg-id="pervy-pskovsky" tvg-logo="https://iptvx.one/picons/pervy-pskovsky.png" group-title="Местные" ,Первый Псковский
+http://live-3.otcnet.ru/pskov/index.m3u8
 #EXTINF:-1 tvg-id="pervy-tulsky" tvg-logo="https://iptvx.one/picons/pervy-tulsky.png" group-title="Местные" ,Первый Тульский
 http://5.164.24.83/tula/1tv_hi/index.m3u8
 #EXTINF:-1 tvg-id="prim24" tvg-logo="https://iptvx.one/picons/prim24.png" group-title="Местные" ,Прим 24
@@ -579,7 +583,7 @@ http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8
 http://serv30.vintera.tv:8081/sarov/sarov_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="svoyo-tv-stavropol" tvg-logo="https://iptvx.one/picons/svoyo-tv-stavropol.png" group-title="Местные" ,Своё ТВ HD (Ставрополь)
 https://svoetv.mediacdn.ru/cdn/svoetv/playlist.m3u8
-#EXTINF:-1 tvg-id="sibir24" tvg-logo="https://iptvx.one/picons/sibir24.png" group-title="Местные" ,Сибирь 24
+#EXTINF:-1 tvg-id="simfer24" tvg-logo="https://iptvx.one/picons/simfer24.png" group-title="Местные" ,Симферополь 24
 https://simf.1tvcrimea.ru/simferopol24sd.m3u8
 #EXTINF:-1 tvg-id="sochi24" tvg-logo="https://iptvx.one/picons/sochi24.png" group-title="Местные" ,Сочи 24
 http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
@@ -605,6 +609,8 @@ http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8
 #EXTINF:-1 tvg-id="tomskoe-vremia" tvg-logo="https://iptvx.one/picons/tomskoe-vremia.png" group-title="Местные" ,Томское время
 http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8
+#EXTINF:-1 tvg-id="tcb" tvg-logo="https://iptvx.one/picons/tcb.png" group-title="Местные" ,ТСВ
+https://tsv.md/stream/hls/tsv-online/index.m3u8
 #EXTINF:-1 tvg-id="tst-cheremchovo" tvg-logo="https://iptvx.one/picons/tst-cheremchovo.png" group-title="Местные" ,ТСТ (Черемхово)
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_TST/variant.m3u8
 #EXTINF:-1 tvg-id="tumenskoe-vremia" tvg-logo="https://iptvx.one/picons/tumenskoe-vremia.png" group-title="Местные" ,Тюменское время
@@ -746,8 +752,6 @@ https://stream8.cinerama.uz/1502/playlist.m3u8
 https://stream8.cinerama.uz/1220/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="322" tvg-logo="http://epg.one/img2/322.png" group-title="USA" ,Outdoor Channel US
 https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="2847" tvg-logo="http://epg.one/img2/2847.png" group-title="moldovenească" ,Pro TV Chisinau MD
-https://stream.protv.md/live/sursa-1/index.m3u8
 #EXTINF:-1 tvg-id="3484" tvg-logo="http://epg.one/img2/3484.png" group-title="другие" ,PTC Punjabi IN
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8
 #EXTINF:-1 tvg-id="3700" tvg-logo="http://epg.one/img2/3700.png" group-title="moldovenească" ,Realitatea Plus RO
@@ -806,6 +810,8 @@ https://dwby15d04agvq.cloudfront.net/index_5.m3u8
 https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="5816" tvg-logo="http://epg.one/img2/5816.png" group-title="другие" ,Аист ТВ (Иркутск)
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_AIST/variant.m3u8
+#EXTINF:-1 tvg-id="9080" tvg-logo="http://epg.one/img2/9080.png" group-title="познавательные" ,Арт
+http://89.104.114.24:8080/art/index.m3u8
 #EXTINF:-1 tvg-id="2168" tvg-logo="http://epg.one/img2/2168.png" group-title="другие" ,Астрахань 24 HD
 https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8
 #EXTINF:-1 tvg-id="5767" tvg-logo="http://epg.one/img2/5767.png" group-title="другие" ,АТВ Ставрополь
