@@ -1981,7 +1981,7 @@
   "первый музыкальный ru hd": "http://rtmp.one.by:2300",
   "первый областной (орел)": "http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8",
   "первый областной (орёл)": "https://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8",
-  "первый псковский": "http://live-3.otcnet.ru/pskov/index.m3u8",
+  "первый псковский": "https://rost.mediacdn.ru/cdn/rostov1/tracks-v2a1/mono.m3u8",
   "первый ростовский": "https://rost.mediacdn.ru/cdn/rostov1/tracks-v2a1/mono.m3u8",
   "первый ростовский (ростов-на-дону)": "https://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R06_FIRST_ROSTOV/variant.m3u8",
   "первый севастопольский": "https://zabava-htlive.cdn.ngenix.net/hls/CH_PERVIJSEVASTOPOL/variant.m3u8",
