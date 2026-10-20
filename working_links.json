@@ -892,7 +892,7 @@
   "городской телеканал (ярославль)": "https://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_YARL_GTREG/variant.m3u8",
   "городской телеканал-ярославль": "https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8",
   "грозный": "https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8",
-  "губерния (самара)": "https://s68149.cdn.ngenix.net/s68149-media-origin/lvs/tvgub/tracks-v1a1/mono.m3u8",
+  "губерния (самара)": "http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8",
   "губерния (хабаровск)": "https://s97982.cdn.ngenix.net/hls/CH_R27_GUBERNYA/variant.m3u8",
   "губерния 33": "http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8",
   "губерния 38 (ангарск)": "https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_SIB_IRK_GUBERNIYA38/variant.m3u8",
