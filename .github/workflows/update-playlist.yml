@@ -25,7 +25,9 @@ jobs:
       - name: Generate and publish safely
         env:
           DEEP_VIDEO_CHECK: 'true'
-          MAX_CANDIDATES: '5'
+          MAX_CANDIDATES: '10'
+          FUZZY_THRESHOLD: '88'
+          MATCH_POOL: '8'
           MAX_WORKERS: '16'
         shell: bash
         run: |
