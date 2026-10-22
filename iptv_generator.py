@@ -12,6 +12,8 @@ import shutil
 import subprocess
 import tempfile
 from collections import Counter, defaultdict
+from difflib import SequenceMatcher
+from rapidfuzz import fuzz, process
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -26,31 +28,32 @@ CACHE = Path(os.getenv('CACHE_FILE', 'working_links.json'))
 REPORT = Path(os.getenv('REPORT_FILE', 'update_report.txt'))
 WORKERS = max(1, min(int(os.getenv('MAX_WORKERS', '16')), 32))
 TIMEOUT = max(3, int(os.getenv('STREAM_TIMEOUT', '9')))
-MAX_CANDIDATES = max(1, int(os.getenv('MAX_CANDIDATES', '5')))
+MAX_CANDIDATES = max(1, int(os.getenv('MAX_CANDIDATES', '10')))
+FUZZY_THRESHOLD = max(65, min(100, int(os.getenv('FUZZY_THRESHOLD', '88'))))
+MATCH_POOL = max(1, int(os.getenv('MATCH_POOL', '8')))
 DEEP = os.getenv('DEEP_VIDEO_CHECK', 'true').lower() == 'true'
-BLOCKED = ('plist.link', 'ott.watch')
+BLOCKED = ('plist.link',)  # Only prohibited URL host; includes its subdomains
 UA = {'User-Agent': 'Mozilla/5.0 (compatible; PublicStreamChecker/2.0)', 'Accept': '*/*'}
 # Official iptv-org slices; overlapping regional/country/language lists are deduplicated.
 # Public availability does not, by itself, prove redistribution rights for each stream.
 DONORS = [
-    ('iptv-org-ru', 'https://iptv-org.github.io/iptv/countries/ru.m3u'),
-    ('iptv-org-ua', 'https://iptv-org.github.io/iptv/countries/ua.m3u'),
-    ('iptv-org-by', 'https://iptv-org.github.io/iptv/countries/by.m3u'),
-    ('iptv-org-kz', 'https://iptv-org.github.io/iptv/countries/kz.m3u'),
-    ('iptv-org-arab', 'https://iptv-org.github.io/iptv/regions/arab.m3u'),
-    ('iptv-org-ara', 'https://iptv-org.github.io/iptv/languages/ara.m3u'),
-    ('iptv-org-iraq', 'https://iptv-org.github.io/iptv/countries/iq.m3u'),
-    ('iptv-org-egypt', 'https://iptv-org.github.io/iptv/countries/eg.m3u'),
-    ('iptv-org-news', 'https://iptv-org.github.io/iptv/categories/news.m3u'),
-    ('iptv-org-general', 'https://iptv-org.github.io/iptv/categories/general.m3u'),
-    ('iptv-org-education', 'https://iptv-org.github.io/iptv/categories/education.m3u'),
-    ('iptv-org-entertainment', 'https://iptv-org.github.io/iptv/categories/entertainment.m3u'),
-    ('iptv-org-sports', 'https://iptv-org.github.io/iptv/categories/sports.m3u'),
-    ('iptv-org-documentary', 'https://iptv-org.github.io/iptv/categories/documentary.m3u'),
-    ('iptv-org-music', 'https://iptv-org.github.io/iptv/categories/music.m3u'),
-    ('iptv-org-kids', 'https://iptv-org.github.io/iptv/categories/animation.m3u'),
-    ('iptv-org-english', 'https://iptv-org.github.io/iptv/languages/eng.m3u'),
+    # Main public catalog; specialized catalogs provide overlapping fallback streams.
+    ('iptv-org-index', 'https://iptv-org.github.io/iptv/index.m3u'),
+    ('iptv-org-raw', 'https://iptv-org.github.io/iptv/index.country.m3u'),
+    ('free-tv', 'https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8'),
+    *[(f'country-{c}', f'https://iptv-org.github.io/iptv/countries/{c}.m3u')
+      for c in ('iq','sa','eg','ae','kw','qa','bh','om','jo','lb','sy','ps','ma','dz','tn',
+                'ly','sd','ye','tr','ir','ru','ua','by','kz','us','gb','fr','de','in','pk')],
+    *[(f'region-{c}', f'https://iptv-org.github.io/iptv/regions/{c}.m3u')
+      for c in ('arab', 'asia', 'eur', 'amer', 'afr')],
+    *[(f'lang-{c}', f'https://iptv-org.github.io/iptv/languages/{c}.m3u')
+      for c in ('ara','eng','rus','tur','fra','spa','hin','urd','fas')],
+    *[(f'category-{c}', f'https://iptv-org.github.io/iptv/categories/{c}.m3u')
+      for c in ('news','general','education','entertainment','sports','documentary',
+                'music','animation','movies','series','science','culture','business',
+                'weather','travel','cooking','religious')],
 ]
+
 
 
 def forbidden(url):
@@ -67,9 +70,38 @@ def suitable(meta):
 
 
 def name_key(name):
-    name = re.sub(r'(?i)\b(?:hd|fhd|uhd|4k|1080p|720p|sd|live|tv)\b', ' ', name)
+    name = re.sub(r'(?i)\b(?:hd|fhd|uhd|4k|1080p|720p|sd|live)\b', ' ', name)
     name = re.sub(r'[^\w]+', ' ', name.casefold(), flags=re.UNICODE)
     return ' '.join(name.split())
+
+
+def channel_id(meta):
+    match = re.search(r'\btvg-id=[\"\']([^\"\']+)[\"\']', meta, re.I)
+    return match.group(1).strip().casefold() if match else ''
+
+
+def channel_match(source, candidate):
+    # A stable tvg-id takes priority; different known IDs reject false positives.
+    source_id, candidate_id = channel_id(source['meta']), channel_id(candidate['meta'])
+    if source_id and candidate_id:
+        if source_id == candidate_id:
+            return 100
+        # Different broadcasters often share very similar display names.
+        return 0
+    a, b = name_key(source['name']), name_key(candidate['name'])
+    if not a or not b:
+        return 0
+    if a == b:
+        return 100
+    # Require a meaningful shared token for longer channel names.
+    a_words, b_words = set(a.split()), set(b.split())
+    if max(len(a), len(b)) > 5 and not (a_words & b_words):
+        return 0
+    score = fuzz.WRatio(a, b)
+    # Short names are ambiguous: use stricter equality.
+    if min(len(a), len(b)) <= 4 and score < 100:
+        return 0
+    return score
 
 
 def parse_m3u(text):
@@ -214,19 +246,35 @@ def main():
     with cf.ThreadPoolExecutor(max_workers=8) as pool:
         donor_rows = [item for chunk in pool.map(fetch_donor, DONORS) for item in chunk]
     index = defaultdict(list)
+    ids = defaultdict(list)
     for row in donor_rows:
         k = name_key(row['name'])
         if k:
             index[k].append(row)
-    # Sort candidates: original, last successful, then public-donor alternatives.
+        if channel_id(row['meta']):
+            ids[channel_id(row['meta'])].append(row)
+    keys = list(index)
     planned = []
     all_urls = set()
     for row in original:
         k = name_key(row['name'])
         candidates = [('original', row['url']), ('cache', cached.get(k, ''))]
-        candidates += [(d['donor'], d['url']) for d in index.get(k, [])]
-        seen = set()
-        unique = []
+        source_id = channel_id(row['meta'])
+        matched = []
+        matched.extend((100, r) for r in ids.get(source_id, []))
+        matched.extend((100, r) for r in index.get(k, []) if channel_match(row, r) == 100)
+        if k and len(matched) < MAX_CANDIDATES and keys:
+            for candidate_key, _score, _ in process.extract(k, keys, scorer=fuzz.WRatio,
+                                                              limit=MATCH_POOL):
+                if candidate_key == k:
+                    continue
+                for donor in index[candidate_key]:
+                    score = channel_match(row, donor)
+                    if score >= FUZZY_THRESHOLD:
+                        matched.append((score, donor))
+        matched.sort(key=lambda entry: -entry[0])
+        candidates.extend((f"{d['donor']}:{score}", d['url']) for score, d in matched)
+        seen, unique = set(), []
         for label, url in candidates:
             if url and url not in seen and not forbidden(url):
                 unique.append((label, url))
@@ -247,20 +295,18 @@ def main():
                 checks[url] = (False, type(exc).__name__)
     output, new_cache = [], {}
     stats = Counter()
-    used_urls = set()
     failures = []
     for row, k, candidates in planned:
         if not k:
             stats['empty_name'] += 1
             continue
         chosen = next(((label, url) for label, url in candidates
-                       if checks.get(url, (False,))[0] and url not in used_urls), None)
+                       if checks.get(url, (False,))[0]), None)
         if not chosen:
             stats['unverified'] += 1
             failures.append(row['name'])
             continue
         label, url = chosen
-        used_urls.add(url)
         new_cache[k] = url
         output.append((row, url))
         stats['from_' + label] += 1
