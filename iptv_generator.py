@@ -1,315 +1,293 @@
-"""Generate a validated M3U playlist from a source playlist and permitted donors."""
-import concurrent.futures
+"""Build source-ordered IPTV playlist from publicly available streams.
+
+Source entries are preserved, donors only supply matching channel alternatives unless
+APPEND_NEW_CHANNELS=true. Network verification should run in GitHub Actions.
+"""
+import concurrent.futures as cf
 import json
 import logging
 import os
 import re
-import sys
-from collections import defaultdict
+import shutil
+import subprocess
+import tempfile
+from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 import requests
 
-INPUT = Path(os.getenv('INPUT_PLAYLIST', 'source_playlist.m3u'))
-OUTPUT = Path(os.getenv('OUTPUT_PLAYLIST', 'playlist.m3u'))
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+LOG = logging.getLogger('iptv')
+SOURCE = Path(os.getenv('INPUT_PLAYLIST', 'source_playlist.m3u'))
+OUT = Path(os.getenv('OUTPUT_PLAYLIST', 'playlist.m3u'))
 CACHE = Path(os.getenv('CACHE_FILE', 'working_links.json'))
 REPORT = Path(os.getenv('REPORT_FILE', 'update_report.txt'))
-WORKERS = max(1, min(30, int(os.getenv('MAX_WORKERS', '20'))))
-TIMEOUT = float(os.getenv('TIMEOUT_HTTP', '8'))
-REPLACE_DEAD = os.getenv('REPLACE_DEAD', 'true').lower() == 'true'
-MIN_SEGMENT_BYTES = int(os.getenv('MIN_SEGMENT_BYTES', '2048'))
-BLOCKED_DOMAINS = ('plist.link', 'ott.watch')
-# No explicit/adult catalogue sources. Filter inappropriate entries from all inputs.
-DONOR_SOURCES = [
-    ('IPTVru', 'https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVru.m3u', 1),
-    ('IPTVstable', 'https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8', 1),
-    ('iptv-org RU', 'https://iptv-org.github.io/iptv/countries/ru.m3u', 2),
-    ('Zabava', 'https://raw.githubusercontent.com/CrocoUser/zabava-project/refs/heads/main/zabava-full.m3u', 2),
-    ('Spirt007', 'https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u', 3),
-    ('LoganetX', 'https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXAll.m3u', 4),
+WORKERS = max(1, min(int(os.getenv('MAX_WORKERS', '16')), 32))
+TIMEOUT = max(3, int(os.getenv('STREAM_TIMEOUT', '9')))
+MAX_CANDIDATES = max(1, int(os.getenv('MAX_CANDIDATES', '5')))
+DEEP = os.getenv('DEEP_VIDEO_CHECK', 'true').lower() == 'true'
+BLOCKED = ('plist.link', 'ott.watch')
+UA = {'User-Agent': 'Mozilla/5.0 (compatible; PublicStreamChecker/2.0)', 'Accept': '*/*'}
+# Official iptv-org slices; overlapping regional/country/language lists are deduplicated.
+# Public availability does not, by itself, prove redistribution rights for each stream.
+DONORS = [
+    ('iptv-org-ru', 'https://iptv-org.github.io/iptv/countries/ru.m3u'),
+    ('iptv-org-ua', 'https://iptv-org.github.io/iptv/countries/ua.m3u'),
+    ('iptv-org-by', 'https://iptv-org.github.io/iptv/countries/by.m3u'),
+    ('iptv-org-kz', 'https://iptv-org.github.io/iptv/countries/kz.m3u'),
+    ('iptv-org-arab', 'https://iptv-org.github.io/iptv/regions/arab.m3u'),
+    ('iptv-org-ara', 'https://iptv-org.github.io/iptv/languages/ara.m3u'),
+    ('iptv-org-iraq', 'https://iptv-org.github.io/iptv/countries/iq.m3u'),
+    ('iptv-org-egypt', 'https://iptv-org.github.io/iptv/countries/eg.m3u'),
+    ('iptv-org-news', 'https://iptv-org.github.io/iptv/categories/news.m3u'),
+    ('iptv-org-general', 'https://iptv-org.github.io/iptv/categories/general.m3u'),
+    ('iptv-org-education', 'https://iptv-org.github.io/iptv/categories/education.m3u'),
+    ('iptv-org-entertainment', 'https://iptv-org.github.io/iptv/categories/entertainment.m3u'),
+    ('iptv-org-sports', 'https://iptv-org.github.io/iptv/categories/sports.m3u'),
+    ('iptv-org-documentary', 'https://iptv-org.github.io/iptv/categories/documentary.m3u'),
+    ('iptv-org-music', 'https://iptv-org.github.io/iptv/categories/music.m3u'),
+    ('iptv-org-kids', 'https://iptv-org.github.io/iptv/categories/animation.m3u'),
+    ('iptv-org-english', 'https://iptv-org.github.io/iptv/languages/eng.m3u'),
 ]
-HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; PlaylistValidator/1.0)', 'Accept': '*/*'}
-LOG = logging.getLogger('iptv')
-logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 
 
-def blocked(url):
-    """Check actual hostname only; blocks subdomains, not lookalike suffixes."""
+def forbidden(url):
     try:
         p = urlparse((url or '').strip())
-        host = (p.hostname or '').rstrip('.').lower()
-        return p.scheme.lower() not in ('http', 'https') or not host or any(
-            host == domain or host.endswith('.' + domain) for domain in BLOCKED_DOMAINS
-        )
+        h = (p.hostname or '').rstrip('.').lower()
+        return p.scheme not in ('http', 'https') or not h or any(h == d or h.endswith('.'+d) for d in BLOCKED)
     except ValueError:
         return True
 
 
-def safe_channel(extinf):
-    # Skip explicitly adult-labeled channels/groups, regardless of original/donor.
-    return not re.search(r'(?i)(?:\bxxx\b|\badult\b|\bporn\b|18\+|для взрослых)', extinf)
+def suitable(meta):
+    return not re.search(r'(?i)(?:\bxxx\b|\badult\b|\bporn\b|18\+|для взрослых)', meta)
 
 
-def key(name):
-    return re.sub(r'\s+', ' ', name.casefold()).strip()
+def name_key(name):
+    name = re.sub(r'(?i)\b(?:hd|fhd|uhd|4k|1080p|720p|sd|live|tv)\b', ' ', name)
+    name = re.sub(r'[^\w]+', ' ', name.casefold(), flags=re.UNICODE)
+    return ' '.join(name.split())
 
 
-def parse_playlist(text):
-    """Preserve original EXTINF metadata and per-channel option lines."""
-    rows = []
-    current = None
+def parse_m3u(text):
+    rows, current = [], None
     for line in text.splitlines():
         s = line.strip()
         if s.startswith('#EXTINF:'):
-            if current is not None:
+            if current and current['url']:
                 rows.append(current)
-            current = {'extinf': line.rstrip(), 'name': line.rsplit(',', 1)[-1].strip(),
-                       'extras': [], 'url': None}
-        elif current is not None and s:
+            current = {'meta': line.rstrip(), 'name': line.rsplit(',', 1)[-1].strip(), 'extras': [], 'url': ''}
+        elif current and s:
             if s.startswith('#'):
                 current['extras'].append(line.rstrip())
-            elif current['url'] is None:
+            elif not current['url']:
                 current['url'] = s
-    if current is not None:
+    if current and current['url']:
         rows.append(current)
     return rows
 
 
-def download_text(url, timeout=35):
-    if blocked(url):
-        raise ValueError('blocked_source')
-    with requests.Session() as s:
-        s.headers.update(HEADERS)
-        with s.get(url, timeout=timeout, allow_redirects=True) as r:
-            r.raise_for_status()
-            if any(blocked(step.url) for step in r.history) or blocked(r.url):
-                raise ValueError('blocked_redirect')
-            return r.text
+def checked_response(session, url, *, read_limit=131072):
+    if forbidden(url):
+        raise ValueError('blocked_url')
+    with session.get(url, headers=UA, timeout=(TIMEOUT, TIMEOUT), stream=True,
+                     allow_redirects=True) as response:
+        if response.status_code not in (200, 206):
+            raise ValueError('http_' + str(response.status_code))
+        if any(forbidden(x.url) for x in response.history) or forbidden(response.url):
+            raise ValueError('blocked_redirect')
+        body = bytearray()
+        for piece in response.iter_content(16384):
+            body.extend(piece)
+            if len(body) >= read_limit:
+                break
+        return response.url, response.headers.get('Content-Type', '').lower(), bytes(body)
 
 
-def check_stream(url):
-    if blocked(url):
-        return False, 'blocked_domain_or_url'
+def fetch_donor(source):
+    label, url = source
     try:
         with requests.Session() as s:
-            s.headers.update(HEADERS)
-            # GET handles servers that reject HEAD. Streaming limits downloaded data.
-            with s.get(url, timeout=(TIMEOUT, TIMEOUT), stream=True,
-                       allow_redirects=True) as r:
-                if any(blocked(step.url) for step in r.history) or blocked(r.url):
-                    return False, 'blocked_redirect'
-                if r.status_code not in (200, 206):
-                    return False, f'http_{r.status_code}'
-                ct = r.headers.get('Content-Type', '').lower()
-                sample = b''
-                for chunk in r.iter_content(8192):
-                    sample += chunk
-                    if len(sample) >= 32768:
-                        break
-                if not sample:
-                    return False, 'empty_response'
-                low = sample[:1000].lower()
-                if b'<html' in low or b'<!doctype html' in low:
-                    return False, 'html_instead_of_stream'
-                is_hls = '.m3u8' in urlparse(r.url).path.lower() or 'mpegurl' in ct
-                if is_hls:
-                    body = sample.decode('utf-8', 'replace')
-                    if '#EXTM3U' not in body:
-                        return False, 'invalid_hls'
-                    if '#EXT-X-STREAM-INF' in body:
-                        for line in body.splitlines():
-                            line = line.strip()
-                            if line and not line.startswith('#'):
-                                variant = urljoin(r.url, line)
-                                if blocked(variant):
-                                    return False, 'blocked_hls_variant'
-                                return check_hls_child(variant)
-                        return False, 'missing_hls_variant'
-                    return inspect_segments(body, r.url)
-                if '.mpd' in urlparse(r.url).path.lower() or 'dash+xml' in ct:
-                    return ('<MPD' in sample.decode('utf-8', 'replace'), 'dash_manifest')
-                return True, 'http_ok'
-    except requests.RequestException as e:
-        return False, type(e).__name__
-    except Exception as e:
-        return False, type(e).__name__
-
-
-def check_hls_child(url):
-    if blocked(url):
-        return False, 'blocked_hls_variant'
-    try:
-        with requests.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True) as r:
-            if blocked(r.url) or any(blocked(step.url) for step in r.history):
-                return False, 'blocked_redirect'
-            if r.status_code != 200:
-                return False, f'variant_http_{r.status_code}'
-            data = b''
-            for chunk in r.iter_content(8192):
-                data += chunk
-                if len(data) >= 32768:
-                    break
-            text = data.decode('utf-8', 'replace')
-            if '#EXTM3U' not in text:
-                return False, 'invalid_variant'
-            return inspect_segments(text, r.url)
-    except requests.RequestException as e:
-        return False, type(e).__name__
-
-
-def inspect_segments(text, base):
-    urls = [x.strip() for x in text.splitlines() if x.strip() and not x.startswith('#')]
-    if not urls:
-        return False, 'no_segments'
-    if '#EXT-X-ENDLIST' not in text and len(urls) < 2:
-        return False, 'stale_live'
-    seg = urljoin(base, urls[0])
-    if blocked(seg):
-        return False, 'blocked_segment'
-    try:
-        with requests.get(seg, headers=HEADERS, stream=True, timeout=TIMEOUT) as r:
-            if blocked(r.url) or any(blocked(step.url) for step in r.history):
-                return False, 'blocked_redirect'
-            if r.status_code not in (200, 206):
-                return False, f'segment_http_{r.status_code}'
-            data = b''
-            for chunk in r.iter_content(8192):
-                data += chunk
-                if len(data) >= 32768:
-                    break
-            if len(data) < MIN_SEGMENT_BYTES:
-                return False, 'segment_too_short'
-            if b'<html' in data[:1000].lower():
-                return False, 'html_segment'
-            return True, 'hls_segment_ok'
-    except requests.RequestException as e:
-        return False, type(e).__name__
-
-
-def get_donor(source):
-    name, url, priority = source
-    try:
-        rows = parse_playlist(download_text(url))
-        result = [{'name': e['name'], 'url': e['url'], 'priority': priority, 'source': name}
-                  for e in rows if e['url'] and e['name'] and safe_channel(e['extinf'])
-                  and not blocked(e['url'])]
-        LOG.info('Donor %s: %s eligible channels', name, len(result))
-        return result
-    except Exception as e:
-        LOG.warning('Donor %s failed: %s', name, e)
+            final, _, body = checked_response(s, url, read_limit=6_000_000)
+        rows = [dict(row, donor=label) for row in parse_m3u(body.decode('utf-8-sig', 'replace'))
+                if suitable(row['meta']) and not forbidden(row['url'])]
+        LOG.info('%s: %d candidates', label, len(rows))
+        return rows
+    except Exception as exc:
+        LOG.warning('%s unavailable: %s', label, exc)
         return []
 
 
-def load_cache():
-    if not CACHE.exists():
-        return {}
+def playlist_urls(text, base):
+    return [urljoin(base, line.strip()) for line in text.splitlines()
+            if line.strip() and not line.lstrip().startswith('#')]
+
+
+def looks_like_media(blob):
+    if not blob or b'<html' in blob[:1024].lower() or b'<!doctype html' in blob[:1024].lower():
+        return False
+    return (blob[0] == 0x47 or (len(blob) > 192 and blob[192] == 0x47)
+            or b'ftyp' in blob[:48] or blob.startswith(b'\x1a\x45\xdf\xa3')
+            or blob.startswith(b'\xff\xf1') or blob.startswith(b'\xff\xf9')
+            or blob.startswith(b'\x00\x00\x01\xba'))
+
+
+def ffprobe_video(url):
+    if not DEEP or not shutil.which('ffprobe'):
+        return None
     try:
-        raw = json.loads(CACHE.read_text(encoding='utf-8'))
-        if not isinstance(raw, dict):
-            return {}
-        return {str(k): v for k, v in raw.items()
-                if isinstance(v, str) and not blocked(v)}
-    except (OSError, ValueError) as e:
-        LOG.warning('Ignoring unreadable cache: %s', e)
-        return {}
+        proc = subprocess.run(['ffprobe', '-v', 'error', '-rw_timeout', '7000000',
+                               '-analyzeduration', '3000000', '-probesize', '1000000',
+                               '-show_entries', 'stream=codec_type', '-of', 'json', url],
+                              timeout=13, capture_output=True, text=True, check=False)
+        streams = json.loads(proc.stdout or '{}').get('streams', [])
+        return any(s.get('codec_type') == 'video' for s in streams)
+    except (subprocess.TimeoutExpired, ValueError, OSError):
+        return None
+
+
+def validate(url):
+    if forbidden(url):
+        return False, 'blocked_domain'
+    try:
+        with requests.Session() as s:
+            final, ct, body = checked_response(s, url)
+            if not body or b'<html' in body[:1024].lower():
+                return False, 'empty_or_webpage'
+            # Handle HLS master and media playlists, not only URLs ending in .m3u8.
+            is_hls = b'#EXTM3U' in body[:256] and (b'#EXT-X-' in body)
+            if is_hls or 'mpegurl' in ct:
+                if not is_hls:
+                    return False, 'invalid_hls'
+                text = body.decode('utf-8-sig', 'replace')
+                for depth in range(3):
+                    urls = playlist_urls(text, final)
+                    if not urls:
+                        return False, 'no_hls_segments'
+                    if '#EXT-X-STREAM-INF' in text or '#EXT-X-MEDIA-SEQUENCE' not in text and '#EXT-X-MAP' not in text and '#EXTINF:' not in text:
+                        final, _, data = checked_response(s, urls[0])
+                        text = data.decode('utf-8-sig', 'replace')
+                        if '#EXTM3U' not in text:
+                            return False, 'invalid_hls_variant'
+                        continue
+                    # Only media playlists with media segments qualify.
+                    if '#EXTINF:' not in text and '#EXT-X-MAP' not in text:
+                        return False, 'no_media_segments'
+                    seg = urls[0]
+                    _, seg_ct, chunk = checked_response(s, seg, read_limit=65536)
+                    if 'text/html' in seg_ct or len(chunk) < 1024 or not looks_like_media(chunk):
+                        return False, 'not_video_segment'
+                    # Segment content is evidence of a playable stream; not proof of a real station.
+                    return True, 'hls_media_confirmed'
+                return False, 'hls_nesting_limit'
+            if b'<MPD' in body[:4000] or 'dash+xml' in ct:
+                return False, 'dash_not_verified'
+            if looks_like_media(body):
+                probe = ffprobe_video(url)
+                if probe is False:
+                    return False, 'no_video_track'
+                return True, 'media_bytes_confirmed' if probe is None else 'video_track_confirmed'
+            return False, 'unrecognized_payload'
+    except (requests.RequestException, ValueError, UnicodeError) as exc:
+        return False, str(exc)[:100]
+
+
+def read_cache():
+    try:
+        data = json.loads(CACHE.read_text(encoding='utf-8'))
+        if isinstance(data, dict):
+            return {k: v for k, v in data.items() if isinstance(v, str) and not forbidden(v)}
+    except (OSError, ValueError):
+        pass
+    return {}
 
 
 def main():
-    if not INPUT.is_file():
-        LOG.error('Missing input playlist: %s', INPUT)
+    if not SOURCE.is_file():
+        LOG.error('Missing %s', SOURCE)
         return 1
-    entries = parse_playlist(INPUT.read_text(encoding='utf-8-sig'))
-    cache = load_cache()
-    donors = []
-    if REPLACE_DEAD:
-        with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-            for result in pool.map(get_donor, DONOR_SOURCES):
-                donors.extend(result)
-    donor_index = defaultdict(list)
-    for d in donors:
-        donor_index[key(d['name'])].append(d)
-    for candidates in donor_index.values():
-        candidates.sort(key=lambda item: item['priority'])
-
-    # Only permitted candidate links are probed. Save result by URL to avoid duplicates.
+    original = [x for x in parse_m3u(SOURCE.read_text(encoding='utf-8-sig')) if suitable(x['meta'])]
+    cached = read_cache()
+    with cf.ThreadPoolExecutor(max_workers=8) as pool:
+        donor_rows = [item for chunk in pool.map(fetch_donor, DONORS) for item in chunk]
+    index = defaultdict(list)
+    for row in donor_rows:
+        k = name_key(row['name'])
+        if k:
+            index[k].append(row)
+    # Sort candidates: original, last successful, then public-donor alternatives.
+    planned = []
     all_urls = set()
-    for e in entries:
-        if not safe_channel(e['extinf']):
-            continue
-        candidates = [e['url'], cache.get(key(e['name']))]
-        candidates += [d['url'] for d in donor_index.get(key(e['name']), [])] if REPLACE_DEAD else []
-        all_urls.update(u for u in candidates if u and not blocked(u))
-    LOG.info('Validating %d permitted unique URLs', len(all_urls))
-    results = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        tasks = {pool.submit(check_stream, u): u for u in all_urls}
-        for task in concurrent.futures.as_completed(tasks):
-            url = tasks[task]
-            try:
-                results[url] = task.result()
-            except Exception as e:
-                results[url] = (False, type(e).__name__)
-
-    resolved, new_cache, seen_names, seen_urls = [], {}, set(), set()
-    stats = defaultdict(int)
-    notes = []
-    for e in entries:
-        name, name_key = e['name'], key(e['name'])
-        if not name_key or not safe_channel(e['extinf']):
-            stats['inappropriate_or_empty'] += 1
-            continue
-        if name_key in seen_names:
-            stats['duplicate_name'] += 1
-            continue
-        candidates = [('original', e['url']), ('cache', cache.get(name_key))]
-        if REPLACE_DEAD:
-            candidates += [('donor:' + d['source'], d['url'])
-                           for d in donor_index.get(name_key, [])]
-        chosen = None
-        for source, url in candidates:
-            if not url:
-                continue
-            if blocked(url):
-                stats['blocked_candidate'] += 1
-                continue
-            if url in seen_urls:
-                continue
-            if results.get(url, (False,))[0]:
-                chosen = (url, source)
+    for row in original:
+        k = name_key(row['name'])
+        candidates = [('original', row['url']), ('cache', cached.get(k, ''))]
+        candidates += [(d['donor'], d['url']) for d in index.get(k, [])]
+        seen = set()
+        unique = []
+        for label, url in candidates:
+            if url and url not in seen and not forbidden(url):
+                unique.append((label, url))
+                seen.add(url)
+            if len(unique) >= MAX_CANDIDATES:
                 break
-        if not chosen:
-            stats['dropped'] += 1
-            notes.append(f'[DROP] {name}')
+        planned.append((row, k, unique))
+        all_urls.update(url for _, url in unique)
+    LOG.info('Source channels: %d; donors: %d; candidate URLs: %d',len(original), len(donor_rows), len(all_urls))
+    checks = {}
+    with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        futures = {pool.submit(validate, url): url for url in all_urls}
+        for future in cf.as_completed(futures):
+            url = futures[future]
+            try:
+                checks[url] = future.result()
+            except Exception as exc:
+                checks[url] = (False, type(exc).__name__)
+    output, new_cache = [], {}
+    stats = Counter()
+    used_urls = set()
+    failures = []
+    for row, k, candidates in planned:
+        if not k:
+            stats['empty_name'] += 1
             continue
-        url, source = chosen
-        if blocked(url):
-            raise AssertionError('Blocked URL somehow selected')
-        seen_names.add(name_key)
-        seen_urls.add(url)
-        new_cache[name_key] = url
-        resolved.append((e, url))
-        stats[source] += 1
-
-    # Do not wipe a previously good playlist during a temporary total outage.
-    if entries and not resolved:
-        LOG.error('Zero working permitted channels; outputs left unchanged')
+        chosen = next(((label, url) for label, url in candidates
+                       if checks.get(url, (False,))[0] and url not in used_urls), None)
+        if not chosen:
+            stats['unverified'] += 1
+            failures.append(row['name'])
+            continue
+        label, url = chosen
+        used_urls.add(url)
+        new_cache[k] = url
+        output.append((row, url))
+        stats['from_' + label] += 1
+    if not output:
+        LOG.error('No channels verified; retaining existing output')
         return 2
-    now = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
-    lines = ['#EXTM3U', f'# Updated: {now}', f'# Channels: {len(resolved)}', '']
-    for entry, url in resolved:
-        lines.extend([entry['extinf'], *entry['extras'], url])
-    OUTPUT.write_text('\n'.join(lines) + '\n', encoding='utf-8')
-    CACHE.write_text(json.dumps(new_cache, ensure_ascii=False, indent=2, sort_keys=True) + '\n',
-                     encoding='utf-8')
-    REPORT.write_text('Updated: ' + now + '\n' + 'Source entries: ' + str(len(entries)) +
-                      '\nOutput channels: ' + str(len(resolved)) + '\nStatistics: ' +
-                      json.dumps(dict(stats), ensure_ascii=False, sort_keys=True) + '\n\n' +
-                      '\n'.join(notes[:2000]) + '\n', encoding='utf-8')
-    LOG.info('Wrote %d channels; stats=%s', len(resolved), dict(stats))
+    timestamp = datetime.now(timezone.utc).isoformat(timespec='seconds')
+    lines = ['#EXTM3U', '# Updated: ' + timestamp, '# Verified channels: ' + str(len(output))]
+    for row, url in output:
+        lines += [row['meta'], *row['extras'], url]
+    # Atomic replacement prevents truncated playlist if a job is interrupted.
+    for path, value in ((OUT, '\n'.join(lines)+'\n'),
+                        (CACHE, json.dumps(new_cache, ensure_ascii=False, indent=2)+'\n'),
+                        (REPORT, json.dumps({'updated': timestamp, 'source_count': len(original),
+                                             'verified_count': len(output), 'stats': dict(stats),
+                                             'unverified_names': failures,
+                                             'checks': Counter(x[1] for x in checks.values())},
+                                            ensure_ascii=False, indent=2)+'\n')):
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=path.parent,
+                                         delete=False) as handle:
+            handle.write(value)
+            temp = Path(handle.name)
+        temp.replace(path)
+    LOG.info('Playlist saved with %s verified channels', len(output))
     return 0
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    raise SystemExit(main())
