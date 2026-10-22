@@ -1,67 +1,63 @@
 name: Update IPTV Playlist
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - 'source_playlist.m3u'
+  schedule:
+    - cron: '17 */6 * * *'
 
 permissions:
   contents: write
 
 concurrency:
-  group: iptv-update
+  group: playlist-update-main
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
-
+    timeout-minutes: 50
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out latest main
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: main
+          fetch-depth: 1
+          persist-credentials: true
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
+          cache: pip
 
-      - run: pip install requests urllib3
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
 
-      - name: Run updater
-        env:
-          INPUT_PLAYLIST:  source_playlist.m3u
-          OUTPUT_PLAYLIST: playlist.m3u
-          MAX_WORKERS:     '50'
-          TIMEOUT_HTTP:    '6'
-          TIMEOUT_MANIFEST: '8'
-          TIMEOUT_SEGMENT: '8'
-          MIN_SEGMENT_BYTES: '2048'
-          REPLACE_DEAD:    'true'
-        run: python iptv_generator.py
-
-      - name: Show summary
-        if: always()
+      - name: Update and publish with safe retry
+        shell: bash
         run: |
-          echo "=== playlist.m3u ==="
-          grep -c '^#EXTINF' playlist.m3u || true
-          echo ""
-          echo "=== Report (first 60 lines) ==="
-          head -60 update_report.txt || true
-
-      - name: Commit
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playlist.m3u working_links.json update_report.txt
-          if git diff --staged --quiet; then
-            echo "No changes."
-          else
-            CNT=$(grep -c '^#EXTINF' playlist.m3u || echo 0)
-            git commit -m "🤖 Update playlist ($CNT ch) — $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
-          fi
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            echo "Attempt $attempt of 3"
+            # Regenerate from the CURRENT remote snapshot on each attempt.
+            # No force-push and no merge of conflicting generated files.
+            git fetch origin main
+            git checkout -B main origin/main
+            python iptv_generator.py
+            git add playlist.m3u working_links.json update_report.txt
+            if git diff --cached --quiet; then
+              echo 'No changes.'
+              exit 0
+            fi
+            count=$(grep -c '^#EXTINF:' playlist.m3u || true)
+            git commit -m "Update playlist (${count:-0} channels)"
+            if git push origin HEAD:main; then
+              echo 'Push successful.'
+              exit 0
+            fi
+            echo 'Remote changed during update; regenerating from latest main.'
+          done
+          echo 'Push failed after 3 attempts.' >&2
+          exit 1
