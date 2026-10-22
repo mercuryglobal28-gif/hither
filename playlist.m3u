@@ -1,14 +1,10 @@
 #EXTM3U
-# Updated: 2026-10-22 21:40:20 UTC
-# Channels: 368
-# Kept: 239 | Cache: 99 | Donor: 31 | Dropped: 1242
+# Updated: 2026-10-22 22:16:54 UTC
+# Channels: 181
 
 #EXTINF:0 tvg-id="chnl-2" tvg-name="Россия 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 HD
 #EXTGRP:1. Федеральные
 https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8
-#EXTINF:0 tvg-id="chnl-1644" tvg-name="Россия 1 SD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1644.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 SD
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze341644/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1Oqs-CDdDDamMVRK_MfWAitqbzdBwptwVFSvTP247RV0X.kr2465
 #EXTINF:0 tvg-id="chnl-365" tvg-name="Россия 1 +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/365.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 +2
 #EXTGRP:1. Федеральные
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8
@@ -18,12 +14,9 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8
 #EXTINF:0 tvg-id="chnl-388" tvg-name="Россия 1 +6" tvg-logo="http://ru1.plist.link/plepg/img/channels/388.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Россия 1 +6
 #EXTGRP:1. Федеральные
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_7/variant.m3u8
-#EXTINF:0 tvg-id="chnl-2812" tvg-name="Россия-Культуpa +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2812.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Россия-Культуpa +7
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze302812/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1Oh1VSWO8kmgRUdW2yxpG7TnsNI_QVQFQ3kmZzV4Ii23p.kr2465
 #EXTINF:0 tvg-id="chnl-3" tvg-name="НТВ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/3.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", НТВ HD
 #EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze34003/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OppEwh2AQJwnAmFcYYEsPU3pN5iErcufqRund96FgXu3.kr2465
+http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/rewind-7150.m3u8
 #EXTINF:0 tvg-id="chnl-2453" tvg-name="НТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2453.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", НТВ
 #EXTGRP:1. Федеральные
 https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
@@ -36,21 +29,12 @@ http://cdn2.ntv.ru/ntv2/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="chnl-368" tvg-name="НТВ +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/368.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", НТВ +4
 #EXTGRP:1. Федеральные
 https://cdn.ntv.ru/ntv4/playlist.m3u8
-#EXTINF:0 tvg-id="chnl-390" tvg-name="НТВ +6" tvg-logo="http://ru1.plist.link/plepg/img/channels/390.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", НТВ +6
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze30390/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OrLi_Qbia99SX-lmHvJXjZVqA8ZhVUCNuHsSf8j768EX.kr2465
 #EXTINF:0 tvg-id="chnl-2805" tvg-name="НТВ +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2805.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", НТВ +7
 #EXTGRP:1. Федеральные
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
 #EXTINF:0 tvg-id="chnl-5" tvg-name="ТНТ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/5.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ HD
 #EXTGRP:1. Федеральные
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=M9H6z-O74nqbdC30HqutIw&e=2070623480&scheme=https
-#EXTINF:0 tvg-id="chnl-1950" tvg-name="ТНТ HD (Дубль)" tvg-logo="http://ru1.plist.link/plepg/img/channels/1950.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", ТНТ HD (Дубль)
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze301950/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OtDtPyc_QQktt4ChzyR1s4gqas6It4cmebaD93uQzYP-.kr2465
-#EXTINF:0 tvg-id="chnl-370" tvg-name="ТНТ +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/370.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ +4
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze35370/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1On9JGV2y-CW3TTV9fJE-XkKMNKlzvfHJyh9xwnUmdSik.kr2465
 #EXTINF:0 tvg-id="chnl-391" tvg-name="ТНТ +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/391.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ +7
 #EXTGRP:1. Федеральные
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
@@ -72,18 +56,15 @@ http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 tvg-id="chnl-6" tvg-name="Москва 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/6.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Москва 24
 #EXTGRP:1. Федеральные
 https://stream.smotrim.ru/hls2/moscow_24/playlist_3.m3u8
-#EXTINF:0 tvg-id="chnl-2814" tvg-name="Пятница +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2814.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Пятница +7
+#EXTINF:0 tvg-id="chnl-25" tvg-name="Пятница! HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/25.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Пятница! HD
 #EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze352814/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OuDlf4Ub8KkFPZ07OZQ9GW7V1EjeafeQaaka21FFWfKJ.kr2465
+https://vod.tuva.ru/friday/index.m3u8
 #EXTINF:0 tvg-id="chnl-4" tvg-name="Рен ТВ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/4.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Рен ТВ HD
 #EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze30004/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OjUurCLdDp72s8IlLDxr4VQd0gX-7dmfCFUoEwSrK7zt.kr2465
+http://194.152.35.17/ren_tv/index.m3u8
 #EXTINF:0 tvg-id="chnl-371" tvg-name="Рен ТВ +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/371.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Рен ТВ +2
 #EXTGRP:1. Федеральные
 http://178.134.1.158:8081/RENTV/index.m3u8?token=tva.in.ua
-#EXTINF:0 tvg-id="chnl-1059" tvg-name="Рен ТВ +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/1059.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Рен ТВ +4
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze361059/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OnbInREB9_hufAvc4D9xKKMcfTVXKG3QXAK07kn3F7FF.kr2465
 #EXTINF:0 tvg-id="chnl-2809" tvg-name="Рен ТВ +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2809.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Рен ТВ +7
 #EXTGRP:1. Федеральные
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
@@ -92,52 +73,28 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
 http://94.250.255.172/ptv/vitrina/ch.php?id=aHR0cHM6Ly9tZWRpYS5tZWRpYXZpdHJpbmEucnUvYmFsYW5jZXIvdjEvdHY1LzV0di9zdHJlYW1zLmpzb24=
 #EXTINF:0 tvg-id="chnl-372" tvg-name="Пятый Канал +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/372.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Пятый Канал +2
 #EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze34372/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OsH13FCU3IMEGrXEjmHuHvWAOpY5khmZjGfdMXUk_xzz.kr2465
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8
 #EXTINF:0 tvg-id="chnl-395" tvg-name="Пятый Канал +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/395.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Пятый Канал +4
 #EXTGRP:1. Федеральные
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8
-#EXTINF:0 tvg-id="chnl-396" tvg-name="Пятый Канал +6" tvg-logo="http://ru1.plist.link/plepg/img/channels/396.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Пятый Канал +6
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze32396/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OvDHkFyFn7X5HXxG8FyW-SN1cFHoZlaRFTcdMp3QKf1r.kr2465
 #EXTINF:0 tvg-id="chnl-2810" tvg-name="Пятый канал +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2810.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Пятый канал +7
 #EXTGRP:1. Федеральные
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
-#EXTINF:0 tvg-id="chnl-21" tvg-name="СТС HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/21.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", СТС HD
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze36021/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1On9fwDR2KtiLzzR5xptn8i6Z37_vZTiAlvjRTKigyrZS.kr2465
-#EXTINF:0 tvg-id="chnl-2033" tvg-name="СТС HD (Дубль)" tvg-logo="http://ru1.plist.link/plepg/img/channels/2033.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", СТС HD (Дубль)
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze362033/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1Oi48-MFM-SREdNIsjGziCHDvB844LZmAKYSH03myApEe.kr2465
 #EXTINF:0 tvg-id="chnl-398" tvg-name="СТС +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/398.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", СТС +2
 #EXTGRP:1. Федеральные
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STS_EKT/variant.m3u8
-#EXTINF:0 tvg-id="chnl-400" tvg-name="СТС +6" tvg-logo="http://ru1.plist.link/plepg/img/channels/400.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", СТС +6
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze30400/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OuBNCFdrxVGnj26A9NYqcmG-PEfzgJi3XgK_LNY7n6tu.kr2465
-#EXTINF:0 tvg-id="chnl-2817" tvg-name="СТС +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2817.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", СТС +7
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze372817/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OiPbXMQFuynJUAFe5QrPLEAs3BlyIVtXKeCWbpDB5zRE.kr2465
-#EXTINF:0 tvg-id="chnl-110" tvg-name="Домашний HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/110.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Домашний HD
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze38110/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OsaKofxm2-1C9skJKJzTq8LZBLXoq48Jx_0k0C8o8aly.kr2465
 #EXTINF:0 tvg-id="chnl-417" tvg-name="Домашний +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/417.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Домашний +2
 #EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze39417/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OtVQSPu4xT8g3941B8lD9oKc-N7TBaiOWB-JH29SRqzf.kr2465
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOMASHNY_EKT/variant.m3u8
 #EXTINF:0 tvg-id="chnl-2027" tvg-name="Домашний +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2027.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Домашний +4
 #EXTGRP:1. Федеральные
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8
 #EXTINF:0 tvg-id="chnl-2813" tvg-name="Домашний +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2813.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", Домашний +7
 #EXTGRP:1. Федеральные
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
-#EXTINF:0 tvg-id="chnl-394" tvg-name="ТВЦ +6" tvg-logo="http://ru1.plist.link/plepg/img/channels/394.png?6ada7df81efc2" tvg-rec="0" timeshift="0" group-title="1. Федеральные", ТВЦ +6
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze31394/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OsSkqdo1f2-qMhOis38Y8tFkFJAlgGvGZw1d-cI7Hfdj.kr2465
 #EXTINF:0 tvg-id="chnl-14" tvg-name="ТНТ4 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/14.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", ТНТ4 HD
 #EXTGRP:1. Федеральные
 https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=zhnm9INH7ysOhS2LQStm2A&e=2070623480&scheme=https
-#EXTINF:0 tvg-id="chnl-2855" tvg-name="Пятница +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2855.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Пятница +4
-#EXTGRP:1. Федеральные
-http://ru1.plist.link:3355/XM2U1ZVTze372855/index.m3u8?token=5LkVHgHlPT2tzm0XtDH1OmspHWk0lyCHQm3jQ081nL5FS0ywf_THVNuH2evcjpHq.kr2465
 #EXTINF:0 tvg-id="chnl-7" tvg-name="Россия 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/7.png?6ada7df81f14c" tvg-rec="1" timeshift="1" group-title="2. Новостные", Россия 24
 #EXTGRP:2. Новостные
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
@@ -147,27 +104,12 @@ http://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="chnl-509" tvg-name="Известия HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/509.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", Известия HD
 #EXTGRP:2. Новостные
 http://s20441.cdn.ngenix.net/hls/CH_R49_MGTK/variant.m3u8
-#EXTINF:0 tvg-id="chnl-532" tvg-name="360 новости HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/532.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", 360 новости HD
-#EXTGRP:2. Новостные
-http://ru1.plist.link:3355/XM2U1ZVTze36532/index.m3u8?token=y5RAsyTByefYjBZAPPi3T90EEvNI8u-RLvQZymVTO59IcpkPW-uIxpodPsfyv2bU.kr2465
-#EXTINF:0 tvg-id="chnl-498" tvg-name="Euronews English" tvg-logo="http://ru1.plist.link/plepg/img/channels/498.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", Euronews English
-#EXTGRP:2. Новостные
-http://ru1.plist.link:3355/XM2U1ZVTze31498/index.m3u8?token=y5RAsyTByefYjBZAPPi3T0CiN7ysDqAJcT30VwO-0y46rkkLMiVaO7ydaUVWMBti.kr2465
 #EXTINF:0 tvg-id="chnl-2709" tvg-name="Deutsche Welle" tvg-logo="http://ru1.plist.link/plepg/img/channels/2709.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", Deutsche Welle
 #EXTGRP:2. Новостные
-http://ru1.plist.link:3355/XM2U1ZVTze382709/index.m3u8?token=y5RAsyTByefYjBZAPPi3T7hzE2h4zmy3nbPyRN1wfy1OU17_VgemPsO2cq_ukzku.kr2465
-#EXTINF:0 tvg-id="chnl-1064" tvg-name="US | NBC 6 FL" tvg-logo="http://ru1.plist.link/plepg/img/channels/1064.png?6ada7df81f14c" tvg-rec="0" timeshift="0" group-title="2. Новостные", US | NBC 6 FL
-#EXTGRP:2. Новостные
-http://ru1.plist.link:3355/XM2U1ZVTze331064/index.m3u8?token=y5RAsyTByefYjBZAPPi3T0AB2NChyzye_7MyTIfPADajmhEGICxfLV5Gc8bPQrOE.kr2465
-#EXTINF:0 tvg-id="chnl-10" tvg-name="Киносвидание HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/10.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Киносвидание HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze30010/index.m3u8?token=uVLBoPRZyVtg_9ykUe8FlxC556cgW48cj3G1K7GJA25fZCvIvN03NfQKwZ0LldtC.kr2465
+http://stream.mcquack.net/440/index.m3u8
 #EXTINF:0 tvg-id="chnl-9" tvg-name="Кинохит HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/9.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Кинохит HD
 #EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze32009/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl0cDTUyFh_CUE25CnxNovQjjYzWhSFNHTevLFECW0w8R.kr2465
-#EXTINF:0 tvg-id="chnl-652" tvg-name="Киноужас HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/652.png?6ada7df81f19e" tvg-rec="2" timeshift="2" group-title="3. Кино", Киноужас HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze38652/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl4V5qgk7I2VG5oIBGK4OY6GwudrGTECqcC_CwV7rkEb2.kr2465
+https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="chnl-112" tvg-name="Мужское кино HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/112.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Мужское кино HD
 #EXTGRP:3. Кино
 https://stream8.cinerama.uz/1237/index.m3u8
@@ -182,31 +124,16 @@ https://stream8.cinerama.uz/1060/index.m3u8
 http://stream.mcquack.net/201/index.m3u8
 #EXTINF:0 tvg-id="chnl-60" tvg-name="Viju+ Premiere HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/60.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Viju+ Premiere HD
 #EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze36060/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl31KeUtqnaQETN3DTExDI8aiNDcJG6Z0nV1fIE-Wfa1e.kr2465
+http://stream.mcquack.net/202/index.m3u8
 #EXTINF:0 tvg-id="chnl-59" tvg-name="Viju+ Megahit HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/59.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Viju+ Megahit HD
 #EXTGRP:3. Кино
 http://stream.mcquack.net/200/index.m3u8
-#EXTINF:0 tvg-id="chnl-701" tvg-name="Viju+ Serial HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/701.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Viju+ Serial HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze39701/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl84ErmccGIOlt71RrzrTORePND31loeUjyTTOIy_LJ4H.kr2465
 #EXTINF:0 tvg-id="chnl-32" tvg-name="Amedia Hit HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/32.png?6ada7df81f19e" tvg-rec="2" timeshift="2" group-title="3. Кино", Amedia Hit HD
 #EXTGRP:3. Кино
 http://stream.mcquack.net/162/index.m3u8
-#EXTINF:0 tvg-id="chnl-421" tvg-name="Amedia 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/421.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Amedia 1 HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze36421/index.m3u8?token=uVLBoPRZyVtg_9ykUe8FlxmkmrMbUmzLZRaQ3O2cz9h6OEx70ef6Vr-lJs8tA59g.kr2465
-#EXTINF:0 tvg-id="chnl-117" tvg-name="НСТ" tvg-logo="http://ru1.plist.link/plepg/img/channels/117.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", НСТ
-#EXTGRP:3. Кино
-http://ott.watch/stream/6HAPZWKKG3/207.m3u8
 #EXTINF:0 tvg-id="chnl-33" tvg-name="ЕвроКино HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/33.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", ЕвроКино HD
 #EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze34033/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl4dj4kBxGuMijmWuiskkGl-VY9b7kHsSQkn-SwcCyhxT.kr2465
-#EXTINF:0 tvg-id="chnl-24" tvg-name="ТВ-3 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/24.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", ТВ-3 HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze34024/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl6SMFKC66taIRQezbHJLk0jlAeC95BSeYaSxY9ZzvMg9.kr2465
-#EXTINF:0 tvg-id="chnl-410" tvg-name="ТВ-3 +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/410.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", ТВ-3 +4
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze32410/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl0278nbNPOedr3bUoL3cvHkzhm6xBiI8puhre01eQXeB.kr2465
+http://stream.mcquack.net/385/index.m3u8
 #EXTINF:0 tvg-id="chnl-80" tvg-name="Дом Кино Премиум HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/80.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Дом Кино Премиум HD
 #EXTGRP:3. Кино
 http://stream.mcquack.net/108/index.m3u8
@@ -215,46 +142,22 @@ http://stream.mcquack.net/108/index.m3u8
 https://streaming.televizor-24-tochka.ru/live/44.m3u8
 #EXTINF:0 tvg-id="chnl-84" tvg-name="Премиальное HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/84.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Премиальное HD
 #EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze33084/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl-g1FLBehHhZBntPYvbHzAG-n6p76k2RaLKYXBq9J7mO.kr2465
-#EXTINF:0 tvg-id="chnl-98" tvg-name="Романтичное HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/98.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Романтичное HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze34098/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Flyg8RRn47l6-fJIGzTXGtfMZp2uklp1KuVxtSUgfJRKR.kr2465
+http://stream.mcquack.net/421/index.m3u8
 #EXTINF:0 tvg-id="chnl-134" tvg-name="Шокирующее HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/134.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Шокирующее HD
 #EXTGRP:3. Кино
 http://stream.mcquack.net/75/index.m3u8
-#EXTINF:0 tvg-id="chnl-72" tvg-name="Остросюжетное HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/72.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Остросюжетное HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze33072/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl8q_y2v-zuv1p5VxKa60pyDzqvT7XSKGE0vhzyoKYVf8.kr2465
-#EXTINF:0 tvg-id="chnl-140" tvg-name="Душевное HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/140.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Душевное HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze36140/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl7YnPRsZs_r6LaPfHtgjmfYGOLtGE92DWO3YASikAu2i.kr2465
-#EXTINF:0 tvg-id="chnl-468" tvg-name="Страшное HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/468.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Страшное HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze34468/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl9koBxiQvNL0Jd4FO1R7OeUjZEVJTETiZEhMG0e5typl.kr2465
-#EXTINF:0 tvg-id="chnl-2127" tvg-name="Криминальное HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2127.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Криминальное HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze382127/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl8e31Vnj1mpU-dkEDlxtGo4omv7b06-fqnN7RUNnaHE1.kr2465
 #EXTINF:0 tvg-id="chnl-115" tvg-name="Русский бестселлер" tvg-logo="http://ru1.plist.link/plepg/img/channels/115.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Русский бестселлер
 #EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze33115/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl_TusK03Pur9zm7pAYzSJXy79BNTmjympio4x6A8SuBV.kr2465
+http://flussonic.mkpnet.ru/tv-ccf8c891702508a7/video.m3u8
 #EXTINF:0 tvg-id="chnl-462" tvg-name="Русский Детектив" tvg-logo="http://ru1.plist.link/plepg/img/channels/462.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Русский Детектив
 #EXTGRP:3. Кино
 http://185.46.16.239:8000/Russkiy_roman
-#EXTINF:0 tvg-id="chnl-114" tvg-name="Иллюзион+ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/114.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Иллюзион+ HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze35114/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl_SeS1tpWaZkYDqxgBjsh8aM2hogjiOvGP398o6mQk1R.kr2465
-#EXTINF:0 tvg-id="chnl-105" tvg-name="Комедия" tvg-logo="http://ru1.plist.link/plepg/img/channels/105.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Комедия
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze38105/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl_BWMYG0G_ZhsVhaimlwckeXV7Vh80J-OkA1tZArOFxd.kr2465
 #EXTINF:0 tvg-id="chnl-326" tvg-name="Bollywood HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/326.png?6ada7df81f19e" tvg-rec="0" timeshift="0" group-title="3. Кино", Bollywood HD
 #EXTGRP:3. Кино
 http://176.118.197.101/Bollywood_HD/index.m3u8
-#EXTINF:0 tvg-id="chnl-131" tvg-name="Наше HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/131.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Наше HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze34131/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl26263lAQtaEHa625M5Qwd-MFtzOSHEi7pJbfV0XGBrF.kr2465
 #EXTINF:0 tvg-id="chnl-589" tvg-name="Наше Мужское HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/589.png?6ada7df81f19e" tvg-rec="1" timeshift="1" group-title="3. Кино", Наше Мужское HD
 #EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze33589/index.m3u8?token=uVLBoPRZyVtg_9ykUe8FlxvYClBvKOUhcmHYroJ4fj50SnwI0zEwznevnHI5LmJ1.kr2465
+http://stream.mcquack.net/362/index.m3u8
 #EXTINF:0 tvg-id="chnl-714" tvg-name="Наш Кинопоказ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/714.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Наш Кинопоказ HD
 #EXTGRP:3. Кино
 http://cef23ac9.rossteleccom.net/iptv/HR5L3HVVC7ZQSVB2DUVSQUH7/2434/index.m3u8
@@ -272,133 +175,16 @@ https://stream8.cinerama.uz/1047/index.m3u8
 https://stream8.cinerama.uz/1443/index.m3u8
 #EXTINF:0 tvg-id="chnl-543" tvg-name="Тайна" tvg-logo="http://ru1.plist.link/plepg/img/channels/543.png?6ada7df81f19e" tvg-rec="0" timeshift="0" group-title="3. Кино", Тайна
 #EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze37543/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl03XYwUPF4LhxqyGsYn18ESZg4vXBIQjUjcpQTPTt0QO.kr2465
+https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=hCc3BqSwghCQ0GRhDJ967A&e=2070623490&scheme=https
 #EXTINF:0 tvg-id="chnl-689" tvg-name="Блокбастер HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/689.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Блокбастер HD
 #EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze31689/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl6t2l9UkJrLlV_8___PghOgdXpNpcqh4m0k0MRNMrUWV.kr2465
+http://stream.mcquack.net/364/index.m3u8
 #EXTINF:0 tvg-id="chnl-691" tvg-name="Хит HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/691.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Хит HD
 #EXTGRP:3. Кино
 https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-730" tvg-name="Trash HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/730.png?6ada7df81f19e" tvg-rec="0" timeshift="0" group-title="3. Кино", Trash HD
 #EXTGRP:3. Кино
 https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
-#EXTINF:0 tvg-id="chnl-382" tvg-name="KION Хит HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/382.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", KION Хит HD
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze34382/index.m3u8?token=uVLBoPRZyVtg_9ykUe8Fl4PEzlE9PnPdYYN1r7TA93KUuyhMBkBd91AreASDx5lM.kr2465
-#EXTINF:0 tvg-id="chnl-20058" tvg-name="Патриот" tvg-logo="http://ru1.plist.link/plepg/img/channels/20058.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Патриот
-#EXTGRP:3. Кино
-http://flussonic.mkpnet.ru/tv-ccf8c891702508a7/video.m3u8
-#EXTINF:0 tvg-id="chnl-2781" tvg-name="VHS-ка Русское кино" tvg-logo="http://ru1.plist.link/plepg/img/channels/2781.png?6ada7df81f19e" tvg-rec="0" timeshift="0" group-title="3. Кино", VHS-ка Русское кино
-#EXTGRP:3. Кино
-http://ru1.plist.link:3355/XM2U1ZVTze322781/index.m3u8?token=uVLBoPRZyVtg_9ykUe8FlxbCISbVC-K5MQFGPPjFUB4dw7KLBtaCLrTXqSBH3IYw.kr2465
-#EXTINF:0 tvg-id="chnl-771" tvg-name="BCU Cinema HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/771.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU Cinema HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze37771/index.m3u8?token=pGV95qzHd59PGF1StC5rM2d4wxapywi-d_hCdoahkJYLuk8nSMzBAdNr1GJ-8sk3.kr2465
-#EXTINF:0 tvg-id="chnl-1000" tvg-name="BCU Comedy OLD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1000.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU Comedy OLD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze351000/index.m3u8?token=pGV95qzHd59PGF1StC5rM6-KwbdCgII8vhtgXfYkKK-KQKqh8JwAvh7zti1W14dS.kr2465
-#EXTINF:0 tvg-id="chnl-773" tvg-name="BCU Fantastic HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/773.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU Fantastic HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze32773/index.m3u8?token=pGV95qzHd59PGF1StC5rM-htxw1-Y4_ph-1aFl5DTIEc6tmX102gdHahA69EYlu5.kr2465
-#EXTINF:0 tvg-id="chnl-774" tvg-name="BCU Filmystic HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/774.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU Filmystic HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze35774/index.m3u8?token=pGV95qzHd59PGF1StC5rM84IWpzUga7y2OQOQHZz48KzPanC2t58S_AODvO5Bq6M.kr2465
-#EXTINF:0 tvg-id="chnl-20090" tvg-name="BCU Reality OLD" tvg-logo="http://ru1.plist.link/plepg/img/channels/20090.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU Reality OLD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze3820090/index.m3u8?token=pGV95qzHd59PGF1StC5rM5sV_ZMrWixoTEnmz7bhX8-4QN-iDiHv6gN0e8XmOd7Y.kr2465
-#EXTINF:0 tvg-id="chnl-782" tvg-name="BCU Premiere 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/782.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU Premiere 1 HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze35782/index.m3u8?token=pGV95qzHd59PGF1StC5rMyvYqG5mcuTuAw2WCi1bmi0EBPND1PoQI0TzL8qfN0B3.kr2465
-#EXTINF:0 tvg-id="chnl-1545" tvg-name="BCU Romantic OLD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1545.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU Romantic OLD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze371545/index.m3u8?token=pGV95qzHd59PGF1StC5rM48SdEtj9UBdxCo4ZCRLl9qhQA0I64CqBhQSVdglEkL6.kr2465
-#EXTINF:0 tvg-id="chnl-789" tvg-name="BCU СССР HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/789.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU СССР HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze31789/index.m3u8?token=pGV95qzHd59PGF1StC5rMyR0zrvdfBUV5YNWKi5NbFtunZu0lGboqhLiTTD3oEoc.kr2465
-#EXTINF:0 tvg-id="chnl-1429" tvg-name="BCU TruMotion HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1429.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU TruMotion HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze391429/index.m3u8?token=pGV95qzHd59PGF1StC5rM68xAQC51iivGSr2EeK2VO3Nxt-O7bWZ60_l73chyJpH.kr2465
-#EXTINF:0 tvg-id="chnl-542" tvg-name="Киноджем 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/542.png?6ada7df81f35f" tvg-rec="3" timeshift="3" group-title="4. Кинозалы", Киноджем 1 HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze33542/index.m3u8?token=pGV95qzHd59PGF1StC5rM0wu8Ht3dHQCIsPPMaU-n0FSqMkOYRLpmk2C-Jcri4iZ.kr2465
-#EXTINF:0 tvg-id="chnl-1217" tvg-name="MM NewFilm 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1217.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM NewFilm 2 HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze361217/index.m3u8?token=pGV95qzHd59PGF1StC5rM-MIpK3P2jInQFs_vKCh2GJpFS0Tg_j9lt34syKnjuE1.kr2465
-#EXTINF:0 tvg-id="chnl-1215" tvg-name="MM Love HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1215.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Love HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze381215/index.m3u8?token=pGV95qzHd59PGF1StC5rM_rNqEab01JGBwyZJta1CxGhCGdaVe48TTJANUNGidhJ.kr2465
-#EXTINF:0 tvg-id="chnl-1222" tvg-name="MM UFO HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1222.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM UFO HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze371222/index.m3u8?token=pGV95qzHd59PGF1StC5rM4iU4jNVV563aLEeQFwoB76alRa_CT5OihZvB57eUUJi.kr2465
-#EXTINF:0 tvg-id="chnl-1229" tvg-name="MM Агата Кристи HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1229.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Агата Кристи HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze301229/index.m3u8?token=pGV95qzHd59PGF1StC5rM8RbYcQrBAMkUS837dv7wBxhAhXGdgDrh4kkaepk4uhf.kr2465
-#EXTINF:0 tvg-id="chnl-1233" tvg-name="MM Боевик HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1233.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Боевик HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze331233/index.m3u8?token=pGV95qzHd59PGF1StC5rM_1RIFwsFXa_Ra9-yNhDt73YRwQIuKALPZ-Oo1zlzy52.kr2465
-#EXTINF:0 tvg-id="chnl-1257" tvg-name="MM Ситком HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1257.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Ситком HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze391257/index.m3u8?token=pGV95qzHd59PGF1StC5rM8f9T3lWgJdKctKvhLUnFcoh_gMRUuv1E010HupIg2yC.kr2465
-#EXTINF:0 tvg-id="chnl-1260" tvg-name="MM Стивен Кинг HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1260.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Стивен Кинг HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze391260/index.m3u8?token=pGV95qzHd59PGF1StC5rMytc0VkpQTfh7tPrmZoJleWuDIlW8Eag53TQ99e9nxyr.kr2465
-#EXTINF:0 tvg-id="chnl-1264" tvg-name="MM Ужастик HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1264.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Ужастик HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze341264/index.m3u8?token=pGV95qzHd59PGF1StC5rM5ZOOmoe_w_Tiz2REpnD4D6hAwjOJ5_OFzifmbL0Htzi.kr2465
-#EXTINF:0 tvg-id="chnl-1266" tvg-name="MM Синематограф HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1266.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Синематограф HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze311266/index.m3u8?token=pGV95qzHd59PGF1StC5rMxxAPerxGyo1DyO_zxEEJgoUMm2Tt_QyQOpbDJsmqLIv.kr2465
-#EXTINF:0 tvg-id="chnl-1268" tvg-name="MM Фобия HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1268.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Фобия HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze341268/index.m3u8?token=pGV95qzHd59PGF1StC5rM9C32wlnAko5Jn7LpDtS0cQqFDJCdGMAxiNYwV6tCgaZ.kr2465
-#EXTINF:0 tvg-id="chnl-1270" tvg-name="MM Семейный 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1270.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Семейный 2 HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze341270/index.m3u8?token=pGV95qzHd59PGF1StC5rM1doAMgRMWAYoR0mBEp1Pj2wqublAmNWZOpr7dekeMsO.kr2465
-#EXTINF:0 tvg-id="chnl-1273" tvg-name="MM USSR Детектив HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1273.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM USSR Детектив HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze321273/index.m3u8?token=pGV95qzHd59PGF1StC5rMyrDGiJMbqCtke1vyjBqRqwQnFF0cJEZX3XfUJMgRMBh.kr2465
-#EXTINF:0 tvg-id="chnl-1224" tvg-name="MM USSR Комедия HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1224.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM USSR Комедия HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze351224/index.m3u8?token=pGV95qzHd59PGF1StC5rMzxOBzdt4OItPYWOtEzdUmCwrxRVDfR8mJ5Cq9vklNL5.kr2465
-#EXTINF:0 tvg-id="chnl-1227" tvg-name="MM USSR Drama HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1227.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM USSR Drama HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze391227/index.m3u8?token=pGV95qzHd59PGF1StC5rMxGSm-UI8Rtgj0vLUMmX1CUOtH1aMdEkVGj6opm0HBpg.kr2465
-#EXTINF:0 tvg-id="chnl-1276" tvg-name="MM Ужасы HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1276.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Ужасы HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze371276/index.m3u8?token=pGV95qzHd59PGF1StC5rM2l20HLcKZ1y2KDEQ-OR6ZPx1FHUalH3jPIiR-tvQfX6.kr2465
-#EXTINF:0 tvg-id="chnl-1324" tvg-name="MM Драма HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1324.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Драма HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze391324/index.m3u8?token=pGV95qzHd59PGF1StC5rM9fLFUSaFswFytTlhK1Z3jh_0HhOizqDGtVI9WCHDBM4.kr2465
-#EXTINF:0 tvg-id="chnl-1621" tvg-name="MM Translation HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1621.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", MM Translation HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze311621/index.m3u8?token=pGV95qzHd59PGF1StC5rM1_i67bvoGDrmyad590LMO2HffshS4D1iPajRjwe5veD.kr2465
-#EXTINF:0 tvg-id="chnl-1557" tvg-name="Magic Comedy HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1557.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", Magic Comedy HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze331557/index.m3u8?token=pGV95qzHd59PGF1StC5rM7LbRVp7jbd8PU0HmjRU1UTumiRxm0XAAC5R7mJE6mwk.kr2465
-#EXTINF:0 tvg-id="chnl-1581" tvg-name="Magic Love HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1581.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", Magic Love HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze311581/index.m3u8?token=pGV95qzHd59PGF1StC5rM9Q8nnTUP-Xms_XUFCT2xhuqlVWjrZ-4kXygheLcUNWs.kr2465
-#EXTINF:0 tvg-id="chnl-1068" tvg-name="GL Brief HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1068.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", GL Brief HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze311068/index.m3u8?token=pGV95qzHd59PGF1StC5rMzbvbDQ5h5L4le3I79yqFAf-myFrPAmxKgsApxTHakUK.kr2465
-#EXTINF:0 tvg-id="chnl-2267" tvg-name="GL Survival HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2267.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", GL Survival HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze352267/index.m3u8?token=pGV95qzHd59PGF1StC5rMy1omILLoTkK4CGX2PkxUI3R1ezYedcEHJus2Eh7gVma.kr2465
-#EXTINF:0 tvg-id="chnl-2696" tvg-name="BCU Media 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2696.png?6ada7df81f35f" tvg-rec="0" timeshift="0" group-title="4. Кинозалы", BCU Media 2 HD
-#EXTGRP:4. Кинозалы
-http://ru1.plist.link:3355/XM2U1ZVTze372696/index.m3u8?token=pGV95qzHd59PGF1StC5rM_Sy8YfohkN8O0_czqzdolf9NdmNbf2GKTqJCaHEmuyP.kr2465
-#EXTINF:0 tvg-id="chnl-553" tvg-name="BCU Premiere Ultra 4K" tvg-logo="http://ru1.plist.link/plepg/img/channels/553.png?6ada7df81f587" tvg-rec="0" timeshift="0" group-title="5. UHD", BCU Premiere Ultra 4K
-#EXTGRP:5. UHD
-http://ru1.plist.link:3355/XM2U1ZVTze36553/index.m3u8?token=wrqCHp9v0k49AmXvw1u3GAyb22JaE_PYTfBrS2K-rcYz7XcSErG6rSnYAsCQMK21.kr2465
-#EXTINF:0 tvg-id="chnl-558" tvg-name="Cinema UHD" tvg-logo="http://ru1.plist.link/plepg/img/channels/558.png?6ada7df81f587" tvg-rec="3" timeshift="3" group-title="5. UHD", Cinema UHD
-#EXTGRP:5. UHD
-http://ru1.plist.link:3355/XM2U1ZVTze34558/index.m3u8?token=wrqCHp9v0k49AmXvw1u3GDoRdtoqMzYjAL0GSBZhfeB5CuZyMG4CAH4s_pxunaqZ.kr2465
-#EXTINF:0 tvg-id="chnl-1262" tvg-name="MM Flip UHD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1262.png?6ada7df81f587" tvg-rec="0" timeshift="0" group-title="5. UHD", MM Flip UHD
-#EXTGRP:5. UHD
-http://ru1.plist.link:3355/XM2U1ZVTze381262/index.m3u8?token=wrqCHp9v0k49AmXvw1u3GNK2BqscQHNJudsxZxxByn9ocv4LXzGDZUu3OM0gBJrF.kr2465
-#EXTINF:0 tvg-id="chnl-20060" tvg-name="MS Magic 4K" tvg-logo="http://ru1.plist.link/plepg/img/channels/20060.png?6ada7df81f587" tvg-rec="0" timeshift="0" group-title="5. UHD", MS Magic 4K
-#EXTGRP:5. UHD
-http://ru1.plist.link:3355/XM2U1ZVTze3820060/index.m3u8?token=wrqCHp9v0k49AmXvw1u3GH-_eaGcbfUXVLpLLrNZKQuCefN3nL8OmjnDUXAzAlxS.kr2465
 #EXTINF:0 tvg-id="chnl-44" tvg-name="Детский мир" tvg-logo="http://ru1.plist.link/plepg/img/channels/44.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Детский мир
 #EXTGRP:6. Детские
 http://185.37.150.46/Karusel/index.m3u8
@@ -410,28 +196,16 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
 #EXTINF:0 tvg-id="chnl-41" tvg-name="Солнце" tvg-logo="http://ru1.plist.link/plepg/img/channels/41.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Солнце
 #EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze30041/index.m3u8?token=wU9J9TWKoidacDrN_7s2xjxNIvjQrbx_8dtiu3x_O4Qzny0ABVPviVsK8MNcEmt_.kr2465
-#EXTINF:0 tvg-id="chnl-2821" tvg-name="Солнце +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/2821.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Солнце +2
-#EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze352821/index.m3u8?token=wU9J9TWKoidacDrN_7s2xmVQSJ3O-0ukJ5WR9ZT2KQiYsYGVPJAzb_Ns0-CuSoH8.kr2465
-#EXTINF:0 tvg-id="chnl-2822" tvg-name="Солнце +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2822.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Солнце +4
-#EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze332822/index.m3u8?token=wU9J9TWKoidacDrN_7s2xhZt30YT5IjVJ3YZ9dw54fOP7zlSq-fq81cHaR7yuGha.kr2465
+http://tv.mediacdn.ru/live/solntse/playlist_3000k.m3u8
 #EXTINF:0 tvg-id="chnl-81" tvg-name="Cartoon Network" tvg-logo="http://ru1.plist.link/plepg/img/channels/81.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Cartoon Network
 #EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze39081/index.m3u8?token=wU9J9TWKoidacDrN_7s2xno1oJVz6wtO1ObhtJsB5xQChPlV8Q-IaFLKaaJxzPUB.kr2465
-#EXTINF:0 tvg-id="chnl-42" tvg-name="TiJi" tvg-logo="http://ru1.plist.link/plepg/img/channels/42.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", TiJi
+https://bl.rutube.ru/livestream/d2119cfb95146b3983cf05c1fe35e66f/index.m3u8?s=SBAsUrxODR6nk6ktHKTpoQ&e=2090795468&scheme=https
+#EXTINF:0 tvg-id="chnl-82" tvg-name="Мама" tvg-logo="http://ru1.plist.link/plepg/img/channels/82.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Мама
 #EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze31042/index.m3u8?token=wU9J9TWKoidacDrN_7s2xrYVzyYY0s8iZhK4liMzeXEGnbJJUzSghQZ2dxUuHAwX.kr2465
-#EXTINF:0 tvg-id="chnl-43" tvg-name="Gulli Girl" tvg-logo="http://ru1.plist.link/plepg/img/channels/43.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Gulli Girl
-#EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze31043/index.m3u8?token=wU9J9TWKoidacDrN_7s2xg3arsIx-bsDS2tKS91o_uUySWgKrYsZOyfGJ7s3Sbhx.kr2465
+http://194.152.35.17/mama/index.m3u8
 #EXTINF:0 tvg-id="chnl-119" tvg-name="В гостях у сказки" tvg-logo="http://ru1.plist.link/plepg/img/channels/119.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", В гостях у сказки
 #EXTGRP:6. Детские
 http://stream.mcquack.net/93/index.m3u8
-#EXTINF:0 tvg-id="chnl-478" tvg-name="Уникум HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/478.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Уникум HD
-#EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze32478/index.m3u8?token=wU9J9TWKoidacDrN_7s2xsJ1XlJNzIx1LR-8r2HwnfVEVH_G2s-J_6klZ_S4CZQs.kr2465
 #EXTINF:0 tvg-id="chnl-483" tvg-name="СТС Kids HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/483.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", СТС Kids HD
 #EXTGRP:6. Детские
 https://stream.smotrim.ru/hls2/fasttv05/playlist_3.m3u8
@@ -440,85 +214,34 @@ https://stream.smotrim.ru/hls2/fasttv05/playlist_3.m3u8
 https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:0 tvg-id="chnl-617" tvg-name="Супергерои" tvg-logo="http://ru1.plist.link/plepg/img/channels/617.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Супергерои
 #EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze38617/index.m3u8?token=wU9J9TWKoidacDrN_7s2xopT6kVGbhzH3Wu21KqWsccZz9Z2TroHzJYjLl7lD9gn.kr2465
+http://109.94.1.3:8080/132/index.m3u8
 #EXTINF:0 tvg-id="chnl-618" tvg-name="Рыжий" tvg-logo="http://ru1.plist.link/plepg/img/channels/618.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Рыжий
 #EXTGRP:6. Детские
 http://flussonic.mkpnet.ru/tv-4af112c31b77e2a8/video.m3u8
 #EXTINF:0 tvg-id="chnl-634" tvg-name="Мультиландия" tvg-logo="http://ru1.plist.link/plepg/img/channels/634.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Мультиландия
 #EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze38634/index.m3u8?token=wU9J9TWKoidacDrN_7s2xtXJYtVWUfJfR0XeHS_Mt6XuH83eEIyD0c982CD4WP_4.kr2465
-#EXTINF:0 tvg-id="chnl-638" tvg-name="Капитан Фантастика HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/638.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Капитан Фантастика HD
-#EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze37638/index.m3u8?token=wU9J9TWKoidacDrN_7s2xlXr7AWhBSqEs2phGAMZlTsJYa8pUb3Ra3SfSSZW_znH.kr2465
-#EXTINF:0 tvg-id="chnl-1634" tvg-name="BCU Little HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1634.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", BCU Little HD
-#EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze361634/index.m3u8?token=wU9J9TWKoidacDrN_7s2xoykJ-7YFFIdRgZKKA5p6pqNCGWo-e7tsHqT8hHKv3_m.kr2465
-#EXTINF:0 tvg-id="chnl-612" tvg-name="Триколор Смешарики" tvg-logo="http://ru1.plist.link/plepg/img/channels/612.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Триколор Смешарики
-#EXTGRP:6. Детские
-http://ru1.plist.link:3355/XM2U1ZVTze37612/index.m3u8?token=wU9J9TWKoidacDrN_7s2xs-1Nw1a_zqBpnsSLWocvNpg6dwnWrVCI2pduM6j_bGP.kr2465
-#EXTINF:0 tvg-id="chnl-39" tvg-name="Eurosport 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/39.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Eurosport 1 HD
-#EXTGRP:7. Спорт
-http://178.134.1.158:8081/eurosport/index.m3u8
+https://stream8.cinerama.uz/1440/index.m3u8
 #EXTINF:0 tvg-id="chnl-71" tvg-name="Eurosport 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/71.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Eurosport 2 HD
 #EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze36071/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiJsNlTSNc8tEYnrlNsiD3lVWsCS6xEC0h0JLLALFz_WF.kr2465
+https://stream8.cinerama.uz/1452/index.m3u8
 #EXTINF:0 tvg-id="chnl-57" tvg-name="Матч! HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/57.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! HD
 #EXTGRP:7. Спорт
 http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
-#EXTINF:0 tvg-id="chnl-2126" tvg-name="Матч! SD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2126.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Матч! SD
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze352126/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiDuAVDGC6pf0eLY0sLQqbGa1kGb2XJ28RG2sHgR-D9O6.kr2465
 #EXTINF:0 tvg-id="chnl-61" tvg-name="Матч! Футбол 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/61.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! Футбол 1 HD
 #EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze31061/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiEuGSuUheWGmbBvzERypfvgqTa4XGr-7QYrUdN2KtCqg.kr2465
+http://315e5a5d.ottrast.com/iptv/PXXFGKYYT6PCZA/124/index.m3u8
 #EXTINF:0 tvg-id="chnl-62" tvg-name="Матч! Футбол 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/62.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! Футбол 2 HD
 #EXTGRP:7. Спорт
 http://315e5a5d.ottrast.com/iptv/3KZ2W9GEEY49ZV/530/index.m3u8
 #EXTINF:0 tvg-id="chnl-63" tvg-name="Матч! Футбол 3 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/63.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Матч! Футбол 3 HD
 #EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze39063/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiFEPWWDGWmq4ntogmcKtM-wbcqHIWWAq3FVcqAThLchl.kr2465
+http://315e5a5d.ottrast.com/iptv/PXXFGKYYT6PCZA/522/index.m3u8
 #EXTINF:0 tvg-id="chnl-1702" tvg-name="Футбол HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1702.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Футбол HD
 #EXTGRP:7. Спорт
 http://178.124.179.122:8088/Setanta1/index.m3u8
-#EXTINF:0 tvg-id="chnl-34" tvg-name="Кхл HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/34.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Кхл HD
+#EXTINF:0 tvg-id="chnl-48" tvg-name="Точка отрыва" tvg-logo="http://ru1.plist.link/plepg/img/channels/48.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Точка отрыва
 #EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze31034/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiAHZYstBI5X1V_HGZImrVfRkiRWy19nTVVyQuEA4XN97.kr2465
-#EXTINF:0 tvg-id="chnl-133" tvg-name="US | Fubo Sports Network Xtra" tvg-logo="http://ru1.plist.link/plepg/img/channels/133.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", US | Fubo Sports Network Xtra
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze37133/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiH6gJ7JS3f4L7KqMMP5CpZY3-WT9MdJP4DK6fAvy33V3.kr2465
-#EXTINF:0 tvg-id="chnl-1063" tvg-name="US | YES network" tvg-logo="http://ru1.plist.link/plepg/img/channels/1063.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", US | YES network
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze301063/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiCgnkcuCw6FsjENoHsCIDKRoCQ_FmEn9QmMCMV4tTNsx.kr2465
-#EXTINF:0 tvg-id="chnl-1065" tvg-name="US | MLB Big Inning" tvg-logo="http://ru1.plist.link/plepg/img/channels/1065.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", US | MLB Big Inning
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze351065/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiK6aJYLUnlwGsucWL0CgBnu3MBuRtTRN1dwzZCAWaekh.kr2465
-#EXTINF:0 tvg-id="chnl-20068" tvg-name="Удар HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/20068.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", Удар HD
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze3520068/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiEsPu4PI8FPc9lRSxgIVnWM21lQbeYRiBeQmvw8acSBI.kr2465
-#EXTINF:0 tvg-id="chnl-1340" tvg-name="HR | Arena Sport 3 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1340.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", HR | Arena Sport 3 HD
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze361340/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiEmYJ_8ppULSjTUxMUwASmZRX6dINMtpz09TwPN_Ucmv.kr2465
-#EXTINF:0 tvg-id="chnl-1343" tvg-name="HR | Arena Sport 6 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1343.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", HR | Arena Sport 6 HD
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze321343/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiKrJj5Rky_BczV7qJ1ORYXrRylJWBJAD4P41aqdSlSAp.kr2465
-#EXTINF:0 tvg-id="chnl-3144" tvg-name="HR | Arena Sport 7 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/3144.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", HR | Arena Sport 7 HD
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze313144/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiAQ2ubfvo1YKSllxEpVqSdd4UXEFw-Xy1Z11dOz_fPpn.kr2465
-#EXTINF:0 tvg-id="chnl-1332" tvg-name="US | MLB Network Alt" tvg-logo="http://ru1.plist.link/plepg/img/channels/1332.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", US | MLB Network Alt
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze381332/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiPnRPgV3hlh3QetPOZO4wz71zON4K31QXN3mR-YGzozs.kr2465
-#EXTINF:0 tvg-id="chnl-3147" tvg-name="HR | Arena Sport 10 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/3147.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", HR | Arena Sport 10 HD
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze353147/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiMtKOY8-EbzEwBScZnt-IwuBb_AJv_64a6T3BsU8_tLB.kr2465
-#EXTINF:0 tvg-id="chnl-3148" tvg-name="HR | Sport Klub 6 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/3148.png?6ada7df81f693" tvg-rec="0" timeshift="0" group-title="7. Спорт", HR | Sport Klub 6 HD
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze383148/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiJnQXTXzS11T38lBuRoJigy9tgRM5knCiLVWgtWg6cTQ.kr2465
-#EXTINF:0 tvg-id="chnl-20069" tvg-name="Okko Прайм Спорт" tvg-logo="http://ru1.plist.link/plepg/img/channels/20069.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Okko Прайм Спорт
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze3220069/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiNYWpgl7bQ9BK361Xq0gyJ0MgPnzUciu18zfRthuVMFo.kr2465
-#EXTINF:0 tvg-id="chnl-20063" tvg-name="Хоккей HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/20063.png?6ada7df81f693" tvg-rec="3" timeshift="3" group-title="7. Спорт", Хоккей HD
-#EXTGRP:7. Спорт
-http://ru1.plist.link:3355/XM2U1ZVTze3420063/index.m3u8?token=7YaWEftkPAmGSOGNGnNoiGkEuYuykWBNewGe4em8TDLXO_Fpchy4lsbAqbbQH1NH.kr2465
+https://stream8.cinerama.uz/1031/index.m3u8
 #EXTINF:0 tvg-id="chnl-490" tvg-name="Bridge TV" tvg-logo="http://ru1.plist.link/plepg/img/channels/490.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Bridge TV
 #EXTGRP:8. Музыкальные
 http://flussonic.mkpnet.ru/tv-ceaa6aa3cc1ea359/video.m3u8
@@ -528,6 +251,9 @@ http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
 #EXTINF:0 tvg-id="chnl-492" tvg-name="Bridge TV Classic" tvg-logo="http://ru1.plist.link/plepg/img/channels/492.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Bridge TV Classic
 #EXTGRP:8. Музыкальные
 http://5.188.159.128:8070/Bridge_TV_Classic/index.m3u8
+#EXTINF:0 tvg-id="chnl-20" tvg-name="Муз ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/20.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Муз ТВ
+#EXTGRP:8. Музыкальные
+https://streaming102.interskytech.com/live/618.m3u8
 #EXTINF:0 tvg-id="chnl-27" tvg-name="RU.TV" tvg-logo="http://ru1.plist.link/plepg/img/channels/27.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", RU.TV
 #EXTGRP:8. Музыкальные
 https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
@@ -537,12 +263,6 @@ http://rr2.73mtv.org/~109e1a3c05fcad5b22d13b9453dc0db5122/81/hls/pl.m3u8
 #EXTINF:0 tvg-id="chnl-31" tvg-name="Kronehit" tvg-logo="http://ru1.plist.link/plepg/img/channels/31.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Kronehit
 #EXTGRP:8. Музыкальные
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-#EXTINF:0 tvg-id="chnl-2620" tvg-name="Dance TV House Floor" tvg-logo="http://ru1.plist.link/plepg/img/channels/2620.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV House Floor
-#EXTGRP:8. Музыкальные
-http://ru1.plist.link:3355/XM2U1ZVTze312620/index.m3u8?token=t79rLKOwZhpSGsIcUqoqFdoepX8F5HyLzZs-eTx93Ifyk0BURN5Yq9PdEr3y-_0A.kr2465
-#EXTINF:0 tvg-id="chnl-1918" tvg-name="Dance TV Tech House Terrace" tvg-logo="http://ru1.plist.link/plepg/img/channels/1918.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Tech House Terrace
-#EXTGRP:8. Музыкальные
-http://ru1.plist.link:3355/XM2U1ZVTze321918/index.m3u8?token=t79rLKOwZhpSGsIcUqoqFUOyxXm6uZWgvqMkudslAP1LnZVfZyQtnkIJFTm4DW_k.kr2465
 #EXTINF:0 tvg-id="chnl-633" tvg-name="TRACE BRAZIL Brazil" tvg-logo="http://ru1.plist.link/plepg/img/channels/633.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE BRAZIL Brazil
 #EXTGRP:8. Музыкальные
 https://channels.trace.plus/Traceprod/BRAZIL.m3u8
@@ -600,9 +320,6 @@ https://channels.trace.plus/Traceprod/KITOKO.m3u8
 #EXTINF:0 tvg-id="chnl-385" tvg-name="TRACE MZIKI East Africa" tvg-logo="http://ru1.plist.link/plepg/img/channels/385.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE MZIKI East Africa
 #EXTGRP:8. Музыкальные
 https://channels.trace.plus/Traceprod/MZIKI.m3u8
-#EXTINF:0 tvg-id="chnl-2843" tvg-name="Муз ТВ +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2843.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Муз ТВ +7
-#EXTGRP:8. Музыкальные
-http://ru1.plist.link:3355/XM2U1ZVTze352843/index.m3u8?token=t79rLKOwZhpSGsIcUqoqFeBvIHhZMeE1cIP_gxySoMET-R-HqS3uQDm_GxqOgHlj.kr2465
 #EXTINF:0 tvg-id="chnl-123" tvg-name="Discovery Channel HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/123.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Discovery Channel HD
 #EXTGRP:9. Образовательные
 http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
@@ -611,28 +328,22 @@ http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
 https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="chnl-73" tvg-name="Наука" tvg-logo="http://ru1.plist.link/plepg/img/channels/73.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Наука
 #EXTGRP:9. Образовательные
-http://ru1.plist.link:3355/XM2U1ZVTze36073/index.m3u8?token=uAEwiXPQf2rgb4A6L05PxlPajE_2J77YE6lNsXPiT8NcQKwi7sRv_9WeaaZGUX9S.kr2465
+https://vod.tuva.ru/nauka2/index.m3u8
 #EXTINF:0 tvg-id="chnl-143" tvg-name="Приключения HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/143.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Приключения HD
 #EXTGRP:9. Образовательные
 https://stream8.cinerama.uz/1420/index.m3u8
-#EXTINF:0 tvg-id="chnl-327" tvg-name="Оружие" tvg-logo="http://ru1.plist.link/plepg/img/channels/327.png?6ada7df81fb30" tvg-rec="2" timeshift="2" group-title="9. Образовательные", Оружие
-#EXTGRP:9. Образовательные
-http://ru1.plist.link:3355/XM2U1ZVTze32327/index.m3u8?token=uAEwiXPQf2rgb4A6L05PxnEZ_AetNqHOO6BtY0PntFbOqQGnYZ-hFLIOpqjGXAPu.kr2465
 #EXTINF:0 tvg-id="chnl-442" tvg-name="История" tvg-logo="http://ru1.plist.link/plepg/img/channels/442.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", История
 #EXTGRP:9. Образовательные
 http://185.46.16.239:8000/Istoriya
 #EXTINF:0 tvg-id="chnl-438" tvg-name="Техно 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/438.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Техно 24
 #EXTGRP:9. Образовательные
 https://stream8.cinerama.uz/1037/index.m3u8
-#EXTINF:0 tvg-id="chnl-441" tvg-name="Da Vinci" tvg-logo="http://ru1.plist.link/plepg/img/channels/441.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Da Vinci
+#EXTINF:0 tvg-id="chnl-440" tvg-name="Доктор" tvg-logo="http://ru1.plist.link/plepg/img/channels/440.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Доктор
 #EXTGRP:9. Образовательные
-http://ott.watch/stream/6HAPZWKKG3/238.m3u8
+https://s07.watcher.uz/165/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #EXTINF:0 tvg-id="chnl-443" tvg-name="365 дней ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/443.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", 365 дней ТВ
 #EXTGRP:9. Образовательные
-http://ru1.plist.link:3355/XM2U1ZVTze32443/index.m3u8?token=uAEwiXPQf2rgb4A6L05PxrMBQvId0uQKRjHqm_cXK6AQIaWirR83kgt4qkhCEeec.kr2465
-#EXTINF:0 tvg-id="chnl-446" tvg-name="Travel+Adventure HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/446.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Travel+Adventure HD
-#EXTGRP:9. Образовательные
-http://ru1.plist.link:3355/XM2U1ZVTze32446/index.m3u8?token=uAEwiXPQf2rgb4A6L05PxpOoAkmqeFs3mAL6OnyfTikp-j3ZZKLFvxb62n3O7p4R.kr2465
+https://stream8.cinerama.uz/1242/index.m3u8
 #EXTINF:0 tvg-id="chnl-520" tvg-name="Пёс и Ко" tvg-logo="http://ru1.plist.link/plepg/img/channels/520.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", Пёс и Ко
 #EXTGRP:9. Образовательные
 http://188.113.190.15/55/tracks-v1a1/index.m3u8
@@ -642,21 +353,18 @@ https://flussonic.mkpnet.ru/tv-55c94e838b306657/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 tvg-id="chnl-533" tvg-name="Большая Азия HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/533.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Большая Азия HD
 #EXTGRP:9. Образовательные
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-id="chnl-539" tvg-name="Здоровое ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/539.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", Здоровое ТВ
-#EXTGRP:9. Образовательные
-http://flussonic.mkpnet.ru/tv-92fa9d648cab0f3f/video.m3u8
 #EXTINF:0 tvg-id="chnl-632" tvg-name="Глазами туриста HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/632.png?6ada7df81fb30" tvg-rec="2" timeshift="2" group-title="9. Образовательные", Глазами туриста HD
 #EXTGRP:9. Образовательные
 https://stream8.cinerama.uz/1423/index.m3u8
-#EXTINF:0 tvg-id="chnl-719" tvg-name="КтоКуда" tvg-logo="http://ru1.plist.link/plepg/img/channels/719.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", КтоКуда
-#EXTGRP:9. Образовательные
-https://vod.tuva.ru/nauka2/index.m3u8
 #EXTINF:0 tvg-id="chnl-2078" tvg-name="CGTN Русский" tvg-logo="http://ru1.plist.link/plepg/img/channels/2078.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", CGTN Русский
 #EXTGRP:9. Образовательные
 https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+#EXTINF:0 tvg-id="chnl-437" tvg-name="Нано HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/437.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", Нано HD
+#EXTGRP:9. Образовательные
+http://stream.mcquack.net/419/index.m3u8
 #EXTINF:0 tvg-id="chnl-2796" tvg-name="Моя стихия" tvg-logo="http://ru1.plist.link/plepg/img/channels/2796.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", Моя стихия
 #EXTGRP:9. Образовательные
-http://ott.watch/stream/6HAPZWKKG3/141.m3u8
+http://stream.mcquack.net/141/index.m3u8
 #EXTINF:0 tvg-id="chnl-2801" tvg-name="Неизвестная Россия" tvg-logo="http://ru1.plist.link/plepg/img/channels/2801.png?6ada7df81fb30" tvg-rec="0" timeshift="0" group-title="9. Образовательные", Неизвестная Россия
 #EXTGRP:9. Образовательные
 https://cdn.ntv.ru/unknown_russia/playlist.m3u8
@@ -666,12 +374,6 @@ http://stream.mcquack.net/116/index.m3u8
 #EXTINF:0 tvg-id="chnl-141" tvg-name="В мире животных HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/141.png?6ada7df81fbea" tvg-rec="3" timeshift="3" group-title="10. Природа", В мире животных HD
 #EXTGRP:10. Природа
 https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-id="chnl-1585" tvg-name="MM Микромир HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1585.png?6ada7df81fbea" tvg-rec="0" timeshift="0" group-title="10. Природа", MM Микромир HD
-#EXTGRP:10. Природа
-http://ru1.plist.link:3355/XM2U1ZVTze301585/index.m3u8?token=cWTBVdGLQNrPLoE8IIJh2s1NfZSOogxUxqOeDIDGQGMdAHGzJaDwN7ab4h-nd7cy.kr2465
-#EXTINF:0 tvg-id="chnl-85" tvg-name="Охотник и рыболов HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/85.png?6ada7df81fbea" tvg-rec="3" timeshift="3" group-title="10. Природа", Охотник и рыболов HD
-#EXTGRP:10. Природа
-http://ru1.plist.link:3355/XM2U1ZVTze34085/index.m3u8?token=cWTBVdGLQNrPLoE8IIJh2sZRhKNS-etjMFcqrY0KyC3LcfeXplRRMwJwkdDri4pg.kr2465
 #EXTINF:0 tvg-id="chnl-448" tvg-name="Охота и рыбалка" tvg-logo="http://ru1.plist.link/plepg/img/channels/448.png?6ada7df81fbea" tvg-rec="3" timeshift="3" group-title="10. Природа", Охота и рыбалка
 #EXTGRP:10. Природа
 https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=QzqPo5cuxaeOJDvPy-nBvg&e=2070623488&scheme=https
@@ -690,42 +392,18 @@ https://stream8.cinerama.uz/1044/index.m3u8
 #EXTINF:0 tvg-id="chnl-2867" tvg-name="Загородная жизнь" tvg-logo="http://ru1.plist.link/plepg/img/channels/2867.png?6ada7df81fbea" tvg-rec="0" timeshift="0" group-title="10. Природа", Загородная жизнь
 #EXTGRP:10. Природа
 http://185.57.68.33/40/index.m3u8
-#EXTINF:0 tvg-id="chnl-49" tvg-name="Русская ночь" tvg-logo="http://ru1.plist.link/plepg/img/channels/49.png?6ada7df81fc65" tvg-rec="0" timeshift="0" group-title="11. Клубничка", Русская ночь
-#EXTGRP:11. Клубничка
-http://ru1.plist.link:3355/XM2U1ZVTze39049/index.m3u8?token=I3FabpcBOCKDQQlSn_6sfzgRc108_CeFPfnU0IlrGv8vE4E9W9NmnnMg85j9IGvH.kr2465
-#EXTINF:0 tvg-id="chnl-93" tvg-name="BRAZZERS TV" tvg-logo="http://ru1.plist.link/plepg/img/channels/93.png?6ada7df81fc65" tvg-rec="0" timeshift="0" group-title="11. Клубничка", BRAZZERS TV
-#EXTGRP:11. Клубничка
-http://ru1.plist.link:3355/XM2U1ZVTze33093/index.m3u8?token=I3FabpcBOCKDQQlSn_6sfxCKH-cLoEaOTm-jSzUPiCqtFdisxqfA0w1lK_adG1Dx.kr2465
-#EXTINF:0 tvg-id="chnl-791" tvg-name="Шелк" tvg-logo="http://ru1.plist.link/plepg/img/channels/791.png?6ada7df81fc65" tvg-rec="0" timeshift="0" group-title="11. Клубничка", Шелк
-#EXTGRP:11. Клубничка
-http://ru1.plist.link:3355/XM2U1ZVTze32791/index.m3u8?token=I3FabpcBOCKDQQlSn_6sf0qcT4bs-oBp1nPyJpWVVPPkauLGWPIQA5ccOlcTzfqj.kr2465
-#EXTINF:0 tvg-id="chnl-826" tvg-name="Babes TV HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/826.png?6ada7df81fc65" tvg-rec="0" timeshift="0" group-title="11. Клубничка", Babes TV HD
-#EXTGRP:11. Клубничка
-http://ru1.plist.link:3355/XM2U1ZVTze33826/index.m3u8?token=I3FabpcBOCKDQQlSn_6sfyGL-XMDJbypEiypNMD2Z03SMoo3JcpRr4038QwY1DG0.kr2465
-#EXTINF:0 tvg-id="chnl-838" tvg-name="Blue Hustler" tvg-logo="http://ru1.plist.link/plepg/img/channels/838.png?6ada7df81fc65" tvg-rec="0" timeshift="0" group-title="11. Клубничка", Blue Hustler
-#EXTGRP:11. Клубничка
-http://ru1.plist.link:3355/XM2U1ZVTze35838/index.m3u8?token=I3FabpcBOCKDQQlSn_6sf5KNz77PyT5oSPZ4aIC3bjcgMLoH1HZUYF5NBgb4qjJH.kr2465
-#EXTINF:0 tvg-id="chnl-642" tvg-name="Аппетитный HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/642.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Аппетитный HD
-#EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze32642/index.m3u8?token=452uWUwrBqH12zEgaKQH72pZ2CRgz2NE4-lCjH2YA0z5A9S96QwRFo1lsGC5pv0V.kr2465
 #EXTINF:0 tvg-id="chnl-16" tvg-name="Авто 24 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/16.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Авто 24 HD
 #EXTGRP:12. Разное
 https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-id="chnl-26" tvg-name="Сарафан" tvg-logo="http://ru1.plist.link/plepg/img/channels/26.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Сарафан
-#EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze33026/index.m3u8?token=452uWUwrBqH12zEgaKQH72I9Mq1rUEpQyp5SaAy4CHB6Lbe-vR3taPo-qGGkZRUU.kr2465
 #EXTINF:0 tvg-id="chnl-2871" tvg-name="Светлое ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2871.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Светлое ТВ
 #EXTGRP:12. Разное
 https://stream.smotrim.ru/hls2/fasttv06/playlist_3.m3u8
 #EXTINF:0 tvg-id="chnl-76" tvg-name="2X2" tvg-logo="http://ru1.plist.link/plepg/img/channels/76.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", 2X2
 #EXTGRP:12. Разное
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
-#EXTINF:0 tvg-id="chnl-2830" tvg-name="2x2 +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/2830.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", 2x2 +2
+#EXTINF:0 tvg-id="chnl-729" tvg-name="Мир HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/729.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Мир HD
 #EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze352830/index.m3u8?token=452uWUwrBqH12zEgaKQH71j-rVP_nWGcLTsOPvdWyQsWFbPNX2gFls-VwMv8WTwS.kr2465
-#EXTINF:0 tvg-id="chnl-2832" tvg-name="2x2 +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2832.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", 2x2 +7
-#EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze382832/index.m3u8?token=452uWUwrBqH12zEgaKQH74nWv67vMF6QeeRRJW5PxgSjw5biKuhR_NoLII1JiS4E.kr2465
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-403" tvg-name="Мир +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/403.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Мир +2
 #EXTGRP:12. Разное
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8
@@ -741,21 +419,9 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
 #EXTINF:0 tvg-id="chnl-408" tvg-name="Че! +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/408.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Че! +4
 #EXTGRP:12. Разное
 https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
-#EXTINF:0 tvg-id="chnl-2820" tvg-name="Че! +7" tvg-logo="http://ru1.plist.link/plepg/img/channels/2820.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Че! +7
-#EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze392820/index.m3u8?token=452uWUwrBqH12zEgaKQH7_a-sDQdWykCrsxMRQUWva4Ry7RoUBNMF7vuE8I8vBhb.kr2465
-#EXTINF:0 tvg-id="chnl-122" tvg-name="Точка РФ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/122.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Точка РФ HD
-#EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze30122/index.m3u8?token=452uWUwrBqH12zEgaKQH77ZFbRAH7HsDLly1Lv6J_1FN0mi5Lx5j6zsTJB2GbSei.kr2465
 #EXTINF:0 tvg-id="chnl-111" tvg-name="СТС Love" tvg-logo="http://ru1.plist.link/plepg/img/channels/111.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", СТС Love
 #EXTGRP:12. Разное
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
-#EXTINF:0 tvg-id="chnl-2824" tvg-name="СТС Love +2" tvg-logo="http://ru1.plist.link/plepg/img/channels/2824.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", СТС Love +2
-#EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze342824/index.m3u8?token=452uWUwrBqH12zEgaKQH76gcYccfllDhI2P5KsAzUaIy-knD352NppK_ffAoPBK_.kr2465
-#EXTINF:0 tvg-id="chnl-2825" tvg-name="СТС Love +4" tvg-logo="http://ru1.plist.link/plepg/img/channels/2825.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", СТС Love +4
-#EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze302825/index.m3u8?token=452uWUwrBqH12zEgaKQH750D8pFDpZ2B0iPzBeY_nWIBtqnudP-r-ifudwB0Qj6F.kr2465
 #EXTINF:0 tvg-id="chnl-420" tvg-name="Ю" tvg-logo="http://ru1.plist.link/plepg/img/channels/420.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Ю
 #EXTGRP:12. Разное
 https://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
@@ -765,9 +431,6 @@ http://185.57.68.33/40/mpegts
 #EXTINF:0 tvg-id="chnl-2844" tvg-name="Shopping Live" tvg-logo="http://ru1.plist.link/plepg/img/channels/2844.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Shopping Live
 #EXTGRP:12. Разное
 http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
-#EXTINF:0 tvg-id="chnl-454" tvg-name="Foodtime HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/454.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Foodtime HD
-#EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze38454/index.m3u8?token=452uWUwrBqH12zEgaKQH7--MN6iN1RMu-vBQvMBqp0h9HMJxrRnG61DXZdE3fb_H.kr2465
 #EXTINF:0 tvg-id="chnl-405" tvg-name="ОТР" tvg-logo="http://ru1.plist.link/plepg/img/channels/405.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", ОТР
 #EXTGRP:12. Разное
 https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KLNG_FILIAL/variant.m3u8
@@ -776,205 +439,7 @@ https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KLNG_FILIAL/variant.m3u8
 http://cdn2.ntv.ru/th_style/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="chnl-3082" tvg-name="Первый вегетарианский" tvg-logo="http://ru1.plist.link/plepg/img/channels/3082.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Первый вегетарианский
 #EXTGRP:12. Разное
-http://ru1.plist.link:3355/XM2U1ZVTze363082/index.m3u8?token=452uWUwrBqH12zEgaKQH7zsPzRS4KRMWq1P3Lm3nKcczzIIo8c5iIV_gaAPdaM0T.kr2465
-#EXTINF:0 tvg-id="chnl-315" tvg-name="UA | News 24 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/315.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | News 24 HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze31315/index.m3u8?token=MJgM3TdvP36SX4v7Dt-WfxS6F7Mq4mG895cGvdO8QBiiwZ2Nsk1Mt1MpJhKEPa7s.kr2465
-#EXTINF:0 tvg-id="chnl-87" tvg-name="UA | 5 Канал HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/87.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | 5 Канал HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze34087/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf33PH85cy-AC4ydoYteoc4bQqSCMS_r3dZ-hqifZtm_C.kr2465
-#EXTINF:0 tvg-id="chnl-89" tvg-name="UA | Интер HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/89.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Интер HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze32089/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf8FqvSjmtT7blR5IMyB5FyBZUgA-X2oXJkqC7VINDUH-.kr2465
-#EXTINF:0 tvg-id="chnl-222" tvg-name="UA | СТБ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/222.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | СТБ HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze30222/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf8uYZ4xynhgra3nDN7_4yczSGh23NtaQ2Wao076JRYNU.kr2465
-#EXTINF:0 tvg-id="chnl-297" tvg-name="UA | Enter-фильм HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/297.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Enter-фильм HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze30297/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf_xk8ecI9vvK_bFW0D1uE2Wpphnhcq8-jQlHDhnvCJWZ.kr2465
-#EXTINF:0 tvg-id="chnl-301" tvg-name="UA | Первый Городской (Одесса) HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/301.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Первый Городской (Одесса) HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze35301/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf85f2Zxo8JTj1DwNPMyJaX_EZuannhy3c3ut4Z3JZ-m7.kr2465
-#EXTINF:0 tvg-id="chnl-592" tvg-name="UA | Niki Kids HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/592.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Niki Kids HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze32592/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf6A1P8Uis5VhAmqA2gx-c6cMgehFK_ZBXIOu3Sn0sedr.kr2465
-#EXTINF:0 tvg-id="chnl-333" tvg-name="UA | Setanta Sports+ Ukraine HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/333.png?6ada7df81fd61" tvg-rec="3" timeshift="3" group-title="13. Украина", UA | Setanta Sports+ Ukraine HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze38333/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf5n9CZBDfbFnkKvHMSrErHuPyolRQeI9x0YZ7Fkb7czN.kr2465
-#EXTINF:0 tvg-id="chnl-2122" tvg-name="Setanta Sports Premium HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2122.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", Setanta Sports Premium HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze312122/index.m3u8?token=MJgM3TdvP36SX4v7Dt-WfwD1jCYCialciYckIhGcZ0zhe1g5kS97pnvUDBIDStnn.kr2465
-#EXTINF:0 tvg-id="chnl-603" tvg-name="UA | Спорт-2" tvg-logo="http://ru1.plist.link/plepg/img/channels/603.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Спорт-2
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze37603/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf55y0btBU6Iu1u2cshIGm8gc1V4MqWv3ocvBF-knlhvi.kr2465
-#EXTINF:0 tvg-id="chnl-600" tvg-name="UA | Суспільне Київ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/600.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Суспільне Київ HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze30600/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf6ltk2l0Ef0FL3jqOG95rVUWSfOk-Q3XtpCX5RKCsAxw.kr2465
-#EXTINF:0 tvg-id="chnl-601" tvg-name="UA | Галичина HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/601.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Галичина HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze39601/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf6FdKiye3ygyJbd4urE6_XbwpU_F7sjzsY_9D3jJUBrF.kr2465
-#EXTINF:0 tvg-id="chnl-598" tvg-name="UA | Дача HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/598.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Дача HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze39598/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf6xQ91PnO1piRnOsvH68kU7aknmeLhFJR6bVF36STI8p.kr2465
-#EXTINF:0 tvg-id="chnl-2151" tvg-name="UA | Телевсесвіт HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2151.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Телевсесвіт HD
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze392151/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wf7eilx84Tw91G3uFkhbbovp_Ru6WIar9xrUPnVDwGuh3.kr2465
-#EXTINF:0 tvg-id="chnl-2160" tvg-name="UA | Армія TV" tvg-logo="http://ru1.plist.link/plepg/img/channels/2160.png?6ada7df81fd61" tvg-rec="0" timeshift="0" group-title="13. Украина", UA | Армія TV
-#EXTGRP:13. Украина
-http://ru1.plist.link:3355/XM2U1ZVTze362160/index.m3u8?token=MJgM3TdvP36SX4v7Dt-Wfw_bMtGgaySkFpixvWE0KFDQkrzrLMzhS8yR3nzUW7bW.kr2465
-#EXTINF:0 tvg-id="chnl-1872" tvg-name="DE | Sky Sport Bundesliga HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1872.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | Sky Sport Bundesliga HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze391872/index.m3u8?token=TWvAh9D9SwIXi__NbTdeywMmN9QQaO3qJ4uFumTPE5JMNouUbdUd7k7SJi0Jv_WN.kr2465
-#EXTINF:0 tvg-id="chnl-151" tvg-name="DE | Sky Sport Bundesliga 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/151.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | Sky Sport Bundesliga 1 HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze36151/index.m3u8?token=TWvAh9D9SwIXi__NbTdeyxdWdpiv1dYEOmqMW153MI72A5SELEwk9T9A9oYFax7b.kr2465
-#EXTINF:0 tvg-id="chnl-152" tvg-name="DE | Sky Sport Bundesliga 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/152.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | Sky Sport Bundesliga 2 HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze34152/index.m3u8?token=TWvAh9D9SwIXi__NbTdeywt5um8PWLNxMxcQs0pxkDg2BIKYou5WHbJMm2H6fix3.kr2465
-#EXTINF:0 tvg-id="chnl-199" tvg-name="DE | Sky Sport Bundesliga 3 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/199.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | Sky Sport Bundesliga 3 HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze38199/index.m3u8?token=TWvAh9D9SwIXi__NbTdey1zG6imN_QvD5lROyB6uqKX9X0g0U_c-cax-Rld49TV9.kr2465
-#EXTINF:0 tvg-id="chnl-20022" tvg-name="DE | Sky Sport Tennis HD (Backup)" tvg-logo="http://ru1.plist.link/plepg/img/channels/20022.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Sky Sport Tennis HD (Backup)
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze3220022/index.m3u8?token=TWvAh9D9SwIXi__NbTdey_C07bwxNXDrUyxO3HqySP3FNpTFyiFbbybAgouV2qfv.kr2465
-#EXTINF:0 tvg-id="chnl-286" tvg-name="DE | Eurosport 1 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/286.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Eurosport 1 HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze39286/index.m3u8?token=TWvAh9D9SwIXi__NbTdey7yeNQsirAVBPs2BVOBoxnm4_f6RtqO-eCC6hg0wAyWf.kr2465
-#EXTINF:0 tvg-id="chnl-155" tvg-name="DE | Sky Cinema Action HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/155.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Sky Cinema Action HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze32155/index.m3u8?token=TWvAh9D9SwIXi__NbTdey_5cbfrhpKIPRE2tFyynXXq7T0DEvioDyHu_YytQ2Thf.kr2465
-#EXTINF:0 tvg-id="chnl-156" tvg-name="DE | Sky Cinema Premieren HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/156.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Sky Cinema Premieren HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze36156/index.m3u8?token=TWvAh9D9SwIXi__NbTdey-tGC568ABU5ibdcPfNyJtZZ0BWLNdd7uBvptSW6VBSr.kr2465
-#EXTINF:0 tvg-id="chnl-185" tvg-name="DE | Sky Cinema Classics HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/185.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Sky Cinema Classics HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze34185/index.m3u8?token=TWvAh9D9SwIXi__NbTdey6NKOPhantsoVftC_wCXMn8ddME4aj_fWxFJmhszrenu.kr2465
-#EXTINF:0 tvg-id="chnl-181" tvg-name="DE | Sky Atlantic HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/181.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Sky Atlantic HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze36181/index.m3u8?token=TWvAh9D9SwIXi__NbTdey4E_jPddL5TEwIDxYtrO_0nOSID87OJSXbC8ogaHn_i-.kr2465
-#EXTINF:0 tvg-id="chnl-170" tvg-name="DE | Heimatkanal" tvg-logo="http://ru1.plist.link/plepg/img/channels/170.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Heimatkanal
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze38170/index.m3u8?token=TWvAh9D9SwIXi__NbTdey2IF7BStDBe98QWd2DFHj2uPKy10w3_4HFeetmjcpTA1.kr2465
-#EXTINF:0 tvg-id="chnl-177" tvg-name="DE | National Geographic" tvg-logo="http://ru1.plist.link/plepg/img/channels/177.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | National Geographic
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze38177/index.m3u8?token=TWvAh9D9SwIXi__NbTdey-gJkYWnw8GctK9TqoIAwBYPQJAaSHMwnNuZ5VGSxL8c.kr2465
-#EXTINF:0 tvg-id="chnl-176" tvg-name="DE | National Geographic Wild" tvg-logo="http://ru1.plist.link/plepg/img/channels/176.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | National Geographic Wild
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze31176/index.m3u8?token=TWvAh9D9SwIXi__NbTdeyzt5O8SbypqtfyfwzSk-DPID7vIVUoYCC4tzbudwqJLh.kr2465
-#EXTINF:0 tvg-id="chnl-20094" tvg-name="DE | Animal Planet HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/20094.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Animal Planet HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze3520094/index.m3u8?token=TWvAh9D9SwIXi__NbTdey9942uQV6RUM0InZcP5nJYzylsNi77ifTvbUgpXr96A-.kr2465
-#EXTINF:0 tvg-id="chnl-1739" tvg-name="DE | RTL UHD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1739.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | RTL UHD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze301739/index.m3u8?token=TWvAh9D9SwIXi__NbTdey2sVLc9JQ1SKht87Q_n97tTfyGMHLrkaM-K2eAn9AfgN.kr2465
-#EXTINF:0 tvg-id="chnl-257" tvg-name="DE | RTL HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/257.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | RTL HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze35257/index.m3u8?token=TWvAh9D9SwIXi__NbTdey36wnxHJMkouw3dyXIU2DEUF3Zb_BGUdZEcLRxDeSkLa.kr2465
-#EXTINF:0 tvg-id="chnl-258" tvg-name="DE | RTL Nitro HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/258.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | RTL Nitro HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze36258/index.m3u8?token=TWvAh9D9SwIXi__NbTdeyyDgABpCmjzvFdWcUhEb9MINSusk3ObkVNrOxCn3G9B2.kr2465
-#EXTINF:0 tvg-id="chnl-643" tvg-name="DE | ATV HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/643.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | ATV HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze32643/index.m3u8?token=TWvAh9D9SwIXi__NbTdeyzNiSMIXkkz9WngU165XCiJpKNP4esMmF3MWDeCH8dmA.kr2465
-#EXTINF:0 tvg-id="chnl-1900" tvg-name="DE | Anixe+ HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1900.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Anixe+ HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze351900/index.m3u8?token=TWvAh9D9SwIXi__NbTdey47mxLwk0qwbZHNQi-w-iIxCsnIZYkf0_pSgOTmUJjNF.kr2465
-#EXTINF:0 tvg-id="chnl-254" tvg-name="DE | Sixx HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/254.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Sixx HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze37254/index.m3u8?token=TWvAh9D9SwIXi__NbTdey3GnmNCmVzvN9st25kiLDhNZ2HHeYOmwK_9trPl5WdSA.kr2465
-#EXTINF:0 tvg-id="chnl-165" tvg-name="DE | Disney Channel HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/165.png?6ada7df81feb9" tvg-rec="1" timeshift="1" group-title="14. Немецкие", DE | Disney Channel HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze33165/index.m3u8?token=TWvAh9D9SwIXi__NbTdey0cdoIE7qCbuXTAsmzDj_Gu62SV-bkvTmgRXNNYKATj6.kr2465
-#EXTINF:0 tvg-id="chnl-1932" tvg-name="Schlager Deluxe HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1932.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", Schlager Deluxe HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze301932/index.m3u8?token=TWvAh9D9SwIXi__NbTdeyynR17rFezIeS6qtxCWjf66s3WPSOP9GtEUT4qThbitu.kr2465
-#EXTINF:0 tvg-id="chnl-1925" tvg-name="One Music Television HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1925.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", One Music Television HD
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze381925/index.m3u8?token=TWvAh9D9SwIXi__NbTdeyzam8RwGnXSzULqAfrC90OBvFdAFZKKLVHxxukL1L5C-.kr2465
-#EXTINF:0 tvg-id="chnl-193" tvg-name="DE | Sport 6 - myTeamTV" tvg-logo="http://ru1.plist.link/plepg/img/channels/193.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | Sport 6 - myTeamTV
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze35193/index.m3u8?token=TWvAh9D9SwIXi__NbTdey7WLayXLKaNsCyydsOsyiCyYec-iIRIYjqD2T00N4oSF.kr2465
-#EXTINF:0 tvg-id="chnl-212" tvg-name="DE | Sport 7 - myTeamTV" tvg-logo="http://ru1.plist.link/plepg/img/channels/212.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", DE | Sport 7 - myTeamTV
-#EXTGRP:14. Немецкие
-http://ru1.plist.link:3355/XM2U1ZVTze37212/index.m3u8?token=TWvAh9D9SwIXi__NbTdey4zdnWuIER-SQgujY9mv5JM-mY170xMYnsmkOjXbdVJD.kr2465
-#EXTINF:0 tvg-id="chnl-1157" tvg-name="UK | ITV 2" tvg-logo="http://ru1.plist.link/plepg/img/channels/1157.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | ITV 2
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze341157/index.m3u8?token=mi78S5mGkfU9_tZffLdgR5Q-ZcOcTM1hTXg80Te_39hhUbmaZlwnRcq08cKwHMXJ.kr2465
-#EXTINF:0 tvg-id="chnl-2959" tvg-name="UK | Dave UK" tvg-logo="http://ru1.plist.link/plepg/img/channels/2959.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Dave UK
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze312959/index.m3u8?token=mi78S5mGkfU9_tZffLdgRxl8b9kzCWM4M74Dxs-o83FGoINWB5B3_ak6FtWSWcB5.kr2465
-#EXTINF:0 tvg-id="chnl-2960" tvg-name="UK | Yesterday UK" tvg-logo="http://ru1.plist.link/plepg/img/channels/2960.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Yesterday UK
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze352960/index.m3u8?token=mi78S5mGkfU9_tZffLdgR3y_gsj11HKFjglfeETQs6RDgF9PgD--hjW-iF7WSais.kr2465
-#EXTINF:0 tvg-id="chnl-2164" tvg-name="UK | Sky Cinema Action" tvg-logo="http://ru1.plist.link/plepg/img/channels/2164.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Sky Cinema Action
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze382164/index.m3u8?token=mi78S5mGkfU9_tZffLdgRwQL1GYyncNnoejFA6UIukH4aR2mhU7zFu7VFk04dnFl.kr2465
-#EXTINF:0 tvg-id="chnl-233" tvg-name="UK | TNT Sport 3 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/233.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | TNT Sport 3 HD
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze33233/index.m3u8?token=mi78S5mGkfU9_tZffLdgR-PEYe9EZYV34BCeYzdxIt1TwqAAuklugtDtx8ylJ7xX.kr2465
-#EXTINF:0 tvg-id="chnl-234" tvg-name="UK | Sky Sports Mix HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/234.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Sky Sports Mix HD
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze36234/index.m3u8?token=mi78S5mGkfU9_tZffLdgR48e_8rV5MUluXiWfPj5hZ01MvLMMqCG0UW_DgWqBWoS.kr2465
-#EXTINF:0 tvg-id="chnl-235" tvg-name="UK | Sky Sports Cricket HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/235.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Sky Sports Cricket HD
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze35235/index.m3u8?token=mi78S5mGkfU9_tZffLdgR7wk16dih43oBgpIwxy35StOLJD5bD7-vp2WQTr-JySC.kr2465
-#EXTINF:0 tvg-id="chnl-2002" tvg-name="UK | TNT Sport 4 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2002.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | TNT Sport 4 HD
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze352002/index.m3u8?token=mi78S5mGkfU9_tZffLdgRyfSiHQTRw4EFq2ViAGTcQzW678kB56n8u9gFzyoktDi.kr2465
-#EXTINF:0 tvg-id="chnl-2170" tvg-name="UK | Sky Cinema Premiere" tvg-logo="http://ru1.plist.link/plepg/img/channels/2170.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Sky Cinema Premiere
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze332170/index.m3u8?token=mi78S5mGkfU9_tZffLdgR3uhK3_spCkJplwB-3ysApX5vYqtOJZNNTNOlIMkflP5.kr2465
-#EXTINF:0 tvg-id="chnl-2971" tvg-name="UK | Quest" tvg-logo="http://ru1.plist.link/plepg/img/channels/2971.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Quest
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze302971/index.m3u8?token=mi78S5mGkfU9_tZffLdgR9pe7MeMbl1lPFBeTorK3t7Uwt-bsGnpTLP7D9bXRc9a.kr2465
-#EXTINF:0 tvg-id="chnl-2974" tvg-name="UK | Alibi HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2974.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Alibi HD
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze362974/index.m3u8?token=mi78S5mGkfU9_tZffLdgR4YfHckLjkAfj7l8f0yhc9w6Nr4Xr6Wz7K-vHy0DyI1k.kr2465
-#EXTINF:0 tvg-id="chnl-2982" tvg-name="UK | Gold" tvg-logo="http://ru1.plist.link/plepg/img/channels/2982.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Gold
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze322982/index.m3u8?token=mi78S5mGkfU9_tZffLdgR3SQ72B1Vm2BWAvrQI7a38Dkagv1NY5O7rlYhCJj6eWc.kr2465
-#EXTINF:0 tvg-id="chnl-2993" tvg-name="UK | Sky Cinema Greats HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/2993.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | Sky Cinema Greats HD
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze312993/index.m3u8?token=mi78S5mGkfU9_tZffLdgR4kFNrMIE1MatWWvmsOUX94LcfZyBoHHwFU-sJJUern4.kr2465
-#EXTINF:0 tvg-id="chnl-2995" tvg-name="UK | TLC" tvg-logo="http://ru1.plist.link/plepg/img/channels/2995.png?6ada7df820214" tvg-rec="0" timeshift="0" group-title="16. Англия", UK | TLC
-#EXTGRP:16. Англия
-http://ru1.plist.link:3355/XM2U1ZVTze362995/index.m3u8?token=mi78S5mGkfU9_tZffLdgR1p4n3XV5GLqRipilO443Abq3_1s5BVNLXwFeqa_u33N.kr2465
-#EXTINF:0 tvg-id="chnl-622" tvg-name="LT | Go3 Sport 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/622.png?6ada7df820352" tvg-rec="3" timeshift="3" group-title="17. Литва", LT | Go3 Sport 2 HD
-#EXTGRP:17. Литва
-http://ru1.plist.link:3355/XM2U1ZVTze33622/index.m3u8?token=WOZvmViiqkWTdz6FkMdaEsD0AGYJr6DYiSjeDx-buAyW3rkRnyzSqqarljNKa_2G.kr2465
-#EXTINF:0 tvg-id="chnl-677" tvg-name="LT | LRT Plius HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/677.png?6ada7df820352" tvg-rec="3" timeshift="3" group-title="17. Литва", LT | LRT Plius HD
-#EXTGRP:17. Литва
-http://ru1.plist.link:3355/XM2U1ZVTze30677/index.m3u8?token=WOZvmViiqkWTdz6FkMdaEm7vMpAORaoLT315BHCmdQKp7GFpcVG1gbQ-rzOaTajO.kr2465
-#EXTINF:0 tvg-id="chnl-670" tvg-name="LT | TV3 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/670.png?6ada7df820352" tvg-rec="3" timeshift="3" group-title="17. Литва", LT | TV3 HD
-#EXTGRP:17. Литва
-http://ru1.plist.link:3355/XM2U1ZVTze39670/index.m3u8?token=WOZvmViiqkWTdz6FkMdaEkV5kYYhjJ5lkkcZph2x86QNlI9RSRqFMnS8EN0gqLa0.kr2465
-#EXTINF:0 tvg-id="chnl-1650" tvg-name="LV | 8 TV HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1650.png?6ada7df8203ba" tvg-rec="3" timeshift="3" group-title="18. Латвия", LV | 8 TV HD
-#EXTGRP:18. Латвия
-http://ru1.plist.link:3355/XM2U1ZVTze351650/index.m3u8?token=P2GvodpJDgop_dEEf-MmLJq8yzGkr0ADUzHZGoZWYjoQ9dplTm5qbIgukSh4HF8B.kr2465
-#EXTINF:0 tvg-id="chnl-1665" tvg-name="LV | Go3 Sport Open HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1665.png?6ada7df8203ba" tvg-rec="3" timeshift="3" group-title="18. Латвия", LV | Go3 Sport Open HD
-#EXTGRP:18. Латвия
-http://ru1.plist.link:3355/XM2U1ZVTze321665/index.m3u8?token=P2GvodpJDgop_dEEf-MmLDzVWSnh5iodPAKaXCpTFDETg9T1k-MCd95KRI7atLMA.kr2465
-#EXTINF:0 tvg-id="chnl-578" tvg-name="LV | TV3 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/578.png?6ada7df8203ba" tvg-rec="3" timeshift="3" group-title="18. Латвия", LV | TV3 HD
-#EXTGRP:18. Латвия
-http://ru1.plist.link:3355/XM2U1ZVTze33578/index.m3u8?token=P2GvodpJDgop_dEEf-MmLGcwOABB_P48FKkjHUlaYv0sRPF37Z8yuAJWI4kKUT-s.kr2465
-#EXTINF:0 tvg-id="chnl-2794" tvg-name="KZ | 24KZ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2794.png?6ada7df82042b" tvg-rec="0" timeshift="0" group-title="19. Казахстан", KZ | 24KZ
-#EXTGRP:19. Казахстан
-http://ru1.plist.link:3355/XM2U1ZVTze392794/index.m3u8?token=ihBHzPOGfh0pUKP2SQnqy0Ih1M6NpBt2rFaeBPOcRU02xnBNc37tZ6xfWTk-hkAk.kr2465
-#EXTINF:0 tvg-id="chnl-1679" tvg-name="KZ | Jibek Joly HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1679.png?6ada7df82042b" tvg-rec="0" timeshift="0" group-title="19. Казахстан", KZ | Jibek Joly HD
-#EXTGRP:19. Казахстан
-http://ru1.plist.link:3355/XM2U1ZVTze331679/index.m3u8?token=ihBHzPOGfh0pUKP2SQnqyzYaQHGJT-qXANX9iiYM9tgoHerzYxnK_QvB5nRcamAX.kr2465
-#EXTINF:0 tvg-id="chnl-1280" tvg-name="EE | Duo 5 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1280.png?6ada7df8204b3" tvg-rec="0" timeshift="0" group-title="20. Эстония", EE | Duo 5 HD
-#EXTGRP:20. Эстония
-http://ru1.plist.link:3355/XM2U1ZVTze391280/index.m3u8?token=jyF2XqKIfn_Xl8tUUcT0d7FmukI2i1vJ5cgtf_wCUVA91kLm6WU-e_r6mwCUCOXR.kr2465
-#EXTINF:0 tvg-id="chnl-1373" tvg-name="TR | Discovery Channel HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1373.png?6ada7df8204e3" tvg-rec="0" timeshift="0" group-title="25. Турция", TR | Discovery Channel HD
-#EXTGRP:25. Турция
-http://ru1.plist.link:3355/XM2U1ZVTze391373/index.m3u8?token=V9r1R-XjB84gZ8i-J6vZSsMJGU2uot-QtywmW67-_x6zruv_ghJ3Dz1uFoZWggdP.kr2465
-#EXTINF:0 tvg-id="chnl-1784" tvg-name="TR | Spor Smart 2 HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1784.png?6ada7df8204e3" tvg-rec="0" timeshift="0" group-title="25. Турция", TR | Spor Smart 2 HD
-#EXTGRP:25. Турция
-http://ru1.plist.link:3355/XM2U1ZVTze381784/index.m3u8?token=V9r1R-XjB84gZ8i-J6vZSnqt-g2v7g_IHVz3B2b3i-851SRXN9iPxhzJhD1iGw9f.kr2465
-#EXTINF:0 tvg-id="chnl-2182" tvg-name="PL | Cartoon Network" tvg-logo="http://ru1.plist.link/plepg/img/channels/2182.png?6ada7df8205d9" tvg-rec="1" timeshift="1" group-title="34. Польша", PL | Cartoon Network
-#EXTGRP:34. Польша
-http://ru1.plist.link:3355/XM2U1ZVTze352182/index.m3u8?token=MEXttRUNLXTY01ek65vbu86hLz6fjTTu8bTS475Gca8YbhvIOeHtU88gV13tWfYg.kr2465
+http://live-3.otcnet.ru/wfcrus/index.m3u8
 #EXTINF:0 tvg-id="chnl-2741" tvg-name="Мир Белогорья" tvg-logo="http://ru1.plist.link/plepg/img/channels/2741.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Мир Белогорья
 #EXTGRP:36. Региональные
 http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
@@ -999,6 +464,9 @@ http://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-2721" tvg-name="КРЫМ 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2721.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", КРЫМ 24
 #EXTGRP:36. Региональные
 http://80.245.112.27:8787/
+#EXTINF:0 tvg-id="chnl-2726" tvg-name="Арис 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2726.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Арис 24
+#EXTGRP:36. Региональные
+https://bl.rutube.ru/livestream/9b482361d6c845f7d70eafc98356d8bf/index.m3u8?s=92J55630qJZPz9iiIJZpVw&e=2076071194&scheme=https
 #EXTINF:0 tvg-id="chnl-2729" tvg-name="Сочи 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2729.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Сочи 24
 #EXTGRP:36. Региональные
 http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
@@ -1022,13 +490,10 @@ http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8
 https://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_KAVKAZ24/variant.m3u8
 #EXTINF:0 tvg-id="chnl-2740" tvg-name="Миллет" tvg-logo="http://ru1.plist.link/plepg/img/channels/2740.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Миллет
 #EXTGRP:36. Региональные
-https://live1.1tvcrimea.ru/milletlive.m3u8
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MILLET/variant.m3u8
 #EXTINF:0 tvg-id="chnl-2743" tvg-name="МТВ Волгоград" tvg-logo="http://ru1.plist.link/plepg/img/channels/2743.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", МТВ Волгоград
 #EXTGRP:36. Региональные
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
-#EXTINF:0 tvg-id="chnl-2744" tvg-name="НВК Саха Якутск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2744.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", НВК Саха Якутск
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze352744/index.m3u8?token=l6QSFt7laL4dwwewG44FtiJP3LdfyYABw10MW-qBCRBEMbvncoasSaIicfw1cCDD.kr2465
 #EXTINF:0 tvg-id="chnl-2746" tvg-name="Осетия-Ирыстон" tvg-logo="http://ru1.plist.link/plepg/img/channels/2746.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Осетия-Ирыстон
 #EXTGRP:36. Региональные
 http://catchup.videoline.ru/iriston/tracks-v1a1/mono.m3u8
@@ -1038,21 +503,9 @@ https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-2750" tvg-name="Ника ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2750.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Ника ТВ
 #EXTGRP:36. Региональные
 http://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8
-#EXTINF:0 tvg-id="chnl-2753" tvg-name="Сургут 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2753.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Сургут 24
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze342753/index.m3u8?token=l6QSFt7laL4dwwewG44Ftg5S48EeuU6C9OL7Hu9dFagCQy_0caCqnRVF5cgmXjzG.kr2465
 #EXTINF:0 tvg-id="chnl-2756" tvg-name="НТС Севастополь" tvg-logo="http://ru1.plist.link/plepg/img/channels/2756.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", НТС Севастополь
 #EXTGRP:36. Региональные
 https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/tracks-v1a1/mono.ts.m3u8
-#EXTINF:0 tvg-id="chnl-2757" tvg-name="Обком ТВ Омск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2757.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Обком ТВ Омск
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze392757/index.m3u8?token=l6QSFt7laL4dwwewG44FtofVoYWHYDvOZnkGMfic5pLjgaPUiczJPhBOeoTKNyGd.kr2465
-#EXTINF:0 tvg-id="chnl-2758" tvg-name="Первый Крымский" tvg-logo="http://ru1.plist.link/plepg/img/channels/2758.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Первый Крымский
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze312758/index.m3u8?token=l6QSFt7laL4dwwewG44FtvKih164ttTXhIDxsbcIpz6wHAAGtxUL2JpkDQAHCn5j.kr2465
-#EXTINF:0 tvg-id="chnl-2760" tvg-name="Первый Ярославский" tvg-logo="http://ru1.plist.link/plepg/img/channels/2760.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Первый Ярославский
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze302760/index.m3u8?token=l6QSFt7laL4dwwewG44Ftn0lkXKOCtOaeftjT9F7VqMQ7H_1Om3zhjXxw9yNHX0I.kr2465
 #EXTINF:0 tvg-id="chnl-2761" tvg-name="Прима Красноярск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2761.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Прима Красноярск
 #EXTGRP:36. Региональные
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
@@ -1061,49 +514,34 @@ https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-2763" tvg-name="Своё ТВ Ставрополь" tvg-logo="http://ru1.plist.link/plepg/img/channels/2763.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Своё ТВ Ставрополь
 #EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze372763/index.m3u8?token=l6QSFt7laL4dwwewG44FtiaYn1zu3mKBarIdNQa1ppDxmdv8_8qh_ssWkbzxU8XO.kr2465
+https://svoetv.mediacdn.ru/cdn/svoetv/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-2764" tvg-name="С1 Сургут" tvg-logo="http://ru1.plist.link/plepg/img/channels/2764.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", С1 Сургут
 #EXTGRP:36. Региональные
 https://sitv.ru/vgtrk/stv.m3u8
 #EXTINF:0 tvg-id="chnl-2766" tvg-name="Салям Уфа" tvg-logo="http://ru1.plist.link/plepg/img/channels/2766.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Салям Уфа
 #EXTGRP:36. Региональные
 https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
-#EXTINF:0 tvg-id="chnl-2767" tvg-name="Север Нарьян-Мар" tvg-logo="http://ru1.plist.link/plepg/img/channels/2767.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Север Нарьян-Мар
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze352767/index.m3u8?token=l6QSFt7laL4dwwewG44FtjwvIt6Oq3gDaEXAJ6ZYH0NFFTgLo3fC7XC1dY4gVeTj.kr2465
 #EXTINF:0 tvg-id="chnl-2768" tvg-name="Татарстан 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2768.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Татарстан 24
 #EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze372768/index.m3u8?token=l6QSFt7laL4dwwewG44Fts4JKwkrrJ0HwaTy8puajjjpGVrJ2Eh2RNkvzGYT0pwN.kr2465
-#EXTINF:0 tvg-id="chnl-2769" tvg-name="ТВ-ИН Магнитогорск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2769.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ТВ-ИН Магнитогорск
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze332769/index.m3u8?token=l6QSFt7laL4dwwewG44Ftp1yVYtjwmC4Sc8_bfrwtu4PK0RPE5OhhComhwZblrAG.kr2465
-#EXTINF:0 tvg-id="chnl-2770" tvg-name="ТВК Красноярск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2770.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ТВК Красноярск
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze392770/index.m3u8?token=l6QSFt7laL4dwwewG44Fti2IBJhvcAEc4OWA5FXILarBa8frUNmabebtGgquVBvK.kr2465
+http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R02_EFIR24/variant.m3u8
 #EXTINF:0 tvg-id="chnl-2771" tvg-name="Ямал-Регион" tvg-logo="http://ru1.plist.link/plepg/img/channels/2771.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Ямал-Регион
 #EXTGRP:36. Региональные
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8
 #EXTINF:0 tvg-id="chnl-2772" tvg-name="ТКР Рязань" tvg-logo="http://ru1.plist.link/plepg/img/channels/2772.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ТКР Рязань
 #EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze302772/index.m3u8?token=l6QSFt7laL4dwwewG44Ftl6S-5fyoMzj3rxMUDQpjsN0ipkr7USgXAzrmVRrXaMB.kr2465
+http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-2773" tvg-name="ТНВ Татарстан" tvg-logo="http://ru1.plist.link/plepg/img/channels/2773.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ТНВ Татарстан
 #EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze362773/index.m3u8?token=l6QSFt7laL4dwwewG44FtnPbNLWJokKIYVBeDeymSsYcY-cET2whTqWrwPhlS8gw.kr2465
-#EXTINF:0 tvg-id="chnl-2774" tvg-name="ТНВ-Планета" tvg-logo="http://ru1.plist.link/plepg/img/channels/2774.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ТНВ-Планета
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze352774/index.m3u8?token=l6QSFt7laL4dwwewG44FtiTXjWMfWhRE3DVcx2Ymioq4MhTfLwTfNz0FWw0AEMJ8.kr2465
+http://user91229.clients-cdnnow.ru/hls/user91229_1_720/index.m3u8
 #EXTINF:0 tvg-id="chnl-2775" tvg-name="Томское время" tvg-logo="http://ru1.plist.link/plepg/img/channels/2775.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Томское время
 #EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze352775/index.m3u8?token=l6QSFt7laL4dwwewG44Ftg7XFC43ULKCF__bb5Q1J2blj_Y6HLhaLsA01Kk7JuDw.kr2465
+http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8
 #EXTINF:0 tvg-id="chnl-2777" tvg-name="Тюменское время" tvg-logo="http://ru1.plist.link/plepg/img/channels/2777.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Тюменское время
 #EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze322777/index.m3u8?token=l6QSFt7laL4dwwewG44FtsJ0eecjyI1MTvDsR6Zqzg3sqTdNp4_2JDpUnQN6HQSW.kr2465
+https://hls-sibinformburo.cdnvideo.ru/sibinformburo-srt/sibinformburo001/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-2780" tvg-name="Югра" tvg-logo="http://ru1.plist.link/plepg/img/channels/2780.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Югра
 #EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze372780/index.m3u8?token=l6QSFt7laL4dwwewG44Ftvl6rzPR_smdKtVcE0KZY5e8MTis3ycNqaYkmKxSIoAM.kr2465
+https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-2789" tvg-name="Якутия 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2789.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Якутия 24
 #EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze392789/index.m3u8?token=l6QSFt7laL4dwwewG44Ftg16BIkh63LcQr0HHzt9b3Lx09h9oc9xZtKwIAF_Q0vH.kr2465
-#EXTINF:0 tvg-id="chnl-3059" tvg-name="Наш дом [ Пенза ]" tvg-logo="http://ru1.plist.link/plepg/img/channels/3059.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Наш дом [ Пенза ]
-#EXTGRP:36. Региональные
-http://ru1.plist.link:3355/XM2U1ZVTze393059/index.m3u8?token=l6QSFt7laL4dwwewG44FtkBeTdpWrpcEQJLlJNlOvu6_83B-4ovWb9AjFUU--wB4.kr2465
+http://live-saha.cdnvideo.ru/saha/yak24rtmp/playlist.m3u8
