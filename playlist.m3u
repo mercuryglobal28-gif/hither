@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-10-23T04:50:57+00:00
-# Verified channels: 135
+# Updated: 2026-10-23T11:40:27+00:00
+# Verified channels: 134
 #EXTINF:0 tvg-id="chnl-1" tvg-name="Первый HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Первый HD
 #EXTGRP:1. Федеральные
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
@@ -295,9 +295,6 @@ https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/ind
 #EXTINF:0 tvg-id="chnl-3081" tvg-name="НТВ Стиль" tvg-logo="http://ru1.plist.link/plepg/img/channels/3081.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", НТВ Стиль
 #EXTGRP:12. Разное
 http://cdn2.ntv.ru/th_style/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-id="chnl-3082" tvg-name="Первый вегетарианский" tvg-logo="http://ru1.plist.link/plepg/img/channels/3082.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Первый вегетарианский
-#EXTGRP:12. Разное
-http://live-3.otcnet.ru/wfcrus/index.m3u8
 #EXTINF:0 tvg-id="chnl-557" tvg-name="Star Cinema HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/557.png?6ada7df81fd61" tvg-rec="3" timeshift="3" group-title="13. Украина", Star Cinema HD
 #EXTGRP:13. Украина
 https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8

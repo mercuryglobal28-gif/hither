@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-23T04:50:57+00:00",
+  "updated": "2026-10-23T11:40:27+00:00",
   "source_count": 1611,
-  "verified_count": 135,
+  "verified_count": 134,
   "stats": {
-    "from_cache": 116,
-    "unverified": 1476,
+    "from_cache": 115,
+    "unverified": 1477,
     "from_original": 19
   },
   "unverified_names": [
@@ -713,6 +713,7 @@
     "MM Relax HD",
     "MM OldSchool HD",
     "Foodtime HD",
+    "Первый вегетарианский",
     "UA | Перший HD",
     "UA | News 24 HD",
     "UA | 5 Канал HD",
@@ -1486,9 +1487,9 @@
     "Наш дом [ Пенза ]"
   ],
   "checks": {
-    "hls_media_confirmed": 120,
+    "hls_media_confirmed": 119,
+    "http_404": 1,
     "media_bytes_confirmed": 4,
-    "http_404": 2,
     "not_video_segment": 1,
     "HTTPConnectionPool(host='stream.cammonitorplus.net', port=80): Max retries exceeded with url: /1731/": 1
   }
