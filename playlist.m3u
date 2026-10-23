@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-10-22T22:52:45+00:00
-# Verified channels: 137
+# Updated: 2026-10-23T04:50:57+00:00
+# Verified channels: 135
 #EXTINF:0 tvg-id="chnl-1" tvg-name="Первый HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Первый HD
 #EXTGRP:1. Федеральные
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
@@ -67,15 +67,9 @@ http://stream.mcquack.net/162/index.m3u8
 #EXTINF:0 tvg-id="chnl-78" tvg-name="Дом Кино" tvg-logo="http://ru1.plist.link/plepg/img/channels/78.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Дом Кино
 #EXTGRP:3. Кино
 https://streaming.televizor-24-tochka.ru/live/44.m3u8
-#EXTINF:0 tvg-id="chnl-115" tvg-name="Русский бестселлер" tvg-logo="http://ru1.plist.link/plepg/img/channels/115.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Русский бестселлер
-#EXTGRP:3. Кино
-http://flussonic.mkpnet.ru/tv-ccf8c891702508a7/video.m3u8
 #EXTINF:0 tvg-id="chnl-462" tvg-name="Русский Детектив" tvg-logo="http://ru1.plist.link/plepg/img/channels/462.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Русский Детектив
 #EXTGRP:3. Кино
 http://185.46.16.239:8000/Russkiy_roman
-#EXTINF:0 tvg-id="chnl-70" tvg-name=".Red HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/70.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", .Red HD
-#EXTGRP:3. Кино
-http://178.134.1.158:8081/red/index.m3u8
 #EXTINF:0 tvg-id="chnl-465" tvg-name=".Black" tvg-logo="http://ru1.plist.link/plepg/img/channels/465.png?6ada7df81f19e" tvg-rec="1" timeshift="1" group-title="3. Кино", .Black
 #EXTGRP:3. Кино
 http://stream.mcquack.net/283/index.m3u8

@@ -1,13 +1,11 @@
 {
-  "updated": "2026-10-22T22:52:45+00:00",
+  "updated": "2026-10-23T04:50:57+00:00",
   "source_count": 1611,
-  "verified_count": 137,
+  "verified_count": 135,
   "stats": {
-    "from_free-tv:90.0": 11,
-    "unverified": 1474,
-    "from_cache": 106,
-    "from_original": 19,
-    "from_free-tv:95.0": 1
+    "from_cache": 116,
+    "unverified": 1476,
+    "from_original": 19
   },
   "unverified_names": [
     "Первый HD (Дубль)",
@@ -133,6 +131,7 @@
     "Страшное HD",
     "Криминальное HD",
     "Любимое Кино HD",
+    "Русский бестселлер",
     "Русский Иллюзион",
     "Русский роман HD",
     "Иллюзион+ HD",
@@ -147,6 +146,7 @@
     "Наш Кинопоказ HD",
     "Plan B",
     ".Sci-Fi HD",
+    ".Red HD",
     "Кинопоказ HD",
     "Синема",
     "TV XXI Век HD",
@@ -1486,8 +1486,9 @@
     "Наш дом [ Пенза ]"
   ],
   "checks": {
-    "hls_media_confirmed": 122,
+    "hls_media_confirmed": 120,
     "media_bytes_confirmed": 4,
+    "http_404": 2,
     "not_video_segment": 1,
     "HTTPConnectionPool(host='stream.cammonitorplus.net', port=80): Max retries exceeded with url: /1731/": 1
   }
