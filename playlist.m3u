@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-10-23T17:08:39+00:00
-# Verified channels: 123
+# Updated: 2026-10-23T21:26:00+00:00
+# Verified channels: 132
 #EXTINF:0 tvg-id="chnl-1" tvg-name="Первый HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Первый HD
 #EXTGRP:1. Федеральные
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
@@ -133,6 +133,33 @@ http://rr2.73mtv.org/~109e1a3c05fcad5b22d13b9453dc0db5122/81/hls/pl.m3u8
 #EXTINF:0 tvg-id="chnl-31" tvg-name="Kronehit" tvg-logo="http://ru1.plist.link/plepg/img/channels/31.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Kronehit
 #EXTGRP:8. Музыкальные
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
+#EXTINF:0 tvg-id="chnl-20001" tvg-name="Dance TV Best Of" tvg-logo="http://ru1.plist.link/plepg/img/channels/20001.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Best Of
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-10006" tvg-name="Dance TV Chill AF Downtempo" tvg-logo="http://ru1.plist.link/plepg/img/channels/10006.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Chill AF Downtempo
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-392" tvg-name="Dance TV Melodic Tech" tvg-logo="http://ru1.plist.link/plepg/img/channels/392.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Melodic Tech
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-635" tvg-name="Dance TV Mainstream EDM" tvg-logo="http://ru1.plist.link/plepg/img/channels/635.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Mainstream EDM
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-455" tvg-name="Dance TV MiNiMaL" tvg-logo="http://ru1.plist.link/plepg/img/channels/455.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV MiNiMaL
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-2620" tvg-name="Dance TV House Floor" tvg-logo="http://ru1.plist.link/plepg/img/channels/2620.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV House Floor
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-1918" tvg-name="Dance TV Tech House Terrace" tvg-logo="http://ru1.plist.link/plepg/img/channels/1918.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Tech House Terrace
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-556" tvg-name="Dance TV Techno Warehouse" tvg-logo="http://ru1.plist.link/plepg/img/channels/556.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Techno Warehouse
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-10004" tvg-name="Dance TV Deep House District" tvg-logo="http://ru1.plist.link/plepg/img/channels/10004.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Deep House District
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:0 tvg-id="chnl-631" tvg-name="TRACE URBAN International" tvg-logo="http://ru1.plist.link/plepg/img/channels/631.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE URBAN International
 #EXTGRP:8. Музыкальные
 https://channels.trace.plus/Traceprod/URBAN_INTER_hd/index.m3u8

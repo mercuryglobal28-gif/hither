@@ -1,10 +1,11 @@
 {
-  "updated": "2026-10-23T17:08:39+00:00",
+  "updated": "2026-10-23T21:26:00+00:00",
   "source_count": 1611,
-  "verified_count": 123,
+  "verified_count": 132,
   "stats": {
     "from_cache": 104,
-    "unverified": 1488,
+    "unverified": 1479,
+    "from_free-tv:90.0": 9,
     "from_original": 19
   },
   "unverified_names": [
@@ -603,15 +604,6 @@
     "MM Квартирник HD",
     "V2BEAT TV",
     "M2O TV",
-    "Dance TV Best Of",
-    "Dance TV Chill AF Downtempo",
-    "Dance TV Melodic Tech",
-    "Dance TV Mainstream EDM",
-    "Dance TV MiNiMaL",
-    "Dance TV House Floor",
-    "Dance TV Tech House Terrace",
-    "Dance TV Techno Warehouse",
-    "Dance TV Deep House District",
     "TRACE UK United Kindom",
     "TRACE URBAN France",
     "TRACE AYITI Haiti",
@@ -1498,10 +1490,8 @@
     "Наш дом [ Пенза ]"
   ],
   "checks": {
-    "hls_media_confirmed": 116,
+    "hls_media_confirmed": 117,
     "media_bytes_confirmed": 4,
-    "http_404": 2,
-    "HTTPSConnectionPool(host='b1-en1.worldcast.tv', port=443): Max retries exceeded with url: /dancetele": 1,
     "not_video_segment": 1,
     "HTTPConnectionPool(host='stream.cammonitorplus.net', port=80): Max retries exceeded with url: /1731/": 1
   }
