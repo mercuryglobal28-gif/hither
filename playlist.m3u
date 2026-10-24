@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-10-23T21:26:00+00:00
-# Verified channels: 132
+# Updated: 2026-10-24T04:38:09+00:00
+# Verified channels: 128
 #EXTINF:0 tvg-id="chnl-1" tvg-name="Первый HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Первый HD
 #EXTGRP:1. Федеральные
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
@@ -100,9 +100,6 @@ https://stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="chnl-82" tvg-name="Мама" tvg-logo="http://ru1.plist.link/plepg/img/channels/82.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", Мама
 #EXTGRP:6. Детские
 http://194.152.35.17/mama/index.m3u8
-#EXTINF:0 tvg-id="chnl-119" tvg-name="В гостях у сказки" tvg-logo="http://ru1.plist.link/plepg/img/channels/119.png?6ada7df81f5bb" tvg-rec="3" timeshift="3" group-title="6. Детские", В гостях у сказки
-#EXTGRP:6. Детские
-http://stream.mcquack.net/93/index.m3u8
 #EXTINF:0 tvg-id="chnl-487" tvg-name="Радость Моя" tvg-logo="http://ru1.plist.link/plepg/img/channels/487.png?6ada7df81f5bb" tvg-rec="0" timeshift="0" group-title="6. Детские", Радость Моя
 #EXTGRP:6. Детские
 https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
@@ -220,9 +217,6 @@ https://channels.trace.plus/Traceprod/KITOKO.m3u8
 #EXTINF:0 tvg-id="chnl-385" tvg-name="TRACE MZIKI East Africa" tvg-logo="http://ru1.plist.link/plepg/img/channels/385.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE MZIKI East Africa
 #EXTGRP:8. Музыкальные
 https://channels.trace.plus/Traceprod/MZIKI.m3u8
-#EXTINF:0 tvg-id="chnl-73" tvg-name="Наука" tvg-logo="http://ru1.plist.link/plepg/img/channels/73.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", Наука
-#EXTGRP:9. Образовательные
-https://vod.tuva.ru/nauka2/index.m3u8
 #EXTINF:0 tvg-id="chnl-442" tvg-name="История" tvg-logo="http://ru1.plist.link/plepg/img/channels/442.png?6ada7df81fb30" tvg-rec="3" timeshift="3" group-title="9. Образовательные", История
 #EXTGRP:9. Образовательные
 http://185.46.16.239:8000/Istoriya
@@ -301,9 +295,6 @@ http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8
 #EXTINF:0 tvg-id="chnl-1925" tvg-name="One Music Television HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1925.png?6ada7df81feb9" tvg-rec="0" timeshift="0" group-title="14. Немецкие", One Music Television HD
 #EXTGRP:14. Немецкие
 https://oneapp.b-cdn.net/1080p/index.m3u8
-#EXTINF:0 tvg-id="chnl-2130" tvg-name="LV | TV Extra" tvg-logo="http://ru1.plist.link/plepg/img/channels/2130.png?6ada7df8203ba" tvg-rec="3" timeshift="3" group-title="18. Латвия", LV | TV Extra
-#EXTGRP:18. Латвия
-https://rst2.saiuzwebnetwork.it:8081/extratvlive/index.m3u8
 #EXTINF:0 tvg-id="chnl-1986" tvg-name="ОТВ Екатеринбург" tvg-logo="http://ru1.plist.link/plepg/img/channels/1986.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", ОТВ Екатеринбург
 #EXTGRP:36. Региональные
 https://vd.obltv.ru/watch/air_hd.m3u8
@@ -358,9 +349,6 @@ https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-2750" tvg-name="Ника ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2750.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Ника ТВ
 #EXTGRP:36. Региональные
 http://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8
-#EXTINF:0 tvg-id="chnl-2756" tvg-name="НТС Севастополь" tvg-logo="http://ru1.plist.link/plepg/img/channels/2756.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", НТС Севастополь
-#EXTGRP:36. Региональные
-https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 tvg-id="chnl-2761" tvg-name="Прима Красноярск" tvg-logo="http://ru1.plist.link/plepg/img/channels/2761.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Прима Красноярск
 #EXTGRP:36. Региональные
 https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
