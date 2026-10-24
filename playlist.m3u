@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-10-24T15:58:19+00:00
-# Verified channels: 124
+# Updated: 2026-10-24T20:51:19+00:00
+# Verified channels: 122
 #EXTINF:0 tvg-id="chnl-1" tvg-name="Первый HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Первый HD
 #EXTGRP:1. Федеральные
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
@@ -64,9 +64,6 @@ http://stream.mcquack.net/311/index.m3u8
 #EXTINF:0 tvg-id="chnl-32" tvg-name="Amedia Hit HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/32.png?6ada7df81f19e" tvg-rec="2" timeshift="2" group-title="3. Кино", Amedia Hit HD
 #EXTGRP:3. Кино
 http://stream.mcquack.net/162/index.m3u8
-#EXTINF:0 tvg-id="chnl-78" tvg-name="Дом Кино" tvg-logo="http://ru1.plist.link/plepg/img/channels/78.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Дом Кино
-#EXTGRP:3. Кино
-https://streaming.televizor-24-tochka.ru/live/44.m3u8
 #EXTINF:0 tvg-id="chnl-462" tvg-name="Русский Детектив" tvg-logo="http://ru1.plist.link/plepg/img/channels/462.png?6ada7df81f19e" tvg-rec="3" timeshift="3" group-title="3. Кино", Русский Детектив
 #EXTGRP:3. Кино
 http://185.46.16.239:8000/Russkiy_roman
@@ -118,9 +115,6 @@ https://stream8.cinerama.uz/1031/index.m3u8
 #EXTINF:0 tvg-id="chnl-30" tvg-name="MTV" tvg-logo="http://ru1.plist.link/plepg/img/channels/30.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", MTV
 #EXTGRP:8. Музыкальные
 http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
-#EXTINF:0 tvg-id="chnl-20" tvg-name="Муз ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/20.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Муз ТВ
-#EXTGRP:8. Музыкальные
-https://streaming102.interskytech.com/live/618.m3u8
 #EXTINF:0 tvg-id="chnl-324" tvg-name="Stingray iConcerts HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/324.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Stingray iConcerts HD
 #EXTGRP:8. Музыкальные
 https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8

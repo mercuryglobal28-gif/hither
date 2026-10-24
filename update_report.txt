@@ -1,11 +1,10 @@
 {
-  "updated": "2026-10-24T15:58:19+00:00",
+  "updated": "2026-10-24T20:51:19+00:00",
   "source_count": 1611,
-  "verified_count": 124,
+  "verified_count": 122,
   "stats": {
-    "from_cache": 96,
-    "unverified": 1487,
-    "from_free-tv:90.0": 9,
+    "from_cache": 103,
+    "unverified": 1489,
     "from_original": 19
   },
   "unverified_names": [
@@ -121,6 +120,7 @@
     "ТВ-3 +6",
     "ТВ-3 +7",
     "Дом Кино Премиум HD",
+    "Дом Кино",
     "НТВ Xит",
     "НTВ Cериал",
     "Премиальное HD",
@@ -588,6 +588,7 @@
     "Bridge TV Rock",
     "Bridge TV Шлягер",
     "Bridge TV Русский хит",
+    "Муз ТВ",
     "RU.TV",
     "DE | Stingray Classica",
     "DE | Stingray Djazz",
@@ -1498,11 +1499,11 @@
     "Наш дом [ Пенза ]"
   ],
   "checks": {
-    "hls_media_confirmed": 109,
     "not_video_segment": 1,
-    "http_403": 1,
+    "hls_media_confirmed": 107,
     "media_bytes_confirmed": 4,
-    "HTTPSConnectionPool(host='zabava-htlive.cdn.ngenix.net', port=443): Max retries exceeded with url: /": 2,
+    "HTTPSConnectionPool(host='streaming102.interskytech.com', port=443): Max retries exceeded with url: ": 1,
+    "HTTPSConnectionPool(host='streaming.televizor-24-tochka.ru', port=443): Max retries exceeded with ur": 1,
     "HTTPConnectionPool(host='stream.cammonitorplus.net', port=80): Max retries exceeded with url: /1731/": 1
   }
 }
