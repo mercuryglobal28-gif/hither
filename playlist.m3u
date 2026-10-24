@@ -1,6 +1,6 @@
 #EXTM3U
-# Updated: 2026-10-24T11:02:06+00:00
-# Verified channels: 118
+# Updated: 2026-10-24T15:58:19+00:00
+# Verified channels: 124
 #EXTINF:0 tvg-id="chnl-1" tvg-name="Первый HD" tvg-logo="http://ru1.plist.link/plepg/img/channels/1.png?6ada7df81efc2" tvg-rec="3" timeshift="3" group-title="1. Федеральные", Первый HD
 #EXTGRP:1. Федеральные
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
@@ -130,6 +130,33 @@ http://rr2.73mtv.org/~109e1a3c05fcad5b22d13b9453dc0db5122/81/hls/pl.m3u8
 #EXTINF:0 tvg-id="chnl-31" tvg-name="Kronehit" tvg-logo="http://ru1.plist.link/plepg/img/channels/31.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Kronehit
 #EXTGRP:8. Музыкальные
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
+#EXTINF:0 tvg-id="chnl-20001" tvg-name="Dance TV Best Of" tvg-logo="http://ru1.plist.link/plepg/img/channels/20001.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Best Of
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-10006" tvg-name="Dance TV Chill AF Downtempo" tvg-logo="http://ru1.plist.link/plepg/img/channels/10006.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Chill AF Downtempo
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-392" tvg-name="Dance TV Melodic Tech" tvg-logo="http://ru1.plist.link/plepg/img/channels/392.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Melodic Tech
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-635" tvg-name="Dance TV Mainstream EDM" tvg-logo="http://ru1.plist.link/plepg/img/channels/635.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Mainstream EDM
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-455" tvg-name="Dance TV MiNiMaL" tvg-logo="http://ru1.plist.link/plepg/img/channels/455.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV MiNiMaL
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-2620" tvg-name="Dance TV House Floor" tvg-logo="http://ru1.plist.link/plepg/img/channels/2620.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV House Floor
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-1918" tvg-name="Dance TV Tech House Terrace" tvg-logo="http://ru1.plist.link/plepg/img/channels/1918.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Tech House Terrace
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-556" tvg-name="Dance TV Techno Warehouse" tvg-logo="http://ru1.plist.link/plepg/img/channels/556.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Techno Warehouse
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:0 tvg-id="chnl-10004" tvg-name="Dance TV Deep House District" tvg-logo="http://ru1.plist.link/plepg/img/channels/10004.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", Dance TV Deep House District
+#EXTGRP:8. Музыкальные
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:0 tvg-id="chnl-631" tvg-name="TRACE URBAN International" tvg-logo="http://ru1.plist.link/plepg/img/channels/631.png?6ada7df81fa20" tvg-rec="0" timeshift="0" group-title="8. Музыкальные", TRACE URBAN International
 #EXTGRP:8. Музыкальные
 https://channels.trace.plus/Traceprod/URBAN_INTER_hd/index.m3u8
@@ -232,18 +259,12 @@ http://185.57.68.33/40/index.m3u8
 #EXTINF:0 tvg-id="chnl-2871" tvg-name="Светлое ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2871.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Светлое ТВ
 #EXTGRP:12. Разное
 https://stream.smotrim.ru/hls2/fasttv06/playlist_3.m3u8
-#EXTINF:0 tvg-id="chnl-76" tvg-name="2X2" tvg-logo="http://ru1.plist.link/plepg/img/channels/76.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", 2X2
-#EXTGRP:12. Разное
-https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 #EXTINF:0 tvg-id="chnl-106" tvg-name="Квн ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/106.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Квн ТВ
 #EXTGRP:12. Разное
 http://178.124.179.122:8080/KVN-TV/index.m3u8
 #EXTINF:0 tvg-id="chnl-111" tvg-name="СТС Love" tvg-logo="http://ru1.plist.link/plepg/img/channels/111.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", СТС Love
 #EXTGRP:12. Разное
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
-#EXTINF:0 tvg-id="chnl-420" tvg-name="Ю" tvg-logo="http://ru1.plist.link/plepg/img/channels/420.png?6ada7df81fc9a" tvg-rec="3" timeshift="3" group-title="12. Разное", Ю
-#EXTGRP:12. Разное
-https://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 #EXTINF:0 tvg-id="chnl-538" tvg-name="Еда" tvg-logo="http://ru1.plist.link/plepg/img/channels/538.png?6ada7df81fc9a" tvg-rec="0" timeshift="0" group-title="12. Разное", Еда
 #EXTGRP:12. Разное
 http://185.57.68.33/40/mpegts
@@ -316,9 +337,6 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MILLET/variant.m3u8
 #EXTINF:0 tvg-id="chnl-2743" tvg-name="МТВ Волгоград" tvg-logo="http://ru1.plist.link/plepg/img/channels/2743.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", МТВ Волгоград
 #EXTGRP:36. Региональные
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
-#EXTINF:0 tvg-id="chnl-2749" tvg-name="Нижний Новгород 24" tvg-logo="http://ru1.plist.link/plepg/img/channels/2749.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Нижний Новгород 24
-#EXTGRP:36. Региональные
-https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 #EXTINF:0 tvg-id="chnl-2750" tvg-name="Ника ТВ" tvg-logo="http://ru1.plist.link/plepg/img/channels/2750.png?6ada7df82085c" tvg-rec="0" timeshift="0" group-title="36. Региональные", Ника ТВ
 #EXTGRP:36. Региональные
 http://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8

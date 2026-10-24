@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-24T11:02:06+00:00",
+  "updated": "2026-10-24T15:58:19+00:00",
   "source_count": 1611,
-  "verified_count": 118,
+  "verified_count": 124,
   "stats": {
-    "from_cache": 98,
-    "unverified": 1493,
-    "from_original": 19,
-    "from_free-tv:95.0": 1
+    "from_cache": 96,
+    "unverified": 1487,
+    "from_free-tv:90.0": 9,
+    "from_original": 19
   },
   "unverified_names": [
     "Первый HD (Дубль)",
@@ -605,15 +605,6 @@
     "MM Квартирник HD",
     "V2BEAT TV",
     "M2O TV",
-    "Dance TV Best Of",
-    "Dance TV Chill AF Downtempo",
-    "Dance TV Melodic Tech",
-    "Dance TV Mainstream EDM",
-    "Dance TV MiNiMaL",
-    "Dance TV House Floor",
-    "Dance TV Tech House Terrace",
-    "Dance TV Techno Warehouse",
-    "Dance TV Deep House District",
     "TRACE UK United Kindom",
     "TRACE URBAN France",
     "TRACE AYITI Haiti",
@@ -697,6 +688,7 @@
     "Сарафан",
     "Бобёр",
     "Продвижение HD",
+    "2X2",
     "2x2 +2",
     "2x2 +4",
     "2x2 +7",
@@ -716,6 +708,7 @@
     "Ностальгия",
     "Время",
     "Совершенно секретно",
+    "Ю",
     "Ю +2",
     "Ю +4",
     "Ю +7",
@@ -1479,6 +1472,7 @@
     "Новый век Тамбов",
     "Осетия-Ирыстон",
     "Раменское Телевидение",
+    "Нижний Новгород 24",
     "ННТВ Нижний Новгород",
     "НТМ Мордовия",
     "Сургут 24",
@@ -1504,11 +1498,11 @@
     "Наш дом [ Пенза ]"
   ],
   "checks": {
-    "media_bytes_confirmed": 4,
-    "hls_media_confirmed": 111,
+    "hls_media_confirmed": 109,
     "not_video_segment": 1,
-    "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))": 1,
-    "http_404": 2,
+    "http_403": 1,
+    "media_bytes_confirmed": 4,
+    "HTTPSConnectionPool(host='zabava-htlive.cdn.ngenix.net', port=443): Max retries exceeded with url: /": 2,
     "HTTPConnectionPool(host='stream.cammonitorplus.net', port=80): Max retries exceeded with url: /1731/": 1
   }
 }
