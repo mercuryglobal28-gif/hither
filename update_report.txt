@@ -1,11 +1,12 @@
 {
-  "updated": "2026-10-24T04:38:09+00:00",
+  "updated": "2026-10-24T11:02:06+00:00",
   "source_count": 1611,
-  "verified_count": 128,
+  "verified_count": 118,
   "stats": {
-    "from_cache": 109,
-    "unverified": 1483,
-    "from_original": 19
+    "from_cache": 98,
+    "unverified": 1493,
+    "from_original": 19,
+    "from_free-tv:95.0": 1
   },
   "unverified_names": [
     "Первый HD (Дубль)",
@@ -604,6 +605,15 @@
     "MM Квартирник HD",
     "V2BEAT TV",
     "M2O TV",
+    "Dance TV Best Of",
+    "Dance TV Chill AF Downtempo",
+    "Dance TV Melodic Tech",
+    "Dance TV Mainstream EDM",
+    "Dance TV MiNiMaL",
+    "Dance TV House Floor",
+    "Dance TV Tech House Terrace",
+    "Dance TV Techno Warehouse",
+    "Dance TV Deep House District",
     "TRACE UK United Kindom",
     "TRACE URBAN France",
     "TRACE AYITI Haiti",
@@ -1160,7 +1170,6 @@
     "LV | TV3 Mini HD",
     "LV | TV4 HD",
     "LV | TV6 HD",
-    "LV | TV Extra",
     "LV | TV Jurmala HD",
     "KZ | Qazaqstan HD",
     "KZ | КТК HD",
@@ -1450,6 +1459,7 @@
     "Мир Белогорья",
     "Легендарный 24",
     "Аист ТВ Иркутск",
+    "Астрахань 24",
     "Волга 24 Нижний Новгород",
     "Енисей Красноярск",
     "Канал 16 Саратов",
@@ -1479,6 +1489,7 @@
     "Первый Крымский",
     "Первый областной Орел",
     "Первый Ярославский",
+    "Своё ТВ Ставрополь",
     "С86 Сургут",
     "Север Нарьян-Мар",
     "ТВ-ИН Магнитогорск",
@@ -1493,11 +1504,11 @@
     "Наш дом [ Пенза ]"
   ],
   "checks": {
-    "hls_media_confirmed": 113,
-    "not_video_segment": 1,
     "media_bytes_confirmed": 4,
-    "http_404": 3,
-    "http_503": 1,
+    "hls_media_confirmed": 111,
+    "not_video_segment": 1,
+    "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))": 1,
+    "http_404": 2,
     "HTTPConnectionPool(host='stream.cammonitorplus.net', port=80): Max retries exceeded with url: /1731/": 1
   }
 }
